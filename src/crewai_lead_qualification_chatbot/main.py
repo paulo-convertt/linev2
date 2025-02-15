@@ -15,8 +15,6 @@ class ChatFlow(Flow[ChatState]):
 
     @start()
     def initialize_chat(self):
-        print("Initializing chat...")
-        """Initialize chat with first question if no state exists"""
         if not self.state.current_question_id:
             self.state.current_question_text, self.state.current_question_id = (
                 self.question_manager.get_question("q1")
@@ -31,12 +29,10 @@ class ChatFlow(Flow[ChatState]):
 
     @router(initialize_chat)
     def route_request(self, classification: str):
-        print("Routing request...")
         return classification
 
     @listen("process_response_request")
     def process_response(self):
-        print("Processing response...")
         result = (
             ChatCrew()
             .crew()
@@ -53,7 +49,6 @@ class ChatFlow(Flow[ChatState]):
 
         if isinstance(result.pydantic, ChatState):
             new_state = result.pydantic.model_dump()
-            print(f"New state message: {new_state['message']}")
             self.state.message = new_state["message"]
             field_id = self.question_manager.get_field_id(
                 self.state.current_question_id
@@ -70,7 +65,6 @@ class ChatFlow(Flow[ChatState]):
                     self.state.current_question_id
                 ):
                     self.state.is_complete = True
-                    print("Chat completed!")
                 else:
                     # Move to next question
                     self.state.current_question_id = self.state.next_question_id
@@ -80,21 +74,12 @@ class ChatFlow(Flow[ChatState]):
                             self.state.current_question_id
                         )
                     )
-                    print(
-                        f"Moving to next question: {self.state.current_question_text}"
-                    )
-            else:
-                print(
-                    f"Question not answered properly, asking again: {self.state.current_question_text}"
-                )
 
     @listen(or_("send_response_request", process_response))
     def send_response(self):
-        print("Sending response...")
         if self.state.is_complete:
             return f"Thank you for completing the chat! Here are your responses: {self.state.model_dump()}"
 
-        print(f"Message: {self.state.message}")
         return (
             self.state.message
             if self.state.message
@@ -110,13 +95,14 @@ class ChatbotInterface:
         if not chat_id:
             chat_id = str(uuid.uuid4())
             self.chat_flows[chat_id] = ChatFlow()
-            # Start with the first question
+
             response, _ = self.process_message("", chat_id)
-            history.append(("", response))
+            history.append({"role": "assistant", "content": response})
             return "", chat_id, history
 
         response, _ = self.process_message(message, chat_id)
-        history.append((message, response))
+        history.append({"role": "user", "content": message})
+        history.append({"role": "assistant", "content": response})
         return "", chat_id, history
 
     def process_message(self, message, chat_id):
@@ -146,12 +132,13 @@ def create_lead_qualification_chatbot():
 
         with gr.Row():
             with gr.Column(scale=1):
-                chat_id = gr.State()  # Hidden state to track chat session
-                history = gr.State([])  # Chat history state
+                chat_id = gr.State()
+                history = gr.State([])
                 chatbox = gr.Chatbot(
                     label="Chat History",
                     height=400,
                     show_copy_button=True,
+                    type="messages",
                 )
                 msg = gr.Textbox(
                     label="Your Message",
@@ -166,7 +153,6 @@ def create_lead_qualification_chatbot():
             outputs=[msg, chat_id, chatbox],
         )
 
-        # Start the chat automatically when loaded
         demo.load(
             fn=chatbot.respond,
             inputs=[msg, chat_id, history],
