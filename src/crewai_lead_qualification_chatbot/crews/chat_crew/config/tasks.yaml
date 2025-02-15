@@ -8,24 +8,35 @@ qualify_lead:
     - Price Range: Determine their budget
     - Location: Learn their desired location
     - Timeline: Understand their decision-making timeline
-    - Financing: Check their financing status
-    - Other Agents: Know if they're working with other agents
+    - Financing: For yes/no questions about financing, interpret:
+        - "yes" as "pre-approved"
+        - "no" as "needs assistance"
+        Or get the explicit response if provided
+    - Other Agents: For yes/no questions, accept clear yes/no answers
     - Search Reason: Understand their motivation
 
-    If a user replies an answer that isn't in line with lead generation, gentle answer them and guide themback to the question.
+    For yes/no questions:
+    1. Accept clear yes/no answers
+    2. Set the appropriate field value based on the response
+    3. If answer is unclear, ask for clarification
+
+    If a user replies with an answer that isn't in line with lead generation:
+    1. Acknowledge their response
+    2. Gently guide them back to the specific question
+    3. Provide the expected format or options if applicable
 
     State: {state}
     User Message: {message}
   expected_output: >
     A ChatState object containing:
-    - full_name: The lead's complete name
-    - email: Contact email address
-    - phone: Preferred phone number
-    - property_type: Type of property they want
-    - price_range: Their budget range
-    - location: Desired property location
-    - timeline: Their decision timeline
-    - financing: Their financing status
-    - other_agents: Whether working with other agents
-    - search_reason: Primary motivation for property search
+      - full_name: The lead's complete name
+      - email: Contact email address
+      - phone: Preferred phone number
+      - property_type: Type of property they want
+      - price_range: Their budget range
+      - location: Desired property location
+      - timeline: Their decision timeline
+      - financing: Their financing status
+      - other_agents: Whether working with other agents
+      - search_reason: Primary motivation for property search  
   agent: lead_qualifier
