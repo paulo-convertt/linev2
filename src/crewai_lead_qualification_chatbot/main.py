@@ -1,73 +1,109 @@
 #!/usr/bin/env python
-from typing import Optional
-from pydantic import BaseModel
-from crewai.flow import Flow, listen, start, persist
+from crewai.flow import Flow, listen, start, persist, router, or_
 from crewai_lead_qualification_chatbot.crews.chat_crew.chat_crew import ChatCrew
-
-
-class LeadData(BaseModel):
-    full_name: Optional[str] = None
-    email: Optional[str] = None
-    phone: Optional[str] = None
-    property_type: Optional[str] = None
-    price_range: Optional[str] = None
-    location: Optional[str] = None
-    timeline: Optional[str] = None
-    financing: Optional[str] = None
-    other_agents: Optional[str] = None
-    search_reason: Optional[str] = None
-
-
-class ChatState(BaseModel):
-    message: str = ""
-    lead_data: LeadData = LeadData()
-    current_question: str = ""
-    next_question: str = ""
+from crewai_lead_qualification_chatbot.question_manager import QuestionManager
+from crewai_lead_qualification_chatbot.models import ChatState
 
 
 @persist()
 class ChatFlow(Flow[ChatState]):
+    def __init__(self, persistence=None):
+        super().__init__(persistence=persistence)
+        self.question_manager = QuestionManager()
+
     @start()
-    def qualify_lead(self):
-        print("Starting lead qualification conversation")
+    def initialize_chat(self):
+        print("Initializing chat...")
+        print(f"Current state: {self.state.model_dump()}")
+
+        """Initialize chat with first question if no state exists"""
+        if not self.state.current_question_id:
+            self.state.current_question_text, self.state.current_question_id = (
+                self.question_manager.get_question("q1")
+            )
+            self.state.next_question_text, self.state.next_question_id = (
+                self.question_manager.get_next_question("q1")
+            )
+            print(f"Starting chat with question: {self.state.current_question_text}")
+            return "send_response_request"
+
+        return "process_response_request"
+
+    @router(initialize_chat)
+    def route_request(self, classification: str):
+        print("Routing request...")
+        print(f"Current question ID: {self.state.current_question_id}")
+        print(f"Current question: {self.state.current_question_text}")
+        print(f"Next question: {self.state.next_question_text}")
+
+        return classification
+
+    @listen("process_response_request")
+    def process_response(self):
+        print("Processing response...")
         result = (
             ChatCrew()
             .crew()
             .kickoff(
                 inputs={
-                    "id": self.state.id,
-                    "lead_data": self.state.lead_data,
-                    "current_question": self.state.current_question,
-                    "next_question": self.state.next_question,
+                    "state": self.state.model_dump(),
+                    "message": self.state.message,
                 }
             )
         )
-        print("Conversation completed")
-        self.state.message = result.raw
 
-    @listen(qualify_lead)
-    def extract_lead_data(self):
-        print("Extracting lead data from conversation")
-        # Here we would typically use an LLM to extract structured data
-        # from the conversation, but for now we'll just store the raw conversation
-        self.state.lead_data = LeadData(
-            full_name="Extracted from conversation",
-            email="Extracted from conversation",
-            phone="Extracted from conversation",
-            property_type="Extracted from conversation",
-            price_range="Extracted from conversation",
-            location="Extracted from conversation",
-            timeline="Extracted from conversation",
-            financing="Extracted from conversation",
-            other_agents="Extracted from conversation",
-            search_reason="Extracted from conversation",
-        )
-        print(f"Lead data extracted: {self.state.lead_data}")
+        if isinstance(result.pydantic, ChatState):
+            new_state = result.pydantic.model_dump()
+            field_id = self.question_manager.get_field_id(
+                self.state.current_question_id
+            )
+
+            # Check if the question was answered
+            if new_state.get(field_id):
+                # Update state fields individually
+                for key, value in new_state.items():
+                    if hasattr(self.state, key):
+                        setattr(self.state, key, value)
+
+                if self.question_manager.is_last_question(
+                    self.state.current_question_id
+                ):
+                    self.state.is_complete = True
+                    print("Chat completed!")
+                else:
+                    # Move to next question
+                    self.state.current_question_id = self.state.next_question_id
+                    self.state.current_question_text = self.state.next_question_text
+                    self.state.next_question_text, self.state.next_question_id = (
+                        self.question_manager.get_next_question(
+                            self.state.current_question_id
+                        )
+                    )
+                    print(
+                        f"Moving to next question: {self.state.current_question_text}"
+                    )
+            else:
+                print(
+                    f"Question not answered properly, asking again: {self.state.current_question_text}"
+                )
+
+    @listen(or_("send_response_request", process_response))
+    def send_response(self):
+        print("Sending response...")
+        if self.state.is_complete:
+            return f"Thank you for completing the chat! Here are your responses: {self.state.model_dump()}"
+        return self.state.message
 
 
 def kickoff():
     chat_flow = ChatFlow()
-    chat_flow.kickoff(inputs={"id": "1fc0f9f6-989e-4137-a7f3-e30b12e550h0"})
+    result = chat_flow.kickoff(
+        inputs={
+            "id": "7185dfae-590c-4751-be72-eee2122d15a6",
+            "message": "Lennex Zinyando",
+        }
+    )
+    print(f"Chatbot: {result}")
 
 
 def plot():

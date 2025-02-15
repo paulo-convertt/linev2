@@ -1,6 +1,6 @@
 from crewai import Agent, Crew, Process, Task
 from crewai.project import CrewBase, agent, crew, task
-from crewai_lead_qualification_chatbot.main import LeadData
+from crewai_lead_qualification_chatbot.models import ChatState
 
 
 @CrewBase
@@ -20,7 +20,7 @@ class ChatCrew:
     def qualify_lead(self) -> Task:
         return Task(
             config=self.tasks_config["qualify_lead"],
-            output_pydantic=LeadData,
+            output_pydantic=ChatState,
         )
 
     @crew

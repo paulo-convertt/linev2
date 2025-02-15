@@ -1,12 +1,31 @@
 qualify_lead:
   description: >
-    Engage with potential leads through conversation to qualify them based on key criteria:
-    - Fit: Does their need align with our solution?
-    - Budget: Do they have the financial resources?
-    - Timeline: When are they looking to implement?
-    - Authority: Are they a decision maker?
+    Engage with potential leads through conversation by asking questions about:
+    - Full Name: Collect their complete name
+    - Email: Get their contact email
+    - Phone: Get their preferred phone number
+    - Property Type: Understand what type of property they're interested in
+    - Price Range: Determine their budget
+    - Location: Learn their desired location
+    - Timeline: Understand their decision-making timeline
+    - Financing: Check their financing status
+    - Other Agents: Know if they're working with other agents
+    - Search Reason: Understand their motivation
+
+    If a user replies an answer that isn't in line with lead generation, gentle answer them and guide themback to the question.
+
+    State: {state}
+    User Message: {message}
   expected_output: >
-    A detailed qualification assessment of the lead including their fit, budget,
-    timeline, and decision-making authority, along with a recommendation on whether
-    to pursue the opportunity.
+    A ChatState object containing:
+    - full_name: The lead's complete name
+    - email: Contact email address
+    - phone: Preferred phone number
+    - property_type: Type of property they want
+    - price_range: Their budget range
+    - location: Desired property location
+    - timeline: Their decision timeline
+    - financing: Their financing status
+    - other_agents: Whether working with other agents
+    - search_reason: Primary motivation for property search
   agent: lead_qualifier
