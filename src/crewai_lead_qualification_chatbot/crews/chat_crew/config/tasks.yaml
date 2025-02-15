@@ -1,0 +1,12 @@
+qualify_lead:
+  description: >
+    Engage with potential leads through conversation to qualify them based on key criteria:
+    - Fit: Does their need align with our solution?
+    - Budget: Do they have the financial resources?
+    - Timeline: When are they looking to implement?
+    - Authority: Are they a decision maker?
+  expected_output: >
+    A detailed qualification assessment of the lead including their fit, budget,
+    timeline, and decision-making authority, along with a recommendation on whether
+    to pursue the opportunity.
+  agent: lead_qualifier
