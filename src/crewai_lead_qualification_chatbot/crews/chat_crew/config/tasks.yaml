@@ -46,6 +46,7 @@ qualify_lead:
       3. Provide the expected format or options if applicable
 
     State: {state}
+    Conversation History: {history}
     Current Question: {current_question_text}
     User Message: {message}
   expected_output: |

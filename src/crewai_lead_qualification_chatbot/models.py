@@ -5,6 +5,7 @@ from pydantic import BaseModel
 class ChatState(BaseModel):
     id: str = ""
     message: Optional[str] = None
+    history: Optional[str] = None
 
     # LeadData
     full_name: Optional[str] = None

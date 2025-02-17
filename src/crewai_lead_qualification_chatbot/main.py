@@ -122,6 +122,7 @@ class ChatFlow(Flow[ChatState]):
                     "message": self.state.message,
                     "current_question_text": self.state.current_question_text,
                     "state": self.state.model_dump(),
+                    "history": self.state.history,
                 }
             )
         )
@@ -193,11 +194,11 @@ class ChatbotInterface:
             # Initialize new chat session
             self.chat_id = str(uuid.uuid4())
             self.chat_flows[self.chat_id] = ChatFlow()
-            response = self._process_message("", self.chat_id)
+            response = self._process_message("", self.chat_id, history)
             return [{"role": "assistant", "content": response}]
 
         # Process user message
-        response = self._process_message(message, self.chat_id)
+        response = self._process_message(message, self.chat_id, history)
 
         # Create a new history list to avoid modifying the input
         new_history = history.copy()
@@ -205,17 +206,23 @@ class ChatbotInterface:
         new_history.append({"role": "assistant", "content": response})
         return [{"role": "assistant", "content": response}]
 
-    def _process_message(self, message: str, chat_id: str) -> str:
+    def _process_message(
+        self, message: str, chat_id: str, history: List[Dict[str, Any]] = []
+    ) -> str:
         """Process a message through the chat flow"""
         chat_flow = self.chat_flows[chat_id]
 
-        print(f"Processing message: {message} for chat ID: {chat_id}")
-        print(f"Chat flow: {chat_flow}")
+        print(f"History: {history}")
 
         result = chat_flow.kickoff(
             inputs={
                 "id": chat_id,
                 "message": message,
+                "history": (
+                    "\n".join(f"{msg['role']}: {msg['content']}" for msg in history)
+                    if history
+                    else ""
+                ),
             }
         )
         return result
@@ -234,11 +241,12 @@ def create_lead_qualification_chatbot() -> gr.Blocks:
             type="messages",
         ),
         textbox=gr.Textbox(
-            placeholder="Type your response here and press Enter",
-            container=False,
+            placeholder="Type your response here",
+            container=True,
             scale=7,
             show_label=False,
         ),
+        submit_btn="Send",
         title="Lead Qualification Chatbot",
         description="I'll help qualify you as a potential lead by asking a series of questions about your real estate needs.",
         theme="soft",
@@ -247,6 +255,7 @@ def create_lead_qualification_chatbot() -> gr.Blocks:
             "Hi, I'm looking to rent a property",
         ],
         type="messages",
+        autofocus=True,
     )
 
     return demo
