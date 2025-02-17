@@ -212,8 +212,6 @@ class ChatbotInterface:
         """Process a message through the chat flow"""
         chat_flow = self.chat_flows[chat_id]
 
-        print(f"History: {history}")
-
         result = chat_flow.kickoff(
             inputs={
                 "id": chat_id,
