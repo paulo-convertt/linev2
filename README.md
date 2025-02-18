@@ -2,6 +2,9 @@
 
 An intelligent lead qualification chatbot built with CrewAI and Gradio, designed to engage potential real estate leads through natural conversation while collecting and scoring essential information.
 
+## **Blog Post**: [Building a Lead Qualification Chatbot with CrewAI and Gradio](https://www.zinyando.com/building-a-lead-qualification-chatbot-with-crewai-and-gradio/)
+
+
 ![Screenshot 2025-02-15 at 18 36 14](https://github.com/user-attachments/assets/28e18bf1-7c4e-4217-8da2-d86082a2e84e)
 
 
