@@ -1,0 +1,992 @@
+q: O que é consórcio?
+
+sq: Consórcio é tipo de investimento? Como funciona um consórcio? Para que serve um consórcio?
+
+a: Consórcio é uma modalidade de compra planejada, onde pessoas se unem em grupo para adquirir bens ou serviços, pagando parcelas mensais e participando de sorteios e lances para receber a carta de crédito.
+
+t: "Consórcio é uma modalidade de compra planejada, onde pessoas se unem em grupo para adquirir bens ou serviços, pagando parcelas mensais." (Conhecendo Consórcio.docx)
+
+tags: consórcio, conceito, funcionamento, grupo
+
+---
+
+q: Como funciona o sorteio no consórcio?
+
+sq: Quem define os sorteios? Todo mundo tem a mesma chance? Quando ocorrem os sorteios?
+
+a: O sorteio acontece periodicamente nas assembleias do grupo. Todos os participantes ativos concorrem, e os sorteados recebem a carta de crédito para comprar o bem desejado.
+
+t: "O sorteio acontece nas assembleias do grupo e define quem recebe a carta de crédito." (Conhecendo Consórcio.docx)
+
+tags: sorteio, assembleia, carta de crédito, funcionamento
+
+---
+
+q: O que é carta de crédito no consórcio?
+
+sq: Pra que serve a carta de crédito? Quando recebo a carta de crédito?
+
+a: A carta de crédito é o valor liberado ao consorciado sorteado ou contemplado por lance. Ela permite a compra do bem ou serviço à vista, conforme as regras do grupo.
+
+t: "A carta de crédito é o valor liberado ao consorciado sorteado ou contemplado, permitindo a compra do bem à vista." (Conhecendo Consórcio.docx)
+
+tags: carta de crédito, contemplação, compra, valor
+
+---
+
+q: Posso usar a carta de crédito para qualquer finalidade?
+
+sq: Tem limitação para uso? Consórcio serve para qualquer coisa?
+
+a: O uso da carta de crédito é direcionado para as finalidades previstas no regulamento do grupo, como imóveis, veículos ou serviços específicos.
+
+t: "O uso da carta de crédito é direcionado conforme o regulamento: imóveis, veículos ou serviços específicos." (Conhecendo Consórcio.docx)
+
+tags: carta de crédito, finalidade, regulamento, limite
+
+---
+
+q: Como são formados os grupos de consórcio?
+
+sq: Como funciona a formação dos grupos? Quem define os participantes?
+
+a: Os grupos são formados pela administradora do consórcio, reunindo pessoas com objetivo comum de adquirir um mesmo tipo de bem ou serviço.
+
+t: "Os grupos são formados pela administradora, reunindo pessoas com objetivo comum." (Conhecendo Consórcio.docx)
+
+tags: grupo, administradora, formação, objetivo
+
+---
+
+q: Qual é o papel da administradora no consórcio?
+
+sq: A administradora faz o que no consórcio? Ela é responsável por quê?
+
+a: A administradora organiza o grupo, faz a gestão dos recursos, realiza as assembleias e garante que as regras do consórcio sejam cumpridas por todos.
+
+t: "A administradora organiza, faz gestão dos recursos e realiza as assembleias." (Conhecendo Consórcio.docx)
+
+tags: administradora, gestão, assembleia, regras
+
+---
+
+q: Quais são as principais taxas do consórcio?
+
+sq: Que custos existem além da parcela? Tem taxa de administração? Tem seguro?
+
+a: As principais taxas do consórcio são a taxa de administração, fundo de reserva e, em alguns casos, seguro. Todas estão detalhadas no contrato e regulamento do grupo.
+
+t: "Taxa de administração, fundo de reserva e seguro, detalhadas no contrato e regulamento." (Conhecendo Consórcio.docx)
+
+tags: taxa, fundo de reserva, seguro, custo
+
+---
+
+q: Existe cobrança de juros nas parcelas do consórcio?
+
+sq: Consórcio tem juros? Quanto é o juro cobrado?
+
+a: No consórcio não há cobrança de juros nas parcelas. O custo está nas taxas de administração e outros encargos previstos em contrato.
+
+t: "No consórcio não há juros, apenas taxa de administração e encargos." (Conhecendo Consórcio.docx)
+
+tags: juros, taxa de administração, parcela, contrato
+
+---
+
+q: O que acontece se eu atrasar o pagamento da parcela do consórcio?
+
+sq: Tem multa por atraso? Perco direitos no grupo? Posso ser excluído?
+
+a: Em caso de atraso, pode haver cobrança de multa e juros previstos no contrato. O consorciado inadimplente pode ser impedido de participar de sorteios e até ser excluído do grupo.
+
+t: "Em caso de atraso, há multa e juros previstos no contrato. Inadimplente pode ser impedido de participar de sorteios." (Conhecendo Consórcio.docx)
+
+tags: atraso, multa, inadimplência, sorteio
+
+---
+
+q: Como posso ser contemplado no consórcio?
+
+sq: Só tem sorteio ou tem outra forma de contemplação? O que é lance?
+
+a: A contemplação pode ocorrer por sorteio nas assembleias ou por lance, quando o consorciado oferece antecipação de parcelas para tentar receber a carta de crédito antes.
+
+t: "A contemplação ocorre por sorteio ou por lance, que é a antecipação de parcelas." (Conhecendo Consórcio.docx)
+
+tags: contemplação, sorteio, lance, assembleia
+
+---
+
+q: O que é lance no consórcio?
+
+sq: Como funciona o lance? Qual tipo de lance existe?
+
+a: Lance é uma oferta de antecipação de parcelas feita pelo consorciado nas assembleias para tentar ser contemplado antes do sorteio. Pode ser lance livre, fixo ou embutido, conforme o regulamento.
+
+t: "Lance é a antecipação de parcelas para tentar ser contemplado antes do sorteio." (lance embutido.docx, lance fixo.docx)
+
+tags: lance, antecipação, sorteio, assembleia
+
+---
+
+q: Quais são as diferenças entre lance livre, lance fixo e lance embutido?
+
+sq: Como saber qual lance usar? Todos têm as mesmas regras?
+
+a: Lance livre permite qualquer valor acima do mínimo. Lance fixo é um valor ou percentual pré-determinado pela administradora. Lance embutido é quando parte do crédito da carta é usada como lance, conforme regras do grupo.
+
+t: "Lance livre permite qualquer valor acima do mínimo. Lance fixo é percentual definido. Lance embutido usa parte da carta como lance." (lance embutido.docx, lance fixo.docx)
+
+tags: lance, livre, fixo, embutido, diferença
+
+---
+
+q: O que é fundo de reserva no consórcio?
+
+sq: Para que serve o fundo de reserva? Eu recebo de volta?
+
+a: Fundo de reserva é uma quantia destinada a garantir o equilíbrio financeiro do grupo. Pode ser devolvida proporcionalmente ao final do grupo se houver saldo.
+
+t: "Fundo de reserva garante equilíbrio financeiro do grupo. Pode ser devolvido ao final se houver saldo." (Conhecendo Consórcio.docx)
+
+tags: fundo de reserva, garantia, grupo, devolução
+
+---
+
+q: Posso desistir do consórcio antes de ser contemplado?
+
+sq: Tem multa para desistir? Como faço o cancelamento?
+
+a: Sim, é possível desistir antes da contemplação. O consorciado pode pedir cancelamento e receber de volta parte dos valores pagos, conforme regras do grupo e descontos previstos.
+
+t: "É possível desistir antes da contemplação, recebendo parte dos valores pagos, com descontos previstos." (Exemplos de Como Lidar com Respostas Comuns.docx)
+
+tags: desistência, cancelamento, contemplação, devolução
+
+---
+
+q: Como é feita a devolução de valores em caso de cancelamento?
+
+sq: Quando recebo o dinheiro de volta? Tem prazo para devolução?
+
+a: A devolução ocorre ao final do grupo, no prazo definido pelo regulamento, descontadas taxas e encargos previstos em contrato.
+
+t: "A devolução ocorre ao final do grupo, no prazo do regulamento, descontadas taxas." (Exemplos de Como Lidar com Respostas Comuns.docx)
+
+tags: devolução, cancelamento, prazo, regulamento
+
+---
+
+q: Posso transferir minha cota de consórcio para outra pessoa?
+
+sq: Tem custo para transferir? Como faço a transferência?
+
+a: Sim, é possível transferir a cota para outra pessoa, desde que atendidas as regras da administradora e aprovação dos documentos do novo titular.
+
+t: "É possível transferir a cota, conforme regras da administradora e aprovação de documentos." (Conhecendo Consórcio.docx)
+
+tags: transferência, cota, titular, aprovação
+
+---
+
+q: Como funciona a contemplação por lance embutido?
+
+sq: Posso usar parte da carta de crédito como lance? Como é calculado?
+
+a: No lance embutido, o consorciado utiliza parte do valor da carta de crédito como oferta de lance. O valor máximo e regras de uso são definidos no regulamento do grupo.
+
+t: "No lance embutido, parte do valor da carta de crédito é usada como oferta de lance." (lance embutido.docx)
+
+tags: lance embutido, carta de crédito, oferta, regulamento
+
+---
+
+q: Após ser contemplado, quanto tempo tenho para usar a carta de crédito?
+
+sq: Tem prazo para utilizar? Posso deixar guardado?
+
+a: Após a contemplação, há prazo definido pelo regulamento para usar a carta de crédito. O consultor humano pode informar o prazo exato conforme o grupo.
+
+t: "Após a contemplação, há prazo para uso da carta de crédito, definido no regulamento." (Conhecendo Consórcio.docx)
+
+tags: contemplação, carta de crédito, prazo, uso
+
+---
+
+q: Posso utilizar a carta de crédito para comprar de qualquer fornecedor?
+
+sq: Tem restrição de loja ou vendedor? Precisa ser autorizado?
+
+a: O fornecedor deve ser credenciado ou autorizado pela administradora, conforme regras do grupo e políticas de compra.
+
+t: "O fornecedor deve ser credenciado ou autorizado pela administradora." (Conhecendo Consórcio.docx)
+
+tags: fornecedor, credenciamento, compra, administradora
+
+---
+
+q: O que acontece se o grupo de consórcio for encerrado antes de eu ser contemplado?
+
+sq: Perco o dinheiro? Tenho direito a devolução?
+
+a: Se o grupo for encerrado, todos os participantes não contemplados recebem a devolução dos valores pagos, conforme regras do contrato, descontadas as taxas.
+
+t: "No encerramento do grupo, os participantes não contemplados recebem devolução conforme regras do contrato." (Exemplos de Como Lidar com Respostas Comuns.docx)
+
+tags: encerramento, grupo, devolução, contemplação
+
+---
+q: Posso quitar o consórcio antes do prazo final?
+
+sq: Existe benefício em antecipar parcelas? Posso pagar tudo de uma vez?
+
+a: Sim, é possível antecipar o pagamento de parcelas ou quitar o saldo devedor. Para quitação total, o consorciado deve verificar regras e valores com a administradora.
+
+t: "É possível antecipar parcelas ou quitar o saldo devedor. Para quitação total, verifique com a administradora." (Conhecendo Consórcio.docx)
+
+tags: quitação, antecipação, parcelas, saldo devedor
+
+---
+
+q: O que é saldo devedor no consórcio?
+
+sq: Como é calculado o saldo devedor? Ele muda com reajuste?
+
+a: Saldo devedor é o valor total que falta pagar no consórcio, podendo ser ajustado conforme reajustes previstos no regulamento.
+
+t: "Saldo devedor é o valor total que falta pagar, ajustado conforme os reajustes do grupo." (Conhecendo Consórcio.docx)
+
+tags: saldo devedor, reajuste, parcelas, valor
+
+---
+
+q: Como acontecem os reajustes das parcelas do consórcio?
+
+sq: O valor da parcela pode aumentar? Qual índice é usado?
+
+a: As parcelas podem sofrer reajuste de acordo com o índice previsto em contrato, para acompanhar a variação do valor do bem ou serviço.
+
+t: "Parcelas podem ser reajustadas conforme índice previsto em contrato." (Conhecendo Consórcio.docx)
+
+tags: reajuste, índice, parcela, contrato
+
+---
+
+q: Qual a diferença entre contemplação por sorteio e por lance?
+
+sq: Sorteio e lance têm o mesmo resultado? O que muda para o consorciado?
+
+a: A diferença está no critério de escolha. No sorteio, todos participam igualmente. No lance, quem oferece maior valor (antecipação de parcelas) pode ser contemplado antes.
+
+t: "No sorteio, todos participam igualmente. No lance, quem oferece maior valor pode ser contemplado antes." (Conhecendo Consórcio.docx)
+
+tags: contemplação, sorteio, lance, diferença
+
+---
+
+q: É possível participar de mais de um grupo de consórcio ao mesmo tempo?
+
+sq: Tem limite para número de cotas? Posso comprar vários consórcios?
+
+a: Sim, é permitido participar de vários grupos e ter mais de uma cota, desde que cumpra as regras e seja aprovado pela administradora.
+
+t: "É permitido participar de vários grupos e ter mais de uma cota, conforme aprovação da administradora." (Conhecendo Consórcio.docx)
+
+tags: grupo, cota, múltiplo, aprovação
+
+---
+
+q: O que acontece se eu for contemplado, mas não quiser usar a carta de crédito agora?
+
+sq: Posso esperar para usar? Tem prazo máximo?
+
+a: O regulamento define prazo para uso da carta de crédito após contemplação. Caso não utilize dentro do período, pode perder o direito.
+
+t: "O regulamento define prazo para uso da carta de crédito após contemplação." (Conhecendo Consórcio.docx)
+
+tags: contemplação, carta de crédito, prazo, uso
+
+---
+
+q: Como funciona o seguro no consórcio?
+
+sq: O seguro é obrigatório? Para que serve?
+
+a: O seguro pode ser obrigatório ou opcional, conforme contrato. Ele oferece proteção em casos de morte, invalidez ou desemprego, cobrindo o saldo devedor.
+
+t: "O seguro pode ser obrigatório ou opcional, protegendo em casos de morte, invalidez ou desemprego." (Conhecendo Consórcio.docx)
+
+tags: seguro, obrigatório, proteção, saldo devedor
+
+---
+
+q: Quais documentos são necessários para aderir ao consórcio?
+
+sq: Preciso de muitos documentos? Pessoa física e jurídica precisam dos mesmos?
+
+a: Os documentos variam conforme o tipo de consórcio e perfil do cliente. Geralmente, exigem RG, CPF, comprovante de residência e renda. Pessoas jurídicas apresentam documentos da empresa.
+
+t: "Geralmente exige RG, CPF, comprovante de residência e renda. Jurídica apresenta documentos da empresa." (Conhecendo Consórcio.docx)
+
+tags: documentos, adesão, pessoa física, jurídica
+
+---
+
+q: O que é contemplação por lance fixo?
+
+sq: Como funciona lance fixo? É diferente do lance livre?
+
+a: No lance fixo, o valor ou percentual é definido previamente pela administradora. Todos os que ofertarem esse valor participam de sorteio entre si.
+
+t: "Lance fixo tem valor pré-definido e participantes sorteados entre si." (lance fixo.docx)
+
+tags: lance fixo, valor, sorteio, regulamento
+
+---
+
+q: Como funciona a contemplação se houver empate no lance?
+
+sq: Empate no lance é sorteado? O que o regulamento diz?
+
+a: Em caso de empate no lance, a contemplação é decidida por sorteio entre os consorciados que ofertaram o mesmo valor.
+
+t: "Empate no lance é decidido por sorteio entre os participantes que ofertaram o mesmo valor." (lance fixo.docx)
+
+tags: empate, lance, sorteio, contemplação
+
+---
+
+q: Como são definidos os bens ou serviços que posso adquirir com o consórcio?
+
+sq: Posso escolher qualquer bem? Tem restrição de marca ou modelo?
+
+a: O regulamento do grupo e o tipo de consórcio determinam os bens ou serviços elegíveis. Consulte as opções permitidas antes de comprar.
+
+t: "O regulamento e o tipo de consórcio determinam os bens elegíveis." (Conhecendo Consórcio.docx)
+
+tags: bem, serviço, elegibilidade, regulamento
+
+---
+
+q: Posso vender minha cota de consórcio antes do final?
+
+sq: Tem regra para venda? Como funciona a transferência?
+
+a: Sim, a cota pode ser negociada, transferida ou vendida para outro interessado, desde que o novo titular cumpra as exigências da administradora.
+
+t: "A cota pode ser transferida para outro, conforme regras da administradora." (Conhecendo Consórcio.docx)
+
+tags: cota, venda, transferência, titular
+
+---
+
+q: O que é plano integral e plano mais fácil no consórcio?
+
+sq: Qual a diferença entre esses planos? Qual escolher?
+
+a: O plano integral é para quem quer pagar o valor total da carta de crédito. O plano mais fácil pode ter parcelas menores ou condições facilitadas. Consulte detalhes no regulamento.
+
+t: "Plano integral paga o valor total. Plano mais fácil pode ter condições facilitadas." (plano integral Facil.docx, Plano Mais fácil.docx)
+
+tags: plano integral, plano mais fácil, valor, condição
+
+---
+
+q: Se eu atrasar várias parcelas, posso ser excluído do grupo?
+
+sq: Existe limite de atraso? Perco o consórcio?
+
+a: O regulamento define limites para atraso. Inadimplência pode levar à exclusão do grupo e perda de direitos de participação nos sorteios.
+
+t: "Inadimplência pode levar à exclusão do grupo, conforme regulamento." (Conhecendo Consórcio.docx)
+
+tags: inadimplência, atraso, exclusão, sorteio
+
+---
+
+q: Qual é o prazo de duração de um grupo de consórcio?
+
+sq: Grupo tem data de término? Dura quanto tempo?
+
+a: O prazo de duração está definido no regulamento do grupo, podendo variar conforme o tipo de bem ou serviço.
+
+t: "O prazo de duração está no regulamento do grupo." (Conhecendo Consórcio.docx)
+
+tags: prazo, grupo, duração, regulamento
+
+---
+
+q: Como é feita a fiscalização e a transparência nos sorteios e lances?
+
+sq: Os sorteios são auditados? Tem registro dos resultados?
+
+a: As assembleias são realizadas com acompanhamento da administradora e, em muitos casos, podem ter auditoria externa para garantir transparência.
+
+t: "Assembleias são acompanhadas pela administradora e podem ter auditoria externa." (Conhecendo Consórcio.docx)
+
+tags: assembleia, sorteio, auditoria, transparência
+
+---
+
+q: O que acontece se eu não apresentar os documentos para contemplação?
+
+sq: Perco o direito à carta de crédito? Tem prazo para entregar?
+
+a: Se não apresentar os documentos necessários, o consorciado pode perder o direito à carta de crédito e ter a contemplação cancelada, conforme regras do grupo.
+
+t: "Sem os documentos, pode perder o direito à carta de crédito, conforme regulamento." (Conhecendo Consórcio.docx)
+
+tags: documento, contemplação, cancelamento, carta de crédito
+
+---
+
+q: É possível alterar o valor da carta de crédito após a adesão?
+
+sq: Posso aumentar ou diminuir o valor? Quais regras?
+
+a: Alterar o valor da carta de crédito depende das regras do grupo e da aprovação da administradora. Consulte o regulamento para saber se é possível.
+
+t: "Alteração do valor da carta depende das regras do grupo e aprovação da administradora." (Conhecendo Consórcio.docx)
+
+tags: valor, carta de crédito, alteração, aprovação
+
+---
+
+q: Como funciona a devolução do fundo de reserva no final do grupo?
+
+sq: Quando recebo o fundo de reserva de volta? Tem desconto?
+
+a: Ao final do grupo, o saldo do fundo de reserva pode ser devolvido proporcionalmente aos consorciados, descontados eventuais custos ou despesas.
+
+t: "No final do grupo, o saldo do fundo de reserva pode ser devolvido proporcionalmente." (Conhecendo Consórcio.docx)
+
+tags: fundo de reserva, devolução, grupo, saldo
+
+---
+
+q: Se eu desistir depois de contemplado, como funciona a devolução dos valores?
+
+sq: Tem diferença de devolução para contemplados? O que muda?
+
+a: Após a contemplação, desistências e devoluções seguem regras específicas do regulamento, podendo ter descontos maiores. Consulte sempre o contrato.
+
+t: "Desistências após contemplação têm regras e descontos específicos no regulamento." (Exemplos de Como Lidar com Respostas Comuns.docx)
+
+tags: desistência, contemplado, devolução, desconto
+
+---
+
+q: Posso usar a carta de crédito para pagar dívida ou quitar outro consórcio?
+
+sq: Tem restrição para uso em dívidas? Posso transferir para outro consórcio?
+
+a: O uso da carta de crédito é restrito às finalidades previstas no regulamento. Quitar dívida ou outro consórcio não está autorizado, salvo regra específica.
+
+t: "O uso da carta de crédito é restrito ao regulamento. Quitar dívida ou outro consórcio não está autorizado." (Conhecendo Consórcio.docx)
+
+tags: carta de crédito, dívida, restrição, regulamento
+
+---
+q: Como funciona a contemplação quando o grupo está terminando e sobram poucas cotas?
+
+sq: Os últimos participantes são contemplados automaticamente? Existe sorteio final?
+
+a: No encerramento do grupo, as cotas restantes são contempladas conforme regras do regulamento, podendo ser por sorteio ou distribuição automática.
+
+t: "No encerramento do grupo, as cotas restantes são contempladas conforme o regulamento." (Conhecendo Consórcio.docx)
+
+tags: encerramento, contemplação, sorteio, regulamento
+
+---
+
+q: Se a carta de crédito não for suficiente para o bem desejado, posso complementar de outra forma?
+
+sq: Posso usar FGTS ou financiamento junto? Quais opções existem?
+
+a: A carta de crédito pode ser complementada com recursos próprios, FGTS ou outra forma permitida pelo regulamento e pela administradora.
+
+t: "A carta pode ser complementada com recursos próprios, FGTS ou conforme permitido pela administradora." (Conhecendo Consórcio.docx)
+
+tags: complemento, FGTS, financiamento, carta de crédito
+
+---
+
+q: Preciso apresentar garantia ou fiador para usar a carta de crédito?
+
+sq: Consórcio exige garantia para liberar valor? Tem análise de crédito?
+
+a: A administradora pode exigir análise de crédito e garantias, como avalista, conforme o valor da carta e o regulamento do grupo.
+
+t: "Pode haver exigência de análise de crédito e garantias, conforme valor da carta e regulamento." (Conhecendo Consórcio.docx)
+
+tags: garantia, fiador, análise de crédito, regulamento
+
+---
+
+q: O que acontece se eu desistir do consórcio antes de ser contemplado e quiser voltar depois?
+
+sq: Posso reingressar no mesmo grupo? Tem carência ou custo?
+
+a: Ao desistir e cancelar, é preciso fazer nova adesão para retornar. Isso depende da disponibilidade de vagas e regras da administradora.
+
+t: "Para retornar, é preciso nova adesão, conforme disponibilidade e regras da administradora." (Conhecendo Consórcio.docx)
+
+tags: desistência, reingresso, adesão, grupo
+
+---
+
+q: O que significa cota em “processo de exclusão” ou “pendente”?
+
+sq: Cota pendente participa de sorteio? O que impede contemplação?
+
+a: Cotas pendentes ou em processo de exclusão são aquelas inadimplentes ou irregulares, que podem perder direitos de contemplação até regularização.
+
+t: "Cotas pendentes são inadimplentes ou irregulares e podem perder direitos de contemplação." (Conhecendo Consórcio.docx)
+
+tags: cota pendente, exclusão, inadimplência, contemplação
+
+---
+
+q: Posso participar do consórcio como empresa (pessoa jurídica)?
+
+sq: Tem diferença de regras para pessoa física e jurídica? O que muda?
+
+a: Empresas podem participar, seguindo regras próprias para pessoa jurídica, com apresentação dos documentos específicos da empresa.
+
+t: "Empresas podem participar, seguindo regras e documentos próprios para pessoa jurídica." (Conhecendo Consórcio.docx)
+
+tags: pessoa jurídica, empresa, regra, documento
+
+---
+
+q: Como são calculadas as taxas administrativas do consórcio?
+
+sq: Taxa é fixa ou percentual? Muda conforme valor da carta?
+
+a: As taxas administrativas são definidas pela administradora e podem ser um valor fixo ou percentual sobre a carta de crédito, conforme contrato.
+
+t: "Taxas administrativas podem ser fixas ou percentuais, conforme contrato." (Conhecendo Consórcio.docx)
+
+tags: taxa administrativa, cálculo, contrato, valor
+
+---
+
+q: O que é e para que serve o fundo comum do consórcio?
+
+sq: Fundo comum é diferente do fundo de reserva? Como funciona?
+
+a: O fundo comum é o valor arrecadado para contemplação dos participantes. É diferente do fundo de reserva, que cobre despesas extraordinárias do grupo.
+
+t: "Fundo comum é para contemplação. Fundo de reserva cobre despesas extraordinárias." (Conhecendo Consórcio.docx)
+
+tags: fundo comum, fundo de reserva, contemplação, despesa
+
+---
+
+q: É possível alterar o tipo de bem ou serviço desejado após a adesão?
+
+sq: Posso mudar de carro para imóvel? Tem limitação?
+
+a: Alterar o tipo de bem pode ser permitido conforme regras do grupo e aprovação da administradora. Consulte o regulamento antes de solicitar.
+
+t: "Alterar tipo de bem depende das regras do grupo e aprovação da administradora." (Conhecendo Consórcio.docx)
+
+tags: tipo de bem, alteração, regulamento, aprovação
+
+---
+
+q: Consórcio tem carência para participar de sorteio ou lance?
+
+sq: Preciso esperar para participar? Tem prazo mínimo?
+
+a: Pode existir carência inicial definida em regulamento antes de participar de sorteios ou ofertar lances.
+
+t: "Pode haver carência inicial para sorteios ou lances, conforme regulamento." (Conhecendo Consórcio.docx)
+
+tags: carência, sorteio, lance, regulamento
+
+---
+
+q: O que acontece se todos ofertarem o mesmo lance embutido?
+
+sq: Como desempata lance embutido? Tem sorteio?
+
+a: Em caso de empate no lance embutido, o critério de desempate é feito por sorteio entre os ofertantes, conforme previsto em regulamento.
+
+t: "Empate no lance embutido é decidido por sorteio entre ofertantes, conforme regulamento." (lance embutido.docx)
+
+tags: lance embutido, empate, sorteio, desempate
+
+---
+
+q: Como sei se o consórcio é seguro e regularizado?
+
+sq: Tem órgão que fiscaliza? Como verificar se é autorizado?
+
+a: O consórcio deve ser administrado por empresa autorizada e fiscalizada pelo Banco Central do Brasil. Consulte sempre o registro e histórico da administradora.
+
+t: "Consórcio é fiscalizado pelo Banco Central. Verifique registro da administradora." (Conhecendo Consórcio.docx)
+
+tags: segurança, fiscalização, Banco Central, administradora
+
+---
+
+q: O que significa “grupo fechado” e “grupo aberto” no consórcio?
+
+sq: Qual a diferença entre grupo fechado e aberto? Posso entrar em qualquer um?
+
+a: Grupo fechado não aceita novos participantes após a formação. Grupo aberto permite novas adesões enquanto houver vagas.
+
+t: "Grupo fechado não aceita novos participantes. Grupo aberto aceita adesões enquanto houver vagas." (Conhecendo Consórcio.docx)
+
+tags: grupo fechado, grupo aberto, adesão, vaga
+
+---
+
+q: Se eu não quiser mais o consórcio, posso transferir para familiar?
+
+sq: Transferência entre parentes é permitida? Tem vantagem?
+
+a: Sim, é possível transferir para familiar, seguindo as mesmas regras e análise exigidas para qualquer transferência de cota.
+
+t: "Transferência para familiar segue as mesmas regras e análise da transferência comum." (Conhecendo Consórcio.docx)
+
+tags: transferência, familiar, análise, cota
+
+---
+
+q: Como é definida a ordem de contemplação por lance?
+
+sq: Quem é contemplado primeiro? Qual critério de desempate?
+
+a: Quem oferecer o maior lance é contemplado. Em caso de empate, o desempate ocorre por sorteio entre os maiores lances.
+
+t: "Maior lance é contemplado; empate é sorteado entre os maiores lances." (lance embutido.docx, lance fixo.docx)
+
+tags: ordem, lance, contemplação, sorteio
+
+---
+
+q: O que é consórcio de serviço e como funciona?
+
+sq: Posso contratar consórcio para viagem, cirurgia, reforma?
+
+a: O consórcio de serviço permite usar a carta de crédito para pagar serviços como reforma, viagem, cirurgia, educação, sempre conforme regulamento.
+
+t: "Consórcio de serviço permite carta para pagar viagem, reforma, cirurgia, conforme regulamento." (Conhecendo Consórcio.docx)
+
+tags: consórcio de serviço, carta de crédito, serviço, regulamento
+
+---
+
+q: Tenho prioridade se for cliente antigo ou já tiver outros consórcios?
+
+sq: Fidelidade traz vantagem? Tem benefício extra para antigo?
+
+a: Não há prioridade por tempo de cliente ou quantidade de consórcios. Todos concorrem em igualdade de condições, conforme regulamento.
+
+t: "Não há prioridade por tempo ou quantidade de consórcios. Todos concorrem em igualdade." (Conhecendo Consórcio.docx)
+
+tags: prioridade, fidelidade, igualdade, regulamento
+
+---
+
+q: Quais as principais diferenças entre consórcio de imóveis e consórcio de veículos?
+
+sq: Posso mudar de imóvel para veículo? O que muda nos planos?
+
+a: A diferença está no tipo de bem e nas regras específicas de cada grupo, como valores, prazos e exigências de documentação.
+
+t: "Diferença está no tipo de bem e regras do grupo, como valores, prazos e exigências." (Conhecendo Consórcio.docx)
+
+tags: imóvel, veículo, diferença, regra
+
+---
+
+q: Preciso ter nome limpo para aderir ao consórcio?
+
+sq: Quem está com restrição no CPF pode participar? E para contemplar?
+
+a: Para aderir, não é obrigatório estar com nome limpo, mas para usar a carta de crédito pode ser exigida regularização do CPF e análise de crédito.
+
+t: "Para aderir, não precisa nome limpo. Para usar carta, pode exigir regularização e análise de crédito." (Conhecendo Consórcio.docx)
+
+tags: nome limpo, adesão, crédito, restrição
+
+---
+
+q: Como posso pedir segunda via do contrato ou boletos do consórcio?
+
+sq: Perdi o contrato, e agora? Tem acesso digital?
+
+a: Para solicitar segunda via de contrato ou boletos, entre em contato com a administradora pelos canais oficiais, como site, app ou atendimento humano.
+
+t: "Peça segunda via pelos canais oficiais da administradora: site, app ou atendimento humano." (Conhecendo Consórcio.docx)
+
+tags: segunda via, contrato, boleto, administradora
+
+---
+
+q: É possível participar do consórcio se morar fora do Brasil?
+
+sq: Quem está no exterior pode aderir? Tem regra diferente?
+
+a: Para aderir ao consórcio, normalmente é preciso ter residência e CPF no Brasil. O uso da carta de crédito é restrito a bens no território nacional.
+
+t: "É preciso residência e CPF no Brasil. Uso da carta restrito a bens nacionais." (Conhecendo Consórcio.docx)
+
+tags: exterior, adesão, carta de crédito, território nacional
+
+---
+q: Preciso pagar alguma coisa para encerrar o consórcio após contemplação?
+
+sq: Tem taxa de encerramento? Preciso quitar tudo para sair?
+
+a: Após a contemplação, é necessário quitar o saldo devedor para encerrar a participação. Eventuais taxas de encerramento seguem o contrato e regulamento do grupo.
+
+t: "Após contemplação, é necessário quitar o saldo devedor. Taxas de encerramento seguem o contrato e regulamento." (Conhecendo Consórcio.docx)
+
+tags: encerramento, contemplação, saldo devedor, taxa
+
+---
+
+q: Qual a diferença entre consórcio para pessoa física e para pessoa jurídica?
+
+sq: Documentação muda? Regras são diferentes para empresa?
+
+a: Pessoa física apresenta RG, CPF, comprovante de residência e renda. Pessoa jurídica apresenta documentos da empresa, como contrato social e CNPJ.
+
+t: "Pessoa física apresenta RG, CPF, residência e renda. Jurídica, documentos da empresa." (Conhecendo Consórcio.docx)
+
+tags: pessoa física, pessoa jurídica, documento, diferença
+
+---
+
+q: O que acontece se o grupo de consórcio não tiver mais contemplações possíveis antes do prazo final?
+
+sq: Pode terminar sem todos receberem? Como o grupo é encerrado?
+
+a: O grupo é encerrado conforme regulamento. Quem não foi contemplado recebe devolução dos valores pagos, descontadas as taxas.
+
+t: "Grupo encerrado conforme regulamento; devolução para não contemplados, descontadas taxas." (Conhecendo Consórcio.docx)
+
+tags: encerramento, contemplação, devolução, taxa
+
+---
+
+q: Como funciona a comunicação oficial do consórcio com os participantes?
+
+sq: Recebo avisos por e-mail, app ou WhatsApp? Como acompanho novidades?
+
+a: As comunicações oficiais são feitas pelos canais definidos no regulamento, como e-mail, aplicativo, site ou atendimento humano.
+
+t: "Comunicação oficial pelos canais definidos no regulamento: e-mail, app, site, atendimento." (Conhecendo Consórcio.docx)
+
+tags: comunicação, canal, oficial, regulamento
+
+---
+
+q: O que acontece se o titular da cota falecer antes do fim do consórcio?
+
+sq: Herdeiro pode assumir? Tem seguro para isso?
+
+a: Em caso de falecimento, a cota pode ser transferida para herdeiros ou quitada pelo seguro, conforme as regras do grupo e cobertura contratada.
+
+t: "Cota pode ser transferida para herdeiro ou quitada pelo seguro, conforme regras e cobertura." (Conhecendo Consórcio.docx)
+
+tags: falecimento, herdeiro, seguro, transferência
+
+---
+
+q: Posso participar de consórcio com mais de um objetivo (imóvel e carro, por exemplo)?
+
+sq: Consigo usar a mesma carta para vários bens? Tem restrição?
+
+a: A carta de crédito é destinada a uma finalidade por vez. Para objetivos diferentes, é preciso participar de mais de um grupo.
+
+t: "Carta de crédito tem uma finalidade. Para vários bens, participe de mais de um grupo." (Conhecendo Consórcio.docx)
+
+tags: objetivo, carta de crédito, grupo, restrição
+
+---
+
+q: O que é “grupo em andamento” e posso entrar depois que começou?
+
+sq: Entrei atrasado, como funciona? Pago diferença?
+
+a: Grupo em andamento já teve assembleias e contemplações. Quem entra depois pode precisar pagar as parcelas em atraso, conforme política da administradora.
+
+t: "Grupo em andamento já teve assembleias. Pode ser necessário pagar parcelas em atraso para entrar." (Conhecendo Consórcio.docx)
+
+tags: grupo em andamento, adesão, atraso, política
+
+---
+
+q: Como funciona o cancelamento do consórcio por parte da administradora?
+
+sq: A empresa pode cancelar meu contrato? Em que situação?
+
+a: A administradora pode cancelar a cota em casos de inadimplência ou descumprimento do regulamento. O cliente recebe devolução conforme regras.
+
+t: "Cancelamento por inadimplência ou descumprimento; devolução segue regras do grupo." (Conhecendo Consórcio.docx)
+
+tags: cancelamento, administradora, devolução, inadimplência
+
+---
+
+q: O que é “saldo a receber” ao final do consórcio?
+
+sq: Tenho direito a valores residuais? Como é feito o cálculo?
+
+a: Saldo a receber é o valor devolvido ao consorciado não contemplado, após quitação de todas as obrigações do grupo, descontadas taxas e despesas.
+
+t: "Saldo a receber é devolução ao não contemplado, descontadas taxas e despesas." (Conhecendo Consórcio.docx)
+
+tags: saldo a receber, devolução, não contemplado, taxa
+
+---
+
+q: Consórcio pode ser feito em nome de menor de idade?
+
+sq: Pais podem fazer consórcio para filhos? Tem idade mínima?
+
+a: O consórcio só pode ser feito em nome de maior de idade, exceto em situações previstas em regulamento, onde responsáveis legais podem aderir em nome do menor.
+
+t: "Consórcio é para maior de idade. Exceção só com responsável e previsão em regulamento." (Conhecendo Consórcio.docx)
+
+tags: menor de idade, responsável, adesão, regulamento
+
+---
+
+q: Como funcionam os sorteios eletrônicos? São confiáveis?
+
+sq: Sorteio digital tem auditoria? É transparente?
+
+a: Sorteios eletrônicos são realizados conforme regras do grupo, com registro e fiscalização para garantir segurança e transparência.
+
+t: "Sorteios eletrônicos seguem regras, com registro e fiscalização." (Conhecendo Consórcio.docx)
+
+tags: sorteio eletrônico, segurança, transparência, fiscalização
+
+---
+
+q: Posso destinar parte da carta de crédito para despesas com documentação e taxas do bem?
+
+sq: Carta cobre custo de transferência? O que está incluso?
+
+a: Sim, é possível usar parte da carta de crédito para cobrir taxas, documentação ou seguro, conforme limites do regulamento.
+
+t: "Parte da carta pode ser usada para taxas, documentação ou seguro, conforme regulamento." (Conhecendo Consórcio.docx)
+
+tags: carta de crédito, documentação, taxa, seguro
+
+---
+
+q: O que é “plano integral fácil” no consórcio?
+
+sq: Tem diferença entre integral e integral fácil? Qual a vantagem?
+
+a: O plano integral fácil oferece formas de pagamento e adesão facilitadas, mantendo o valor total da carta de crédito. Detalhes estão no regulamento.
+
+t: "Integral fácil tem adesão e pagamento facilitados, mantendo valor total da carta." (plano integral Facil.docx)
+
+tags: plano integral fácil, adesão, pagamento, valor
+
+---
+
+q: Como posso acompanhar o saldo e extrato das minhas parcelas?
+
+sq: Tem acesso online? Recebo relatório?
+
+a: O saldo e extrato das parcelas podem ser acompanhados pelo portal do cliente, aplicativo ou atendimento da administradora.
+
+t: "Saldo e extrato pelo portal, app ou atendimento da administradora." (Conhecendo Consórcio.docx)
+
+tags: saldo, extrato, parcela, portal
+
+---
+
+q: Existe diferença de regras para consórcio de imóvel novo e usado?
+
+sq: O que muda para imóvel usado? Consórcio aceita reforma?
+
+a: As regras podem variar conforme o regulamento e a política da administradora. Imóvel usado ou reforma são possíveis se previstos na carta e regulamento.
+
+t: "Regras podem variar. Imóvel usado ou reforma é possível se previsto em regulamento." (Conhecendo Consórcio.docx)
+
+tags: imóvel novo, imóvel usado, reforma, regulamento
+
+---
+
+q: Quais são os principais motivos de exclusão do grupo de consórcio?
+
+sq: O que causa exclusão? Atraso sempre leva à saída?
+
+a: Os principais motivos são inadimplência, descumprimento do regulamento ou fraude. A exclusão segue análise da administradora.
+
+t: "Motivos: inadimplência, descumprimento do regulamento ou fraude, conforme análise." (Conhecendo Consórcio.docx)
+
+tags: exclusão, inadimplência, regulamento, fraude
+
+---
+
+q: Como é feito o cálculo do valor final a ser devolvido em caso de cancelamento?
+
+sq: Devolução desconta o quê? Tem simulação?
+
+a: O valor devolvido é calculado com base nos pagamentos realizados, descontando taxas, fundo de reserva e outras despesas previstas em contrato.
+
+t: "Valor devolvido desconta taxas, fundo de reserva e despesas contratuais." (Exemplos de Como Lidar com Respostas Comuns.docx)
+
+tags: devolução, cálculo, cancelamento, taxa
+
+---
+
+q: O que devo fazer se tiver dúvida sobre qualquer etapa do consórcio?
+
+sq: Quem pode me ajudar? Tem canal de dúvidas?
+
+a: Em caso de dúvida, consulte sempre os canais oficiais da administradora ou procure o atendimento humano para esclarecimentos.
+
+t: "Consulte canais oficiais da administradora ou atendimento humano para dúvidas." (Conhecendo Consórcio.docx)
+
+tags: dúvida, canal oficial, atendimento, esclarecimento
+
+---
+
+q: Se eu perder o prazo para entrega de documentos após contemplação, o que acontece?
+
+sq: Posso entregar depois? Tem penalidade?
+
+a: A perda do prazo pode resultar em cancelamento da contemplação. Regularize imediatamente junto à administradora para evitar prejuízo.
+
+t: "Perda do prazo pode cancelar a contemplação. Regularize imediatamente." (Conhecendo Consórcio.docx)
+
+tags: prazo, documento, cancelamento, contemplação
+
+---
+
+q: O que é contemplação automática ao fim do grupo?
+
+sq: Todos são contemplados no fim? Como funciona?
+
+a: Ao final do grupo, todos os consorciados que não foram contemplados recebem a devolução dos valores ou são contemplados automaticamente, conforme regulamento.
+
+t: "No fim do grupo, devolução ou contemplação automática, conforme regulamento." (Conhecendo Consórcio.docx)
+
+tags: contemplação automática, fim do grupo, devolução, regulamento
+
+---
+
+q: Consorciado excluído pode voltar ao grupo?
+
+sq: Tem possibilidade de reingresso? Precisa de nova análise?
+
+a: O reingresso só é possível mediante nova adesão, disponibilidade de vaga e aprovação da administradora.
+
+t: "Reingresso só com nova adesão, vaga e aprovação da administradora." (Conhecendo Consórcio.docx)
+
+tags: exclusão, reingresso, adesão, aprovação
+
+---

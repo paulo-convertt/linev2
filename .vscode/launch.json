@@ -1,0 +1,93 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "� Debug FastAPI Server",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "stopOnEntry": false,
+            "justMyCode": false,
+            "args": [],
+            "gevent": false,
+            "subProcess": true
+        },
+        {
+            "name": "🌐 Debug FastAPI with Uvicorn",
+            "type": "debugpy",
+            "request": "launch",
+            "module": "uvicorn",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "stopOnEntry": false,
+            "justMyCode": false,
+            "args": [
+                "main:app",
+                "--host",
+                "0.0.0.0",
+                "--port",
+                "8000",
+                "--reload"
+            ],
+            "gevent": false,
+            "subProcess": true
+        },
+        {
+            "name": "� Debug Current File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "stopOnEntry": false,
+            "justMyCode": false,
+            "gevent": false,
+            "subProcess": true
+        },
+        {
+            "name": "� Debug Test File",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/debug_test.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}",
+            "env": {
+                "PYTHONPATH": "${workspaceFolder}/src"
+            },
+            "python": "${workspaceFolder}/.venv/bin/python",
+            "stopOnEntry": false,
+            "justMyCode": false,
+            "args": []
+        },
+        {
+            "name": "🔍 Debug with External Debugger",
+            "type": "debugpy",
+            "request": "attach",
+            "connect": {
+                "host": "localhost",
+                "port": 5678
+            },
+            "pathMappings": [
+                {
+                    "localRoot": "${workspaceFolder}",
+                    "remoteRoot": "."
+                }
+            ],
+            "justMyCode": false
+        }
+    ]
+}

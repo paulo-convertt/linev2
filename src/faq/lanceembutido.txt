@@ -1,0 +1,1195 @@
+q: O que é lance fixo no consórcio?
+
+sq: Como funciona o lance fixo? Qual a diferença entre lance fixo e livre?
+
+a: O lance fixo é uma modalidade em que o percentual ou valor do lance já está previamente estabelecido no regulamento do grupo. Todos os consorciados podem ofertar esse valor na assembleia, e, se houver empate, é feito um sorteio entre os ofertantes.
+
+t: "Lance fixo é um percentual ou valor definido em regulamento. Se houver empate, sorteio define o contemplado." (lance fixo.docx)
+
+tags: lance fixo, regulamento, percentual, sorteio
+
+---
+
+q: Qual é o percentual do lance fixo normalmente definido no consórcio?
+
+sq: O percentual do lance fixo muda de grupo para grupo? Onde encontro essa informação?
+
+a: O percentual do lance fixo é definido pela administradora e está descrito no regulamento do grupo. Pode variar conforme o tipo de consórcio.
+
+t: "O percentual do lance fixo é definido no regulamento do grupo pela administradora." (lance fixo.docx)
+
+tags: lance fixo, percentual, administradora, regulamento
+
+---
+
+q: Quem pode participar da modalidade de lance fixo?
+
+sq: Todos os consorciados têm direito ao lance fixo? Tem pré-requisito?
+
+a: Todos os consorciados ativos e adimplentes podem participar da modalidade de lance fixo, desde que sigam as regras do grupo.
+
+t: "Todos os consorciados ativos e adimplentes podem participar do lance fixo." (lance fixo.docx)
+
+tags: lance fixo, participante, adimplência, regulamento
+
+---
+
+q: Como ocorre a contemplação no lance fixo em caso de empate?
+
+sq: O que acontece se vários ofertarem o mesmo lance fixo? Quem leva a carta?
+
+a: Em caso de empate entre os ofertantes do lance fixo, o critério de desempate é o sorteio entre eles.
+
+t: "Empate no lance fixo é decidido por sorteio entre os ofertantes." (lance fixo.docx)
+
+tags: lance fixo, empate, sorteio, contemplação
+
+---
+
+q: Posso ofertar lance fixo e lance livre na mesma assembleia?
+
+sq: Tem restrição para participar das duas modalidades ao mesmo tempo?
+
+a: Normalmente, é permitido ofertar nas duas modalidades, desde que respeite os prazos e regras do regulamento do grupo.
+
+t: "É permitido participar do lance fixo e do lance livre na mesma assembleia, se regulamento permitir." (lance fixo.docx)
+
+tags: lance fixo, lance livre, assembleia, regulamento
+
+---
+
+q: O lance fixo é descontado do valor da carta de crédito?
+
+sq: Ao ser contemplado, perco parte do valor da carta por causa do lance fixo?
+
+a: Sim, o valor ofertado como lance fixo é descontado do total da carta de crédito, restando o saldo para uso na compra do bem.
+
+t: "O valor do lance fixo é descontado da carta de crédito ao ser contemplado." (lance fixo.docx)
+
+tags: lance fixo, desconto, carta de crédito, saldo
+
+---
+
+q: Preciso comunicar antecipadamente a intenção de ofertar lance fixo?
+
+sq: Tem prazo para informar? Como fazer a oferta?
+
+a: É necessário comunicar a administradora até o prazo definido no edital ou regulamento do grupo para participar do lance fixo.
+
+t: "A oferta deve ser comunicada dentro do prazo do edital ou regulamento." (lance fixo.docx)
+
+tags: lance fixo, comunicação, prazo, edital
+
+---
+
+q: Existe valor mínimo ou máximo para o lance fixo?
+
+sq: O valor do lance fixo pode ser alterado pelo consorciado?
+
+a: O valor do lance fixo é exatamente o percentual ou valor definido em regulamento, sem possibilidade de alteração pelo consorciado.
+
+t: "O valor é fixo e definido em regulamento, sem alteração pelo consorciado." (lance fixo.docx)
+
+tags: lance fixo, valor, regulamento, fixo
+
+---
+
+q: Em qual momento ocorre o sorteio do lance fixo?
+
+sq: Sorteio do lance fixo é antes ou depois dos outros lances?
+
+a: O sorteio do lance fixo ocorre durante a assembleia, no momento definido no edital do grupo.
+
+t: "O sorteio do lance fixo acontece durante a assembleia, conforme edital." (lance fixo.docx)
+
+tags: lance fixo, sorteio, assembleia, edital
+
+---
+
+q: O lance fixo pode ser ofertado por representante legal do consorciado?
+
+sq: Posso nomear alguém para fazer o lance fixo por mim?
+
+a: É possível ofertar lance fixo por meio de representante legal, desde que apresente procuração válida e siga as exigências da administradora.
+
+t: "Representante pode ofertar lance fixo com procuração e documentação exigida." (lance fixo.docx)
+
+tags: lance fixo, representante, procuração, documentação
+
+---
+
+q: Lance fixo pode ser ofertado em qualquer assembleia?
+
+sq: Tem assembleia especial para lance fixo? Existe limitação de datas?
+
+a: O lance fixo pode ser ofertado nas assembleias ordinárias previstas no calendário do grupo, salvo regra contrária no regulamento.
+
+t: "Lance fixo pode ser ofertado nas assembleias ordinárias, conforme calendário do grupo." (lance fixo.docx)
+
+tags: lance fixo, assembleia, calendário, ordinária
+
+---
+
+q: O que acontece se eu não for contemplado pelo lance fixo?
+
+sq: Posso tentar novamente em outra assembleia? O saldo muda?
+
+a: Se não for contemplado, pode participar com novo lance fixo nas próximas assembleias, respeitando o regulamento e estando adimplente.
+
+t: "Pode tentar novamente em outras assembleias, respeitando o regulamento." (lance fixo.docx)
+
+tags: lance fixo, não contemplado, nova tentativa, regulamento
+
+---
+
+q: Existe limite de quantas vezes posso ofertar lance fixo durante o consórcio?
+
+sq: Posso tentar todo mês? Tem restrição?
+
+a: Não há limite de tentativas. É possível ofertar lance fixo em todas as assembleias enquanto a cota estiver ativa e adimplente.
+
+t: "Pode ofertar lance fixo em todas as assembleias enquanto estiver ativo." (lance fixo.docx)
+
+tags: lance fixo, tentativas, frequência, assembleia
+
+---
+
+q: O lance fixo pode ser usado em todos os tipos de consórcio?
+
+sq: Lance fixo é exclusivo de imóveis, carros, serviços?
+
+a: O lance fixo pode estar disponível para diferentes tipos de consórcio, dependendo do regulamento de cada grupo.
+
+t: "Disponibilidade depende do regulamento de cada grupo e do tipo de consórcio." (lance fixo.docx)
+
+tags: lance fixo, tipo de consórcio, regulamento, disponibilidade
+
+---
+
+q: O resultado do lance fixo é divulgado nos canais oficiais do consórcio?
+
+sq: Como fico sabendo se fui contemplado no lance fixo?
+
+a: O resultado é divulgado nos canais oficiais da administradora: portal, aplicativo, e-mail ou atendimento humano.
+
+t: "Resultado do lance fixo é divulgado nos canais oficiais da administradora." (lance fixo.docx)
+
+tags: lance fixo, resultado, divulgação, canal oficial
+
+---
+
+q: O lance fixo pode ser parcelado ou deve ser pago de uma vez só?
+
+sq: Preciso pagar o valor do lance fixo à vista?
+
+a: O lance fixo é descontado do valor da carta de crédito, não havendo necessidade de pagamento extra pelo consorciado.
+
+t: "O lance fixo é descontado da carta de crédito, sem pagamento extra à vista." (lance fixo.docx)
+
+tags: lance fixo, desconto, carta de crédito, pagamento
+
+---
+
+q: Tem diferença entre lance fixo e lance embutido?
+
+sq: Posso usar os dois juntos? Como diferenciar?
+
+a: O lance fixo é um valor pré-definido ofertado por todos. O embutido usa parte da carta de crédito para aumentar o valor do lance. Cada um tem regras próprias.
+
+t: "Lance fixo tem valor pré-definido. Embutido usa parte da carta para aumentar lance." (lance fixo.docx, lance embutido.docx)
+
+tags: lance fixo, lance embutido, diferença, regulamento
+
+---
+
+q: O lance fixo interfere nas taxas ou parcelas do consórcio?
+
+sq: Muda o valor das parcelas ou taxas administrativas?
+
+a: O lance fixo não altera as taxas ou parcelas. O valor só é descontado do total da carta ao ser contemplado.
+
+t: "Lance fixo não muda taxas ou parcelas; só reduz o saldo da carta ao ser contemplado." (lance fixo.docx)
+
+tags: lance fixo, taxa, parcela, desconto
+
+---
+
+q: O que acontece se o grupo decidir mudar o percentual do lance fixo durante a vigência?
+
+sq: Mudança de percentual pode afetar quem já está participando?
+
+a: Alterações só podem ser feitas com comunicação prévia e autorização das autoridades competentes, afetando apenas as assembleias futuras.
+
+t: "Mudança de percentual só afeta assembleias futuras e exige comunicação oficial." (lance fixo.docx)
+
+tags: lance fixo, mudança, percentual, comunicação
+
+---
+
+q: Posso desistir da oferta do lance fixo antes da assembleia?
+
+sq: Se mudar de ideia, posso cancelar minha participação?
+
+a: É possível desistir da oferta antes do prazo de corte do regulamento. Após esse prazo, a oferta é considerada válida para a assembleia.
+
+t: "Desistência só antes do prazo final do regulamento; depois disso, oferta é válida." (lance fixo.docx)
+
+tags: lance fixo, desistência, prazo, regulamento
+
+---
+q: O lance fixo é sempre o mesmo valor durante todo o consórcio?
+
+sq: O valor pode mudar ao longo do grupo? Administradora altera o percentual?
+
+a: O valor do lance fixo normalmente permanece igual durante todo o grupo, mas pode ser alterado pela administradora com comunicação prévia, conforme regulamento.
+
+t: "Valor do lance fixo pode ser alterado pela administradora, mas deve ser comunicado previamente." (lance fixo.docx)
+
+tags: lance fixo, valor, alteração, regulamento
+
+---
+
+q: É possível ofertar lance fixo para cotas remanescentes no grupo?
+
+sq: Quem entra depois pode participar do lance fixo? Tem restrição para novas cotas?
+
+a: As regras para cotas remanescentes estão no regulamento. Normalmente, novas cotas também podem participar do lance fixo, se estiverem adimplentes.
+
+t: "Novas cotas podem participar do lance fixo, se adimplentes e conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, cota remanescente, nova cota, regulamento
+
+---
+
+q: O lance fixo pode ser usado para antecipar contemplação em grupo já avançado?
+
+sq: Tem diferença se o grupo está perto de acabar? O critério muda?
+
+a: O lance fixo pode ser ofertado em qualquer etapa do grupo, desde que esteja previsto no regulamento.
+
+t: "Lance fixo pode ser ofertado em qualquer etapa, conforme regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, antecipação, grupo avançado, regulamento
+
+---
+
+q: Posso desistir do grupo após ofertar lance fixo e não ser contemplado?
+
+sq: Tem penalidade para quem desiste depois de tentar o lance fixo?
+
+a: A desistência segue as regras normais do contrato, mesmo após participação no lance fixo e não sendo contemplado.
+
+t: "Desistência segue regras normais do contrato, independente de ter tentado lance fixo." (lance fixo.docx)
+
+tags: lance fixo, desistência, penalidade, contrato
+
+---
+
+q: O lance fixo pode ser usado para qualquer tipo de bem ou serviço permitido na carta de crédito?
+
+sq: Tem restrição de uso? Vale para imóvel, carro, serviço?
+
+a: O uso da carta após contemplação por lance fixo segue as mesmas regras do grupo, sendo permitido para todos os bens ou serviços previstos.
+
+t: "Uso da carta segue regras do grupo, independente do tipo de bem ou serviço." (lance fixo.docx)
+
+tags: lance fixo, carta de crédito, uso, bem
+
+---
+
+q: Erro comum: Ofereci lance fixo fora do prazo. Ainda posso participar da assembleia?
+
+sq: Tem alguma exceção para atraso? Posso pedir inclusão?
+
+a: Ofertas feitas fora do prazo estabelecido no regulamento não são consideradas na assembleia.
+
+t: "Oferta fora do prazo não é considerada; siga sempre o edital e regulamento." (lance fixo.docx)
+
+tags: lance fixo, erro, prazo, assembleia
+
+---
+
+q: O valor do lance fixo é divulgado antes da assembleia?
+
+sq: Outros participantes sabem quem ofertou? Tem sigilo?
+
+a: O valor do lance fixo é conhecido por todos, já que é fixo. Os nomes dos ofertantes só são divulgados após a assembleia, se previsto.
+
+t: "Valor do lance fixo é conhecido; nomes podem ser divulgados após assembleia, conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, divulgação, sigilo, assembleia
+
+---
+
+q: O lance fixo pode ser ofertado por pessoa jurídica?
+
+sq: Empresas podem participar? Regras mudam?
+
+a: Pessoa jurídica pode ofertar lance fixo desde que atenda às exigências do regulamento do grupo.
+
+t: "Pessoa jurídica pode participar do lance fixo, conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, pessoa jurídica, empresa, regulamento
+
+---
+
+q: O lance fixo vale para todas as cartas de crédito, independente do valor?
+
+sq: Quem tem carta maior participa igual? Tem diferença por faixa de valor?
+
+a: O percentual do lance fixo é aplicado sobre o valor da carta de cada consorciado, independente do valor total.
+
+t: "Percentual do lance fixo é aplicado ao valor da carta de cada consorciado." (lance fixo.docx)
+
+tags: lance fixo, carta de crédito, valor, percentual
+
+---
+
+q: Erro comum: Informei interesse no lance fixo mas esqueci de enviar documentação. O que acontece?
+
+sq: Administradora recusa oferta sem documentos? Tem prazo para regularizar?
+
+a: Ofertas sem documentação exigida não são consideradas. Regularize tudo antes do prazo para garantir participação.
+
+t: "Oferta sem documentação é recusada. Regularize tudo antes do prazo." (lance fixo.docx)
+
+tags: lance fixo, documentação, recusa, erro
+
+---
+
+q: É possível combinar lance fixo com lance embutido?
+
+sq: Regulamento permite somar os valores? Como funciona?
+
+a: A possibilidade de combinar depende do regulamento do grupo. Consulte as regras antes de tentar.
+
+t: "Combinação de modalidades depende do regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, lance embutido, combinação, regulamento
+
+---
+
+q: Se houver alteração no regulamento durante o grupo, como sou avisado sobre o lance fixo?
+
+sq: Administradora comunica por qual canal? Tem obrigação de avisar?
+
+a: Mudanças devem ser comunicadas oficialmente pelos canais definidos no regulamento, como e-mail, portal ou aplicativo.
+
+t: "Mudanças são comunicadas oficialmente pelos canais do regulamento." (lance fixo.docx)
+
+tags: lance fixo, comunicação, alteração, canal
+
+---
+
+q: O lance fixo pode ser cancelado por decisão da administradora?
+
+sq: Pode ser suspenso em determinado mês? Qual motivo justifica?
+
+a: A suspensão do lance fixo só pode ocorrer por motivo justificado e deve ser comunicada aos consorciados com antecedência.
+
+t: "Suspensão do lance fixo precisa de justificativa e comunicação prévia." (lance fixo.docx)
+
+tags: lance fixo, suspensão, justificativa, comunicação
+
+---
+
+q: O que acontece se for contemplado por lance fixo mas não entregar os documentos no prazo?
+
+sq: Posso perder a contemplação? Administradora aceita atraso?
+
+a: A não apresentação dos documentos no prazo pode resultar em perda da contemplação. Siga sempre o cronograma do grupo.
+
+t: "Perda do prazo de documentação pode levar à perda da contemplação." (lance fixo.docx)
+
+tags: lance fixo, documentação, contemplação, prazo
+
+---
+
+q: O lance fixo interfere na ordem de contemplação dos demais participantes?
+
+sq: Quem usa lance fixo sai na frente dos outros? Muda a lista?
+
+a: O lance fixo garante contemplação apenas para o sorteado naquela modalidade, sem afetar a ordem dos demais participantes.
+
+t: "Contemplação pelo lance fixo não interfere na ordem dos demais participantes." (lance fixo.docx)
+
+tags: lance fixo, ordem, contemplação, participantes
+
+---
+
+q: O resultado do lance fixo é registrado em ata de assembleia?
+
+sq: Tem registro oficial? Onde consultar?
+
+a: Todos os resultados, incluindo contemplações por lance fixo, são registrados em ata oficial da assembleia, disponível para consulta.
+
+t: "Resultados do lance fixo são registrados em ata oficial da assembleia." (lance fixo.docx)
+
+tags: lance fixo, ata, assembleia, registro
+
+---
+
+q: O consorciado pode ser contemplado mais de uma vez por lance fixo no mesmo grupo?
+
+sq: Já fui contemplado; posso tentar novamente? Tem limitação?
+
+a: Após contemplação, a cota deixa de participar de novas contemplações. Só é possível em outro grupo ou cota diferente.
+
+t: "Após contemplação, a cota não participa mais de sorteios de contemplação." (lance fixo.docx)
+
+tags: lance fixo, contemplação, limitação, grupo
+
+---
+
+q: Tem diferença de procedimento para lance fixo em consórcio de imóveis e automóveis?
+
+sq: O processo muda? Percentual é igual?
+
+a: O procedimento pode variar conforme o tipo de consórcio, mas sempre respeitando o regulamento de cada grupo.
+
+t: "Procedimento do lance fixo pode variar entre imóveis e automóveis, conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, imóvel, automóvel, procedimento
+
+---
+
+q: O valor do lance fixo ofertado aparece no extrato do consorciado?
+
+sq: Extrato mostra todos os lances? Tem transparência?
+
+a: O extrato pode mostrar o valor do lance fixo ofertado e o saldo da carta após contemplação, conforme sistema da administradora.
+
+t: "Extrato pode informar valor do lance fixo e saldo após contemplação." (lance fixo.docx)
+
+tags: lance fixo, extrato, saldo, transparência
+
+---
+
+q: Existe algum custo extra para participar do lance fixo?
+
+sq: Pago taxa para ofertar lance fixo? Tem cobrança adicional?
+
+a: Não há custo extra para participar do lance fixo além das parcelas normais do consórcio.
+
+t: "Sem custo extra; apenas parcelas normais do consórcio." (lance fixo.docx)
+
+tags: lance fixo, custo, participação, taxa
+
+---
+q: O lance fixo pode ser usado em assembleias extraordinárias?
+
+sq: Só é válido para assembleias ordinárias? Tem diferença de regra?
+
+a: A participação em assembleias extraordinárias com lance fixo depende do regulamento do grupo. Consulte sempre o edital e as regras específicas.
+
+t: "Assembleias extraordinárias só aceitam lance fixo se previsto no regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, assembleia extraordinária, regulamento, edital
+
+---
+
+q: Se o participante não quiser mais concorrer com lance fixo, precisa comunicar à administradora?
+
+sq: Tem que cancelar formalmente? Como faço isso?
+
+a: Se não deseja concorrer, basta não enviar a proposta para a assembleia daquele mês. Não é necessário cancelamento formal.
+
+t: "Não envie proposta se não quiser participar; não precisa cancelar formalmente." (lance fixo.docx)
+
+tags: lance fixo, participação, cancelamento, comunicação
+
+---
+
+q: Qual a diferença entre lance fixo e lance livre?
+
+sq: Por que escolher o fixo ao invés do livre?
+
+a: No lance fixo, o valor já está definido pelo grupo. No lance livre, o participante decide quanto quer ofertar. Cada modalidade tem regras e estratégias próprias.
+
+t: "Fixo tem valor pré-definido, livre é definido pelo participante." (lance fixo.docx)
+
+tags: lance fixo, lance livre, diferença, modalidade
+
+---
+
+q: Tem algum benefício extra para quem é contemplado pelo lance fixo?
+
+sq: Administradora oferece alguma vantagem? O atendimento é diferente?
+
+a: Não há benefício extra específico para contemplados por lance fixo. O atendimento e direitos são iguais aos das demais modalidades.
+
+t: "Sem benefício extra; atendimento igual às outras modalidades." (lance fixo.docx)
+
+tags: lance fixo, benefício, atendimento, igualdade
+
+---
+
+q: O lance fixo interfere na possibilidade de uso de lance embutido?
+
+sq: Posso usar os dois juntos? Um exclui o outro?
+
+a: A possibilidade de usar os dois juntos depende do regulamento. Alguns grupos permitem, outros não.
+
+t: "Combinação de lance fixo e embutido depende do regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, lance embutido, combinação, regulamento
+
+---
+
+q: O resultado do lance fixo é sigiloso ou público após a assembleia?
+
+sq: Todos têm acesso à lista dos contemplados?
+
+a: Após a assembleia, os resultados dos lances fixos são públicos e constam na ata disponível aos participantes.
+
+t: "Resultados são públicos após assembleia e registrados em ata." (lance fixo.docx)
+
+tags: lance fixo, resultado, ata, público
+
+---
+
+q: Posso participar do lance fixo mesmo tendo entrado no grupo recentemente?
+
+sq: Tem carência para ofertar lance fixo?
+
+a: Não há carência para novos participantes, desde que estejam adimplentes e com documentação regular.
+
+t: "Novos participantes podem ofertar lance fixo, se adimplentes e regulares." (lance fixo.docx)
+
+tags: lance fixo, novo participante, carência, regularidade
+
+---
+
+q: Em caso de empate no lance fixo, posso escolher participar do sorteio?
+
+sq: Tenho que aceitar o sorteio? É possível desistir?
+
+a: O empate no lance fixo é sempre resolvido por sorteio. Se não quiser participar, comunique sua desistência antes da realização do sorteio.
+
+t: "Empate é resolvido por sorteio; pode desistir antes do sorteio, se preferir." (lance fixo.docx)
+
+tags: lance fixo, empate, sorteio, desistência
+
+---
+
+q: O valor do lance fixo é atualizado caso a carta de crédito sofra reajuste?
+
+sq: Percentual acompanha reajuste? Como fica o cálculo?
+
+a: Sim, o percentual do lance fixo é aplicado sobre o valor reajustado da carta de crédito, conforme previsto em regulamento.
+
+t: "Percentual do lance fixo incide sobre o valor reajustado da carta." (lance fixo.docx)
+
+tags: lance fixo, reajuste, percentual, cálculo
+
+---
+
+q: O lance fixo é permitido para consórcio de serviço?
+
+sq: Posso participar dessa modalidade em consórcio de viagem, reforma ou cirurgia?
+
+a: O lance fixo pode estar disponível em consórcios de serviço, se previsto no regulamento do grupo.
+
+t: "Disponibilidade em consórcio de serviço depende do regulamento." (lance fixo.docx)
+
+tags: lance fixo, consórcio de serviço, regulamento, modalidade
+
+---
+
+q: Tem limite máximo de cotas contempladas por lance fixo na mesma assembleia?
+
+sq: Só uma cota é sorteada? Pode contemplar várias?
+
+a: O limite de contemplações por lance fixo por assembleia está definido no regulamento do grupo.
+
+t: "Número de contemplações por assembleia segue o regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, cota, contemplação, limite
+
+---
+
+q: Em caso de cancelamento da assembleia, o lance fixo precisa ser reenviado?
+
+sq: Tenho que refazer o pedido? O lance é perdido?
+
+a: Se a assembleia for cancelada, será necessário reenviar a proposta de lance fixo para a próxima assembleia.
+
+t: "Com assembleia cancelada, reenvie o lance fixo para a próxima." (lance fixo.docx)
+
+tags: lance fixo, assembleia cancelada, reenviar, proposta
+
+---
+
+q: O lance fixo pode ser ofertado para transferência de cota?
+
+sq: Quem receber cota transferida pode participar? Tem restrição?
+
+a: Após regularização da transferência, o novo titular pode participar do lance fixo normalmente.
+
+t: "Novo titular pode ofertar lance fixo, após transferência regularizada." (lance fixo.docx)
+
+tags: lance fixo, transferência, novo titular, participação
+
+---
+
+q: O valor do lance fixo pode ser diferente para cada consorciado?
+
+sq: Tem diferenciação por perfil ou situação?
+
+a: O percentual é igual para todos, aplicado sobre o valor da carta de cada consorciado. Não há diferenciação.
+
+t: "Percentual do lance fixo é igual para todos, calculado sobre cada carta." (lance fixo.docx)
+
+tags: lance fixo, valor, igualdade, carta
+
+---
+
+q: A administradora pode recusar o lance fixo de um participante?
+
+sq: Quais motivos justificam recusa?
+
+a: Só pode recusar se houver pendências, documentação irregular ou descumprimento das regras do grupo.
+
+t: "Recusa só ocorre em caso de pendências, documentação irregular ou descumprimento do regulamento." (lance fixo.docx)
+
+tags: lance fixo, recusa, pendência, regulamento
+
+---
+
+q: Se eu desistir do grupo após ser contemplado por lance fixo, o que acontece?
+
+sq: Perco o direito à carta? Tem devolução de valores?
+
+a: Após contemplação, a desistência é tratada conforme regras do regulamento e pode haver desconto e prazo para devolução dos valores.
+
+t: "Desistência após contemplação segue regras de devolução e descontos do regulamento." (lance fixo.docx)
+
+tags: lance fixo, desistência, contemplação, devolução
+
+---
+
+q: O lance fixo pode ser simulado antes de ser ofertado?
+
+sq: Administradora oferece simulação? Como faço?
+
+a: O cálculo pode ser simulado consultando o percentual do regulamento e aplicando ao valor da sua carta de crédito.
+
+t: "Simule aplicando o percentual ao valor da carta, conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, simulação, cálculo, percentual
+
+---
+
+q: Como são divulgados os prazos para oferta do lance fixo?
+
+sq: Administradora avisa por quais canais? Onde encontrar?
+
+a: Os prazos são informados no edital da assembleia, portal, aplicativo ou pelos canais oficiais da administradora.
+
+t: "Prazos divulgados no edital, portal, app ou canais oficiais." (lance fixo.docx)
+
+tags: lance fixo, prazo, divulgação, edital
+
+---
+
+q: Tem diferença para lance fixo em consórcio de imóvel novo e usado?
+
+sq: Regras mudam conforme o tipo de bem?
+
+a: As regras podem variar de acordo com o regulamento e o tipo de consórcio, mas o conceito do lance fixo permanece o mesmo.
+
+t: "Regras podem variar, mas o conceito do lance fixo é igual para imóvel novo e usado." (lance fixo.docx)
+
+tags: lance fixo, imóvel novo, imóvel usado, regra
+
+---
+
+q: O lance fixo pode ser usado para abater saldo devedor ou só para contemplação?
+
+sq: Dá para quitar parcelas usando lance fixo?
+
+a: O lance fixo é exclusivo para fins de contemplação. Não serve para abatimento de parcelas ou saldo devedor.
+
+t: "Lance fixo serve apenas para contemplação, não para quitar parcelas." (lance fixo.docx)
+
+tags: lance fixo, saldo devedor, parcelas, contemplação
+
+---
+q: Caso especial: Esqueci de informar meu interesse no lance fixo. Posso regularizar depois?
+
+sq: Administradora aceita inclusão fora do prazo? Dá para corrigir?
+
+a: Não é possível incluir oferta de lance fixo fora do prazo estabelecido pelo regulamento. Só é possível participar na próxima assembleia.
+
+t: "Oferta fora do prazo não é considerada; só participe na próxima assembleia." (lance fixo.docx)
+
+tags: lance fixo, prazo, erro, regularização
+
+---
+
+q: O lance fixo pode ser ofertado em nome de menor de idade?
+
+sq: Pais podem usar lance fixo para filhos? Tem limite de idade?
+
+a: Só maiores de idade ou representantes legais, com documentação adequada, podem ofertar lance fixo, conforme regulamento.
+
+t: "Apenas maiores de idade ou representantes legais podem ofertar lance fixo." (lance fixo.docx)
+
+tags: lance fixo, menor de idade, representante, regulamento
+
+---
+
+q: O lance fixo influencia no prazo de liberação da carta de crédito?
+
+sq: Consorciado contemplado por lance fixo recebe a carta mais rápido?
+
+a: O prazo de liberação da carta é o mesmo para qualquer modalidade de contemplação, desde que toda documentação esteja correta.
+
+t: "Prazo de liberação é igual para todas as modalidades, se documentação estiver correta." (lance fixo.docx)
+
+tags: lance fixo, liberação, prazo, documentação
+
+---
+
+q: Posso ofertar lance fixo para uma cota que está em transferência?
+
+sq: Tem impedimento durante o processo de transferência?
+
+a: Só é possível ofertar após a transferência estar concluída e regularizada junto à administradora.
+
+t: "Apenas após transferência regularizada é possível ofertar lance fixo." (lance fixo.docx)
+
+tags: lance fixo, transferência, impedimento, regularização
+
+---
+
+q: Se houver erro operacional da administradora, posso recorrer sobre o lance fixo?
+
+sq: Tem canal de recurso? Como proceder?
+
+a: Em caso de erro, procure a administradora e, se necessário, utilize a ouvidoria para revisão do caso.
+
+t: "Procure a administradora e, se necessário, a ouvidoria para revisão de erro operacional." (lance fixo.docx)
+
+tags: lance fixo, erro operacional, recurso, ouvidoria
+
+---
+
+q: O lance fixo pode ser ofertado de forma online?
+
+sq: Posso enviar proposta pelo app ou site? Tem canal digital?
+
+a: Sim, é possível ofertar lance fixo pelos canais digitais da administradora, como aplicativo ou portal online, conforme previsto no regulamento.
+
+t: "Ofereça lance fixo pelos canais digitais, app ou portal online, se previsto no regulamento." (lance fixo.docx)
+
+tags: lance fixo, online, digital, app
+
+---
+
+q: O lance fixo pode ser combinado com lance embutido, formando uma proposta única?
+
+sq: Regulamento permite juntar os dois valores numa mesma oferta?
+
+a: A combinação só é possível se o regulamento do grupo autorizar expressamente. Consulte sempre as regras antes de ofertar.
+
+t: "Combinação só é possível se autorizada no regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, lance embutido, combinação, regulamento
+
+---
+
+q: Tem penalidade se eu ofertar lance fixo e não cumprir as exigências de documentação?
+
+sq: O que acontece se faltar documento? Perco a contemplação?
+
+a: A ausência de documentos impede a contemplação, mas não há penalidade extra além da não liberação da carta.
+
+t: "Sem documentação, perde a contemplação. Não há penalidade extra." (lance fixo.docx)
+
+tags: lance fixo, documentação, penalidade, contemplação
+
+---
+
+q: Caso especial: Fui contemplado por lance fixo e desisti de usar a carta. O que acontece?
+
+sq: Posso abrir mão da contemplação? Tem devolução?
+
+a: Pode abrir mão, mas a devolução de valores e regras de desconto seguem o regulamento do grupo.
+
+t: "Desistência segue regras de devolução e descontos do regulamento." (lance fixo.docx)
+
+tags: lance fixo, contemplação, desistência, devolução
+
+---
+
+q: O valor do lance fixo pode ser utilizado para despesas além da compra do bem?
+
+sq: Dá para pagar taxas ou documentação com o lance fixo?
+
+a: Após contemplação, o saldo da carta pode ser usado conforme o regulamento, incluindo despesas com taxas, seguro ou documentação autorizadas.
+
+t: "Saldo da carta pode ser usado em despesas autorizadas, conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, despesas, taxas, saldo
+
+---
+
+q: O valor ofertado em lance fixo é devolvido se o consorciado desistir antes de ser contemplado?
+
+sq: Perco o valor do lance se desistir do grupo? Tem ressarcimento?
+
+a: O lance fixo só é descontado se o consorciado for contemplado. Se desistir antes, não há desconto nem perda.
+
+t: "Valor só é descontado se houver contemplação. Desistência antes não tem desconto." (lance fixo.docx)
+
+tags: lance fixo, desistência, desconto, contemplação
+
+---
+
+q: Erro comum: Ofertar lance fixo sem estar adimplente. Posso regularizar e participar?
+
+sq: Atraso na parcela impede oferta? Dá tempo de quitar?
+
+a: Só pode ofertar lance fixo se estiver adimplente. Regularize antes do prazo para participar da assembleia.
+
+t: "Somente adimplentes podem participar. Regularize antes do prazo." (lance fixo.docx)
+
+tags: lance fixo, adimplência, erro, regularização
+
+---
+
+q: Em caso de empate no lance fixo, o sorteio é presencial ou online?
+
+sq: Preciso estar presente? Como funciona?
+
+a: O sorteio pode ser presencial ou online, conforme o procedimento definido pela administradora no edital da assembleia.
+
+t: "Sorteio pode ser presencial ou online, conforme edital da administradora." (lance fixo.docx)
+
+tags: lance fixo, sorteio, presencial, online
+
+---
+
+q: O resultado do lance fixo pode ser consultado posteriormente?
+
+sq: Onde acessar o histórico? Tem consulta online?
+
+a: O histórico dos resultados fica disponível na ata da assembleia, no portal ou canal oficial da administradora.
+
+t: "Histórico do lance fixo está disponível na ata ou portal oficial." (lance fixo.docx)
+
+tags: lance fixo, resultado, histórico, consulta
+
+---
+
+q: Posso simular o lance fixo antes de decidir ofertar?
+
+sq: Administradora faz simulação para mim? Tem ferramenta online?
+
+a: Pode simular o valor aplicando o percentual do regulamento ao valor da sua carta. A administradora pode disponibilizar simulador.
+
+t: "Simule aplicando o percentual ao valor da carta; consulte o simulador, se disponível." (lance fixo.docx)
+
+tags: lance fixo, simulação, simulador, valor
+
+---
+
+q: Caso especial: Grupo decidiu não oferecer mais lance fixo. O que muda para os consorciados?
+
+sq: Tenho direito adquirido? Mudança vale para todos?
+
+a: Mudanças devem ser comunicadas e só afetam assembleias futuras. O direito é garantido até a alteração oficial.
+
+t: "Mudanças afetam apenas assembleias futuras; direito é garantido até alteração." (lance fixo.docx)
+
+tags: lance fixo, mudança, direito, assembleia
+
+---
+
+q: O lance fixo pode ser feito para mais de uma cota do mesmo titular?
+
+sq: Quem tem várias cotas pode ofertar em todas?
+
+a: Sim, quem possui mais de uma cota pode ofertar lance fixo em cada uma delas, desde que esteja adimplente.
+
+t: "Pode ofertar lance fixo para cada cota, se estiver adimplente." (lance fixo.docx)
+
+tags: lance fixo, múltiplas cotas, titular, adimplência
+
+---
+
+q: Preciso comprovar renda ou apresentar documentação extra para ofertar lance fixo?
+
+sq: Tem exigência especial além do básico?
+
+a: As exigências são as mesmas para qualquer modalidade: estar adimplente e apresentar os documentos previstos no regulamento.
+
+t: "Exigências são as mesmas: adimplência e documentos do regulamento." (lance fixo.docx)
+
+tags: lance fixo, documentação, renda, exigência
+
+---
+
+q: O lance fixo pode ser usado em consórcio com finalidade comercial?
+
+sq: Vale para compra de bem para empresa?
+
+a: O lance fixo pode ser utilizado para finalidade comercial, se o regulamento do grupo permitir.
+
+t: "Uso comercial depende da previsão no regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, finalidade comercial, empresa, regulamento
+
+---
+
+q: Tem diferença para lance fixo em grupos antigos e grupos novos?
+
+sq: Procedimento muda conforme o tempo do grupo?
+
+a: O procedimento é o mesmo, mas o percentual pode variar de acordo com o regulamento vigente em cada grupo.
+
+t: "Procedimento é igual; percentual pode variar conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, grupo antigo, grupo novo, regulamento
+
+---
+q: O lance fixo pode ser ofertado por participante que está com processo judicial envolvendo a cota?
+
+sq: Administradora pode bloquear oferta em caso de disputa judicial?
+
+a: Se a cota estiver bloqueada judicialmente, a administradora pode impedir a participação no lance fixo até a regularização.
+
+t: "Bloqueio judicial impede participação até regularização." (lance fixo.docx)
+
+tags: lance fixo, judicial, bloqueio, regularização
+
+---
+
+q: Tem diferença de regra para lance fixo em consórcio de imóvel e de automóvel?
+
+sq: Percentual pode variar conforme o tipo de bem?
+
+a: O percentual e procedimento do lance fixo podem variar conforme o tipo de consórcio e o regulamento do grupo.
+
+t: "Percentual e regras podem variar de acordo com o regulamento e o tipo de consórcio." (lance fixo.docx)
+
+tags: lance fixo, imóvel, automóvel, diferença
+
+---
+
+q: Caso especial: Ofereci lance fixo com erro no valor informado. Administradora corrige automaticamente?
+
+sq: Tem tolerância para erro de digitação?
+
+a: Ofertas com erro no valor do lance fixo podem ser recusadas. Sempre confira e envie corretamente conforme regulamento.
+
+t: "Erro no valor do lance fixo pode levar à recusa. Confira sempre antes de enviar." (lance fixo.docx)
+
+tags: lance fixo, erro, valor, recusa
+
+---
+
+q: Posso desistir do lance fixo após envio da proposta, mas antes da assembleia?
+
+sq: Tem prazo para cancelamento sem penalidade?
+
+a: A desistência é possível até o prazo limite definido no regulamento. Depois disso, a oferta é considerada válida.
+
+t: "Desista antes do prazo limite do regulamento; após isso, a oferta é válida." (lance fixo.docx)
+
+tags: lance fixo, desistência, prazo, oferta
+
+---
+
+q: O lance fixo pode ser ofertado por cotas vinculadas (exemplo: cotas em nome de membros da mesma família)?
+
+sq: Tem restrição para familiares participarem juntos?
+
+a: Não há restrição para cotas vinculadas, desde que cada uma esteja regular e siga o regulamento.
+
+t: "Cotas vinculadas podem participar, se estiverem regulares e dentro do regulamento." (lance fixo.docx)
+
+tags: lance fixo, cota vinculada, familiar, regulamento
+
+---
+
+q: Como o participante é avisado sobre contemplação por lance fixo?
+
+sq: Recebo aviso no app, e-mail ou por telefone?
+
+a: O aviso de contemplação é feito pelos canais oficiais definidos pela administradora, como app, e-mail ou atendimento humano.
+
+t: "Aviso de contemplação é feito pelos canais oficiais: app, e-mail ou atendimento." (lance fixo.docx)
+
+tags: lance fixo, aviso, contemplação, canal oficial
+
+---
+
+q: Tem algum custo para desistir da participação no lance fixo antes da assembleia?
+
+sq: Administradora cobra multa? Tem taxa?
+
+a: Não há custo nem multa para desistir do lance fixo antes da assembleia, desde que respeitado o prazo do regulamento.
+
+t: "Sem custo ou multa para desistir antes da assembleia, dentro do prazo." (lance fixo.docx)
+
+tags: lance fixo, custo, desistência, prazo
+
+---
+
+q: Caso especial: Grupo encerrou e eu nunca fui contemplado com lance fixo. O que acontece com meu dinheiro?
+
+sq: Tenho direito à devolução? Como funciona?
+
+a: Ao final do grupo, participantes não contemplados têm direito à devolução dos valores pagos, conforme regulamento.
+
+t: "Direito à devolução dos valores pagos conforme regulamento, ao final do grupo." (lance fixo.docx)
+
+tags: lance fixo, devolução, encerramento, não contemplado
+
+---
+
+q: Erro comum: Ofertar lance fixo sem observar reajustes na carta de crédito. O que devo conferir?
+
+sq: Preciso calcular sobre o novo valor da carta?
+
+a: Sempre calcule o lance fixo com base no valor atualizado da carta de crédito, considerando eventuais reajustes.
+
+t: "Calcule sempre sobre o valor atualizado da carta, incluindo reajustes." (lance fixo.docx)
+
+tags: lance fixo, reajuste, cálculo, valor
+
+---
+
+q: O lance fixo pode ser usado para imóveis em construção ou só imóveis prontos?
+
+sq: Consórcio limita o uso da carta nesse caso?
+
+a: O uso para imóveis em construção ou prontos depende das regras da administradora e do regulamento do grupo.
+
+t: "Uso da carta para imóvel em construção ou pronto depende do regulamento do grupo." (lance fixo.docx)
+
+tags: lance fixo, imóvel em construção, imóvel pronto, uso
+
+---
+
+q: Tem algum limite para quantidade de participantes concorrendo no lance fixo por assembleia?
+
+sq: Pode ter muitos concorrentes? Tem restrição?
+
+a: Não há limite máximo de participantes. Todos os adimplentes podem concorrer ao lance fixo na mesma assembleia.
+
+t: "Todos os adimplentes podem participar, sem limite máximo de concorrentes." (lance fixo.docx)
+
+tags: lance fixo, concorrente, limite, assembleia
+
+---
+
+q: O valor do lance fixo aparece discriminado na carta de crédito após contemplação?
+
+sq: Extrato detalha o desconto do lance fixo?
+
+a: O extrato ou carta de crédito apresenta o valor descontado pelo lance fixo e o saldo disponível para aquisição do bem.
+
+t: "Extrato apresenta o desconto do lance fixo e o saldo disponível." (lance fixo.docx)
+
+tags: lance fixo, extrato, desconto, saldo
+
+---
+
+q: Posso participar do lance fixo e desistir do grupo no mesmo mês?
+
+sq: Se eu perder o lance, posso sair depois?
+
+a: Pode desistir do grupo após a assembleia, caso não tenha sido contemplado, seguindo as regras de devolução e prazos.
+
+t: "Pode sair após a assembleia se não foi contemplado, seguindo as regras de devolução." (lance fixo.docx)
+
+tags: lance fixo, desistência, devolução, assembleia
+
+---
+
+q: Administradora pode divulgar o ranking de participantes do lance fixo?
+
+sq: Vejo quantos ofertaram? Informação é pública?
+
+a: O ranking de participantes só é divulgado se previsto no regulamento. Normalmente, apenas os resultados são informados.
+
+t: "Ranking só é divulgado se previsto; geralmente apenas resultados são informados." (lance fixo.docx)
+
+tags: lance fixo, ranking, divulgação, regulamento
+
+---
+
+q: Tem diferença de lance fixo para cotas contempladas por sorteio?
+
+sq: O procedimento ou direitos mudam conforme a forma de contemplação?
+
+a: Os direitos e procedimentos são os mesmos para contemplados por lance fixo ou sorteio. O que muda é apenas a forma de contemplação.
+
+t: "Direitos e procedimentos iguais; só muda a forma de contemplação." (lance fixo.docx)
+
+tags: lance fixo, sorteio, contemplação, procedimento
+
+---
+
+q: O lance fixo pode ser ofertado por consorciado que já tenha sido contemplado em outro grupo?
+
+sq: Posso participar em vários grupos ao mesmo tempo?
+
+a: Sim, é permitido ofertar lance fixo em outro grupo, mesmo que já tenha sido contemplado em grupo diferente.
+
+t: "Pode participar de lance fixo em outro grupo, independente de contemplação anterior." (lance fixo.docx)
+
+tags: lance fixo, outro grupo, contemplação, participação
+
+---
+
+q: Preciso declarar o valor do lance fixo para fins fiscais ou imposto de renda?
+
+sq: Administradora fornece comprovante? Tem obrigatoriedade?
+
+a: Consulte um contador para obrigações fiscais. A administradora fornece comprovante de contemplação e valores descontados.
+
+t: "Administradora fornece comprovante. Consulte contador para obrigações fiscais." (lance fixo.docx)
+
+tags: lance fixo, imposto de renda, comprovante, declaração
+
+---
+
+q: Tem diferença de prazo para liberação da carta de crédito em lance fixo e lance livre?
+
+sq: O prazo muda conforme a modalidade?
+
+a: O prazo de liberação é o mesmo para ambas as modalidades, desde que a documentação esteja em ordem.
+
+t: "Prazo de liberação é igual, dependendo da documentação." (lance fixo.docx)
+
+tags: lance fixo, prazo, liberação, documentação
+
+---
+
+q: O participante pode ser excluído do grupo por erro ou fraude no lance fixo?
+
+sq: Tem penalidade para tentativa de fraude?
+
+a: Tentativas de fraude podem resultar em exclusão do grupo e outras penalidades previstas no regulamento.
+
+t: "Fraude pode resultar em exclusão e penalidades, conforme regulamento." (lance fixo.docx)
+
+tags: lance fixo, fraude, penalidade, exclusão
+
+---
+
+q: Em caso de dúvidas, qual canal oficial devo usar para esclarecer sobre lance fixo?
+
+sq: Posso usar o WhatsApp? Atendimento é digital?
+
+a: Utilize sempre os canais oficiais da administradora, como portal, app, telefone ou atendimento humano.
+
+t: "Dúvidas devem ser tratadas nos canais oficiais: portal, app, telefone ou atendimento humano." (lance fixo.docx)
+
+tags: lance fixo, canal oficial, dúvida, atendimento
+
+---

@@ -1,0 +1,945 @@
+q: Consórcio Chevrolet é seguro mesmo? Posso confiar?
+
+sq: Já ouvi falar em golpe... Por que confiar em vocês? Tem risco de sumir com meu dinheiro?
+
+a: Pode confiar sim! O consórcio Chevrolet é administrado por empresa autorizada e fiscalizada pelo Banco Central, seguindo todas as normas de segurança do sistema financeiro. Se quiser, posso te mostrar o número de autorização da administradora.
+
+t: "O consórcio Chevrolet é administrado por empresa autorizada e fiscalizada pelo Banco Central, seguindo todas as normas de segurança." (Desconfiado.docx)
+
+tags: desconfiado, segurança, confiabilidade, banco central
+
+---
+
+q: Já teve caso de cliente que perdeu dinheiro no consórcio?
+
+sq: E se a empresa quebrar? Tem histórico negativo? Alguém já saiu no prejuízo?
+
+a: O sistema de consórcios é super regulado no Brasil e os recursos dos clientes são protegidos por regras rígidas. Nunca tivemos caso de perderem dinheiro por má administração. Qualquer dúvida, posso pedir para nosso consultor te mostrar mais informações sobre a segurança dos grupos.
+
+t: "O sistema de consórcios é super regulado no Brasil e os recursos dos clientes são protegidos por regras rígidas." (Desconfiado.docx)
+
+tags: desconfiado, prejuízo, histórico, proteção
+
+---
+
+q: Posso pesquisar a administradora do consórcio onde?
+
+sq: Tem algum site oficial? Como sei que é autorizada? Onde checo o registro?
+
+a: Você pode consultar o site do Banco Central e pesquisar o CNPJ da administradora para ver se está autorizada a operar. Tudo bem transparente!
+
+t: "Você pode consultar o site do Banco Central e pesquisar o CNPJ da administradora para ver se está autorizada a operar." (Desconfiado.docx)
+
+tags: desconfiado, consulta, banco central, transparência
+
+---
+
+q: E se eu pagar e sumirem com meu dinheiro? Qual a garantia?
+
+sq: Tem seguro para isso? E se a empresa fechar? O que acontece?
+
+a: Os valores pagos ficam em conta vinculada à administradora, sob supervisão do Banco Central. Se houver problema, o próprio Banco Central transfere o grupo para outra empresa, protegendo seu dinheiro.
+
+t: "Os valores pagos ficam em conta vinculada à administradora, sob supervisão do Banco Central." (Desconfiado.docx)
+
+tags: desconfiado, garantia, segurança, supervisão
+
+---
+
+q: Como evitar golpe ao pagar boleto do consórcio?
+
+sq: Boleto falso existe? Como saber se é verdadeiro? Tem como garantir?
+
+a: Só pague boletos emitidos pela própria administradora, de preferência pelo portal oficial ou aplicativo. Nunca aceite boleto enviado por terceiros no WhatsApp, sem confirmação. O consultor pode te ajudar a checar a autenticidade sempre que precisar.
+
+t: "Só pague boletos emitidos pela própria administradora, de preferência pelo portal oficial ou aplicativo." (Desconfiado.docx)
+
+tags: desconfiado, boleto, golpe, autenticidade
+
+---
+
+q: Vocês prometem contemplação garantida? Já vi ofertas assim por aí...
+
+sq: Tem como garantir contemplação? Se prometerem devo desconfiar? Isso existe?
+
+a: Ninguém pode garantir contemplação, pois tudo depende de sorteio ou oferta de lance, conforme as regras do grupo. Se alguém prometer, desconfie: isso é proibido pelo Banco Central!
+
+t: "Ninguém pode garantir contemplação, pois tudo depende de sorteio ou oferta de lance." (Desconfiado.docx)
+
+tags: desconfiado, contemplação, promessa, golpe
+
+---
+
+q: E se eu for contemplado e der problema com os documentos?
+
+sq: Posso perder o direito? Tem risco de ser barrado? Como evitar?
+
+a: Você precisa estar com documentação regular e ser aprovado na análise de crédito na hora da contemplação. Por isso, é importante manter tudo atualizado — o consultor pode te orientar sobre os documentos corretos.
+
+t: "Você precisa estar com documentação regular e ser aprovado na análise de crédito na hora da contemplação." (Desconfiado.docx)
+
+tags: desconfiado, documentação, análise de crédito, contemplação
+
+---
+
+q: Existe consórcio falso? Como diferenciar?
+
+sq: Tem golpe se passando por consórcio? Qual o sinal de alerta?
+
+a: Infelizmente existem golpes se passando por consórcio verdadeiro. Sempre confira se a administradora é registrada no Banco Central, desconfie de ofertas milagrosas e nunca pague taxas antecipadas sem confirmação. Se quiser, posso te mostrar como checar tudo isso.
+
+t: "Sempre confira se a administradora é registrada no Banco Central, desconfie de ofertas milagrosas e nunca pague taxas antecipadas sem confirmação." (Desconfiado.docx)
+
+tags: desconfiado, golpe, consórcio falso, alerta
+
+---
+
+q: E se eu desistir, vocês devolvem meu dinheiro mesmo?
+
+sq: Tem pegadinha? A devolução é certa? Quanto demora?
+
+a: A devolução dos valores pagos é prevista em contrato e fiscalizada pelo Banco Central. O prazo e descontos seguem as regras do grupo, mas é garantido para todos os participantes.
+
+t: "A devolução dos valores pagos é prevista em contrato e fiscalizada pelo Banco Central." (Desconfiado.docx)
+
+tags: desconfiado, devolução, garantia, contrato
+
+---
+
+q: Quem fiscaliza se vocês realmente fazem os sorteios?
+
+sq: Tem auditoria? É auditado mesmo? Sorteio pode ser manipulado?
+
+a: Todos os sorteios são realizados sob fiscalização da administradora e podem ser auditados por órgãos reguladores. Você pode acompanhar pelo portal, e qualquer dúvida pode ser checada diretamente com o Banco Central.
+
+t: "Todos os sorteios são realizados sob fiscalização da administradora e podem ser auditados por órgãos reguladores." (Desconfiado.docx)
+
+tags: desconfiado, sorteio, auditoria, fiscalização
+
+---
+
+q: Tem alguma taxa surpresa no consórcio?
+
+sq: Existe pegadinha nos valores? Custa mais caro depois? Como saber o valor real?
+
+a: Não tem taxa surpresa! Tudo é detalhado em contrato antes de fechar: taxa de administração, fundo de reserva, seguro (se houver). O consultor pode revisar tudo com você, sem letra miúda.
+
+t: "Tudo é detalhado em contrato antes de fechar: taxa de administração, fundo de reserva, seguro (se houver)." (Desconfiado.docx)
+
+tags: desconfiado, taxa, transparência, contrato
+
+---
+
+q: Consigo comprovar que paguei tudo certinho?
+
+sq: Vocês emitem recibo? Tem extrato detalhado? Como acompanhar?
+
+a: Você tem acesso a extrato detalhado, recibos de pagamento e acompanhamento online pelo portal do cliente ou app. Tudo é transparente, e se precisar de comprovante, o consultor pode emitir para você.
+
+t: "Você tem acesso a extrato detalhado, recibos de pagamento e acompanhamento online pelo portal do cliente ou app." (Desconfiado.docx)
+
+tags: desconfiado, extrato, recibo, acompanhamento
+
+---
+
+q: Se eu atrasar parcela, vocês podem cancelar minha cota sem aviso?
+
+sq: Tem proteção? Avisam antes? Pode perder tudo?
+
+a: Se houver atraso, você será notificado antes de qualquer medida. O cancelamento só acontece após várias tentativas de regularização, conforme regras do grupo e contrato. O consultor pode te orientar a regularizar se precisar.
+
+t: "O cancelamento só acontece após várias tentativas de regularização, conforme regras do grupo e contrato." (Desconfiado.docx)
+
+tags: desconfiado, atraso, cancelamento, notificação
+
+---
+
+q: Qualquer pessoa pode vender consórcio Chevrolet?
+
+sq: Tem representante oficial? Como sei se estou falando com quem pode vender?
+
+a: Só representantes autorizados e credenciados pela administradora podem vender consórcio Chevrolet. Sempre peça a identificação do consultor e confirme pelo site oficial ou com a própria administradora.
+
+t: "Só representantes autorizados e credenciados pela administradora podem vender consórcio Chevrolet." (Desconfiado.docx)
+
+tags: desconfiado, representante, oficial, credenciamento
+
+---
+
+q: Vocês usam meus dados só para o consórcio? Como é a política de privacidade?
+
+sq: Vão ligar para vender outras coisas? Meus dados ficam protegidos? Tem LGPD?
+
+a: Seus dados são usados apenas para análise e andamento do consórcio, respeitando a Lei Geral de Proteção de Dados (LGPD). Não compartilhamos informações sem sua autorização.
+
+t: "Seus dados são usados apenas para análise e andamento do consórcio, respeitando a Lei Geral de Proteção de Dados (LGPD)." (Desconfiado.docx)
+
+tags: desconfiado, LGPD, privacidade, dados
+
+---
+
+q: Já vi consórcio que some com o grupo depois que todo mundo paga. Vocês garantem que isso não acontece?
+
+sq: Grupo termina direito? Todos recebem? O que acontece no fim?
+
+a: O encerramento do grupo é fiscalizado pelo Banco Central. Todos os valores e contemplações são auditados e o saldo final é devolvido conforme regulamento. Nunca teve problema desse tipo na administradora Chevrolet.
+
+t: "O encerramento do grupo é fiscalizado pelo Banco Central." (Desconfiado.docx)
+
+tags: desconfiado, encerramento, grupo, fiscalização
+
+---
+
+q: Como saber se o consultor que está falando comigo é mesmo oficial?
+
+sq: Tem alguma credencial? Vocês mandam comprovante? Como checar?
+
+a: Todo consultor oficial tem registro na administradora. Você pode pedir a identificação dele e confirmar pelo site ou WhatsApp da administradora. Se quiser, posso te mostrar o passo a passo para checar.
+
+t: "Todo consultor oficial tem registro na administradora." (Desconfiado.docx)
+
+tags: desconfiado, consultor, oficial, registro
+
+---
+
+q: Já aconteceu da administradora sumir do mercado?
+
+sq: E se isso acontecer comigo? Meu dinheiro está protegido mesmo assim?
+
+a: Se uma administradora deixar de atuar, o Banco Central transfere a gestão dos grupos para outra empresa autorizada. O dinheiro do cliente nunca é perdido, pois está protegido por lei.
+
+t: "Se uma administradora deixar de atuar, o Banco Central transfere a gestão dos grupos para outra empresa autorizada." (Desconfiado.docx)
+
+tags: desconfiado, proteção, administradora, banco central
+
+---
+
+q: Tem alguma dica extra para não cair em golpe de consórcio?
+
+sq: Como evitar fraude? O que preciso observar? Quais cuidados tomar?
+
+a: Desconfie de promessas de contemplação garantida, sempre confira o registro da administradora no Banco Central, e nunca pague nada para pessoa física. Qualquer dúvida, peça orientação ao consultor oficial.
+
+t: "Desconfie de promessas de contemplação garantida, sempre confira o registro da administradora no Banco Central, e nunca pague nada para pessoa física." (Desconfiado.docx)
+
+tags: desconfiado, fraude, golpe, dica
+
+---
+
+q: O consórcio Chevrolet já foi multado ou teve problemas com o Banco Central?
+
+sq: Tem histórico ruim? Já teve punição? Já saiu na mídia?
+
+a: Não há registros de multas ou punições do Banco Central contra a administradora Chevrolet. Todo o histórico é transparente e você pode consultar diretamente no site do Bacen se quiser total segurança.
+
+t: "Todo o histórico é transparente e você pode consultar diretamente no site do Bacen se quiser total segurança." (Desconfiado.docx)
+
+tags: desconfiado, histórico, banco central, punição
+
+---
+
+q: Já ouvi que consórcio demora para devolver dinheiro. É verdade?
+
+sq: A devolução enrola? Qual o prazo? Vocês seguram o valor?
+
+a: O prazo de devolução está no contrato e segue as regras do Banco Central. Não há enrolação — todo valor é devolvido dentro do combinado. O consultor pode explicar seu prazo específico.
+
+t: "O prazo de devolução está no contrato e segue as regras do Banco Central." (Desconfiado.docx)
+
+tags: desconfiado, devolução, prazo, banco central
+
+---
+
+q: E se eu perder meus comprovantes de pagamento?
+
+sq: Como faço para provar? Vocês me ajudam? Tem registro online?
+
+a: Não se preocupe! Todo pagamento fica registrado no sistema da administradora e pode ser acessado pelo portal do cliente. Se precisar de 2ª via, é só pedir ao consultor.
+
+t: "Todo pagamento fica registrado no sistema da administradora e pode ser acessado pelo portal do cliente." (Desconfiado.docx)
+
+tags: desconfiado, comprovante, pagamento, sistema
+
+---
+
+q: Vocês vendem meus dados para parceiros?
+
+sq: Meu telefone vai para telemarketing? Usam para outras ofertas?
+
+a: Seus dados são usados somente para andamento do consórcio, respeitando a LGPD. Não compartilhamos informações sem sua autorização.
+
+t: "Seus dados são usados somente para andamento do consórcio, respeitando a LGPD." (Desconfiado.docx)
+
+tags: desconfiado, dados, privacidade, LGPD
+
+---
+
+q: Posso exigir receber tudo por escrito?
+
+sq: Mandam contrato antes? Tem documento oficial? Posso revisar tudo antes?
+
+a: Sim! Você recebe o contrato completo antes de fechar, pode ler com calma e tirar todas as dúvidas com o consultor. Só assina quando estiver 100% seguro.
+
+t: "Você recebe o contrato completo antes de fechar, pode ler com calma e tirar todas as dúvidas com o consultor." (Desconfiado.docx)
+
+tags: desconfiado, contrato, documento, revisão
+
+---
+
+q: Consigo acompanhar meu saldo mesmo sem falar com consultor?
+
+sq: Portal é atualizado? Preciso ligar para saber saldo? É transparente?
+
+a: Você acompanha seu saldo, parcelas e todo o extrato pelo portal do cliente, sem depender de ninguém. Tudo é atualizado em tempo real.
+
+t: "Você acompanha seu saldo, parcelas e todo o extrato pelo portal do cliente, sem depender de ninguém." (Desconfiado.docx)
+
+tags: desconfiado, saldo, extrato, autonomia
+
+---
+
+q: E se eu for sorteado e der problema na análise de crédito?
+
+sq: Perco a carta? Consigo tentar de novo? O que faço?
+
+a: Se não passar na análise de crédito, pode indicar outro titular aprovado ou regularizar seus dados para tentar nas próximas contemplações. O consultor te ajuda no que for necessário.
+
+t: "Se não passar na análise de crédito, pode indicar outro titular aprovado ou regularizar seus dados para tentar nas próximas contemplações." (Desconfiado.docx)
+
+tags: desconfiado, análise de crédito, contemplação, titular
+
+---
+
+q: A administradora pode mudar as regras depois que eu já assinei?
+
+sq: Mudam contrato no meio? Podem aumentar taxa? Tenho garantia das condições?
+
+a: Todas as regras são fixadas no momento do contrato. Qualquer alteração precisa ser comunicada e aceita pelos participantes. Ninguém muda as condições de surpresa!
+
+t: "Todas as regras são fixadas no momento do contrato. Qualquer alteração precisa ser comunicada e aceita pelos participantes." (Desconfiado.docx)
+
+tags: desconfiado, contrato, regras, garantia
+
+---
+
+q: O boleto do consórcio pode vir com nome de terceiros?
+
+sq: Recebi boleto diferente, é seguro? Tem perigo de fraude?
+
+a: O boleto sempre deve vir em nome da administradora do consórcio Chevrolet. Se aparecer nome de terceiros, não pague e peça orientação ao consultor para evitar golpe.
+
+t: "O boleto sempre deve vir em nome da administradora do consórcio Chevrolet." (Desconfiado.docx)
+
+tags: desconfiado, boleto, fraude, segurança
+
+---
+
+q: Vocês gravam as conversas de atendimento?
+
+sq: Grava ligação? WhatsApp é monitorado? Como funciona a proteção?
+
+a: Alguns atendimentos podem ser gravados para segurança, conforme a LGPD. O objetivo é garantir o melhor suporte e registrar dúvidas, nunca usar para outras finalidades.
+
+t: "Alguns atendimentos podem ser gravados para segurança, conforme a LGPD." (Desconfiado.docx)
+
+tags: desconfiado, gravação, atendimento, LGPD
+
+---
+
+q: Tem multa para sair do consórcio antes?
+
+sq: Existe penalidade? Quanto custa cancelar? Posso perder dinheiro?
+
+a: Ao desistir, existe desconto de taxas conforme contrato. Não é multa surpresa — tudo é informado antes. O consultor pode mostrar os valores certinhos para você.
+
+t: "Ao desistir, existe desconto de taxas conforme contrato. Não é multa surpresa — tudo é informado antes." (Desconfiado.docx)
+
+tags: desconfiado, multa, desistência, contrato
+
+---
+
+q: Como saber que o valor da carta de crédito está garantido?
+
+sq: Pode mudar? Tem garantia real? E se desvalorizar?
+
+a: O valor da carta de crédito é reajustado conforme o índice do grupo, justamente para garantir o poder de compra. Nada é alterado sem previsão contratual.
+
+t: "O valor da carta de crédito é reajustado conforme o índice do grupo, justamente para garantir o poder de compra." (Desconfiado.docx)
+
+tags: desconfiado, carta de crédito, garantia, reajuste
+
+---
+
+q: Quem faz auditoria nas contas do consórcio?
+
+sq: Tem fiscalização externa? Quem controla as finanças? É auditado?
+
+a: O consórcio é auditado por empresas independentes e pelo Banco Central. Toda movimentação é transparente e pode ser consultada em caso de dúvida.
+
+t: "O consórcio é auditado por empresas independentes e pelo Banco Central." (Desconfiado.docx)
+
+tags: desconfiado, auditoria, finanças, transparência
+
+---
+
+q: E se eu não concordar com alguma cobrança?
+
+sq: Tem canal de reclamação? Posso contestar valores? Como resolver?
+
+a: Qualquer cobrança pode ser contestada diretamente com a administradora ou consultor. Existe também o canal oficial do Banco Central para reclamações, se necessário.
+
+t: "Qualquer cobrança pode ser contestada diretamente com a administradora ou consultor. Existe também o canal oficial do Banco Central para reclamações." (Desconfiado.docx)
+
+tags: desconfiado, contestação, cobrança, reclamação
+
+---
+
+q: Vocês oferecem contrato impresso se eu pedir?
+
+sq: Preciso assinar digital? Pode mandar impresso? Tem opção em papel?
+
+a: Se preferir, pode solicitar o contrato impresso, além da versão digital. A escolha é sua — a prioridade é sua segurança e tranquilidade.
+
+t: "Se preferir, pode solicitar o contrato impresso, além da versão digital." (Desconfiado.docx)
+
+tags: desconfiado, contrato, impresso, opção
+
+---
+
+q: Meu dinheiro pode ficar retido no consórcio se eu não usar a carta?
+
+sq: Fica preso? Tem prazo para usar? O que acontece depois?
+
+a: Após ser contemplado, existe prazo para usar a carta, conforme regulamento. Se não usar, o valor retorna para o grupo e você recebe o saldo devido. O consultor pode explicar o prazo do seu grupo.
+
+t: "Após ser contemplado, existe prazo para usar a carta, conforme regulamento." (Desconfiado.docx)
+
+tags: desconfiado, retenção, carta de crédito, prazo
+
+---
+
+q: Quem é responsável se acontecer fraude com meu boleto?
+
+sq: Administradora cobre prejuízo? Tem seguro? Como agir?
+
+a: Sempre avise imediatamente o consultor e a administradora em caso de suspeita de fraude. Cada caso é avaliado individualmente, mas todo suporte será dado para tentar minimizar o prejuízo.
+
+t: "Sempre avise imediatamente o consultor e a administradora em caso de suspeita de fraude." (Desconfiado.docx)
+
+tags: desconfiado, fraude, boleto, responsabilidade
+
+---
+
+q: O consórcio já teve algum escândalo como pirâmide financeira?
+
+sq: Tem histórico negativo? Já caiu na mídia? Posso confiar mesmo?
+
+a: O consórcio é um sistema regulado há décadas pelo Banco Central, totalmente diferente de pirâmide. Nunca houve escândalo desse tipo com consórcio autorizado.
+
+t: "O consórcio é um sistema regulado há décadas pelo Banco Central, totalmente diferente de pirâmide." (Desconfiado.docx)
+
+tags: desconfiado, pirâmide, escândalo, histórico
+
+---
+
+q: Posso pedir auditoria ou relatório de tudo o que paguei?
+
+sq: Mandam extrato oficial? Tem documento detalhado? Consigo comprovar tudo?
+
+a: Você pode solicitar extrato e relatórios oficiais sempre que quiser. Tudo é documentado e acessível pelo portal do cliente ou direto com o consultor.
+
+t: "Você pode solicitar extrato e relatórios oficiais sempre que quiser." (Desconfiado.docx)
+
+tags: desconfiado, relatório, extrato, documentação
+
+---
+
+q: Tem algum selo de qualidade ou certificação?
+
+sq: Consórcio Chevrolet é certificado? Tem ISO, selo, prêmio?
+
+a: A administradora Chevrolet segue as normas do Banco Central e pode ter selos de qualidade do setor. O consultor pode mostrar as certificações disponíveis para você.
+
+t: "A administradora Chevrolet segue as normas do Banco Central e pode ter selos de qualidade do setor." (Desconfiado.docx)
+
+tags: desconfiado, selo, certificação, qualidade
+
+---
+q: Como saber que o grupo não está cheio de cotas fantasmas?
+
+sq: Tem participante falso? Posso checar a lista? É transparente mesmo?
+
+a: Todos os participantes do grupo são clientes reais e registrados pela administradora, conforme fiscalização do Banco Central. Não existe cota fantasma ou nome inventado. Transparência total!
+
+t: "Todos os participantes do grupo são clientes reais e registrados pela administradora, conforme fiscalização do Banco Central." (Desconfiado.docx)
+
+tags: desconfiado, transparência, cota, fiscalização
+
+---
+
+q: E se eu receber proposta por e-mail ou rede social, posso confiar?
+
+sq: Vocês fazem contato por Instagram? Tem perigo de golpe por direct?
+
+a: Sempre desconfie de propostas recebidas fora dos canais oficiais. Só aceite atendimento pelos contatos informados no site da administradora ou WhatsApp oficial. O consultor pode te mostrar como confirmar o canal certo.
+
+t: "Só aceite atendimento pelos contatos informados no site da administradora ou WhatsApp oficial." (Desconfiado.docx)
+
+tags: desconfiado, contato, rede social, golpe
+
+---
+
+q: O consultor pode cobrar alguma taxa extra só para “garantir vaga”?
+
+sq: Cobram para reservar grupo? Isso é certo? Pode acontecer?
+
+a: Não existe cobrança para garantir vaga em grupo de consórcio Chevrolet. Qualquer taxa extra deve ser desconfiada. Sempre confirme com a administradora antes de pagar qualquer valor.
+
+t: "Não existe cobrança para garantir vaga em grupo de consórcio Chevrolet. Qualquer taxa extra deve ser desconfiada." (Desconfiado.docx)
+
+tags: desconfiado, taxa, vaga, golpe
+
+---
+
+q: Já ouvi que consórcio não entrega a carta para todos. Isso é verdade?
+
+sq: Tem gente que fica sem carta? Todos recebem mesmo? Qual garantia?
+
+a: Todos os participantes ativos e em dia recebem sua carta de crédito até o fim do grupo, como está no regulamento e garantido pelo Banco Central.
+
+t: "Todos os participantes ativos e em dia recebem sua carta de crédito até o fim do grupo, como está no regulamento." (Desconfiado.docx)
+
+tags: desconfiado, carta de crédito, entrega, garantia
+
+---
+
+q: O site da administradora é seguro para cadastro?
+
+sq: Tem certificado digital? Meus dados ficam protegidos? É confiável?
+
+a: O site da administradora usa tecnologia de segurança, certificado digital e segue a LGPD para proteger seus dados. Só faça cadastro pelo endereço oficial.
+
+t: "O site da administradora usa tecnologia de segurança, certificado digital e segue a LGPD para proteger seus dados." (Desconfiado.docx)
+
+tags: desconfiado, site, segurança digital, cadastro
+
+---
+
+q: E se o boleto vencer no final de semana? Posso pagar depois?
+
+sq: Tem multa? Consigo pagar segunda-feira? Perco o sorteio?
+
+a: Você pode pagar no próximo dia útil sem problema. Só fique atento para não acumular atraso. O consultor pode te orientar em caso de dúvida sobre o pagamento.
+
+t: "Você pode pagar no próximo dia útil sem problema. Só fique atento para não acumular atraso." (Desconfiado.docx)
+
+tags: desconfiado, boleto, vencimento, pagamento
+
+---
+
+q: Já tiveram problemas de fraude ou roubo de dados no consórcio Chevrolet?
+
+sq: Houve vazamento? Meus dados estão seguros? Tem histórico de ataque?
+
+a: Não há registros de vazamentos ou fraudes envolvendo dados dos clientes Chevrolet. Todo sistema é protegido e segue as normas de segurança digital e LGPD.
+
+t: "Todo sistema é protegido e segue as normas de segurança digital e LGPD." (Desconfiado.docx)
+
+tags: desconfiado, segurança, dados, vazamento
+
+---
+
+q: Posso acompanhar todos os pagamentos e extratos do grupo?
+
+sq: Vejo histórico completo? Extrato é detalhado? É online?
+
+a: Sim, você tem acesso ao extrato de todas as suas parcelas, lances e contemplações pelo portal do cliente. Transparência total a qualquer momento!
+
+t: "Você tem acesso ao extrato de todas as suas parcelas, lances e contemplações pelo portal do cliente." (Desconfiado.docx)
+
+tags: desconfiado, extrato, histórico, transparência
+
+---
+
+q: Como saber se não estou caindo num golpe ao fechar consórcio pelo WhatsApp?
+
+sq: WhatsApp é seguro? Tem jeito de conferir? Como evitar fraude?
+
+a: Sempre confira se o número é oficial da administradora e nunca pague nada para contas de pessoa física. O consultor pode te ajudar a validar o contato antes de fechar qualquer negócio.
+
+t: "Sempre confira se o número é oficial da administradora e nunca pague nada para contas de pessoa física." (Desconfiado.docx)
+
+tags: desconfiado, whatsapp, golpe, contato
+
+---
+
+q: O consultor pode dar desconto ou alterar valores do grupo?
+
+sq: Tem margem para negociação? Pode mexer na taxa? Ou isso é padrão?
+
+a: Os valores e taxas do consórcio Chevrolet são definidos pela administradora e não podem ser alterados pelo consultor. Qualquer promessa diferente deve ser checada antes de fechar.
+
+t: "Os valores e taxas do consórcio Chevrolet são definidos pela administradora e não podem ser alterados pelo consultor." (Desconfiado.docx)
+
+tags: desconfiado, desconto, taxa, valores
+
+---
+
+q: Já vi gente dizendo que caiu em golpe de consórcio na internet. Como não ser mais um?
+
+sq: O que fazer diferente? Tem orientação oficial? Consigo falar com alguém?
+
+a: Sempre contrate direto pelos canais oficiais da Chevrolet e tire todas as dúvidas com o consultor credenciado. Nunca aceite proposta de terceiros sem checar registro no Banco Central.
+
+t: "Sempre contrate direto pelos canais oficiais da Chevrolet e tire todas as dúvidas com o consultor credenciado." (Desconfiado.docx)
+
+tags: desconfiado, golpe, orientação, canal oficial
+
+---
+
+q: Como sei que meu grupo realmente existe?
+
+sq: Tem documento do grupo? Como verificar? Existe comprovante?
+
+a: Você recebe o número do grupo e contrato oficial, além de poder consultar a existência no sistema da administradora ou pedir o comprovante sempre que quiser.
+
+t: "Você recebe o número do grupo e contrato oficial, além de poder consultar a existência no sistema da administradora." (Desconfiado.docx)
+
+tags: desconfiado, grupo, contrato, consulta
+
+---
+
+q: Tem reclamação de clientes Chevrolet no Reclame Aqui?
+
+sq: Já vi nota ruim. Como resolver? Vocês respondem as reclamações?
+
+a: A administradora Chevrolet responde todas as reclamações em canais oficiais e busca resolver cada caso individualmente. Qualquer dúvida, você pode consultar o Reclame Aqui e pedir orientação ao consultor.
+
+t: "A administradora Chevrolet responde todas as reclamações em canais oficiais e busca resolver cada caso individualmente." (Desconfiado.docx)
+
+tags: desconfiado, reclamação, Reclame Aqui, atendimento
+
+---
+
+q: Vocês gravam as ligações do atendimento? Por que isso acontece?
+
+sq: Tudo é monitorado? É legal? O que fazem com as gravações?
+
+a: Algumas ligações são gravadas para garantir a qualidade do atendimento e a segurança do cliente, conforme previsto na LGPD. As gravações não são usadas para outros fins.
+
+t: "Algumas ligações são gravadas para garantir a qualidade do atendimento e a segurança do cliente, conforme previsto na LGPD." (Desconfiado.docx)
+
+tags: desconfiado, gravação, atendimento, LGPD
+
+---
+
+q: Tem gente que faz consórcio falso usando nome da Chevrolet?
+
+sq: Já viram golpe desse tipo? Como identificar? Como fugir?
+
+a: Infelizmente, existem golpistas que se passam por representantes Chevrolet. Sempre confirme o nome e registro do consultor no site da administradora antes de fazer qualquer pagamento.
+
+t: "Sempre confirme o nome e registro do consultor no site da administradora antes de fazer qualquer pagamento." (Desconfiado.docx)
+
+tags: desconfiado, golpe, identidade, Chevrolet
+
+---
+
+q: Se eu assinar digitalmente, tem validade jurídica?
+
+sq: Assinatura digital vale? Posso confiar? É reconhecida em cartório?
+
+a: Assinatura digital tem validade jurídica, com certificação e reconhecimento em todo o território nacional. Mais prático e seguro!
+
+t: "Assinatura digital tem validade jurídica, com certificação e reconhecimento em todo o território nacional." (Desconfiado.docx)
+
+tags: desconfiado, assinatura digital, validade, segurança
+
+---
+
+q: O consultor pode prometer alguma vantagem extra só para fechar agora?
+
+sq: Tem promoção exclusiva? Pode dar brinde? Isso existe?
+
+a: Desconfie de qualquer oferta não oficial. Todas as condições e promoções são divulgadas pela administradora. O consultor pode te mostrar o que é oficial antes de você fechar.
+
+t: "Todas as condições e promoções são divulgadas pela administradora." (Desconfiado.docx)
+
+tags: desconfiado, vantagem, promoção, oficial
+
+---
+
+q: Posso pedir comprovante de pagamento a qualquer momento?
+
+sq: Mandam recibo na hora? Como garantir que estou em dia?
+
+a: Pode sim! Todos os comprovantes ficam disponíveis no portal e podem ser solicitados ao consultor a qualquer momento. Sua tranquilidade é prioridade.
+
+t: "Todos os comprovantes ficam disponíveis no portal e podem ser solicitados ao consultor a qualquer momento." (Desconfiado.docx)
+
+tags: desconfiado, comprovante, pagamento, recibo
+
+---
+
+q: Se o grupo acabar e sobrar dinheiro, quem fica com o saldo?
+
+sq: O dinheiro é devolvido? Vocês ficam com o resto? Como é feita a divisão?
+
+a: Qualquer saldo remanescente ao fim do grupo é devolvido proporcionalmente aos participantes, conforme previsto em contrato e fiscalizado pelo Banco Central.
+
+t: "Qualquer saldo remanescente ao fim do grupo é devolvido proporcionalmente aos participantes." (Desconfiado.docx)
+
+tags: desconfiado, saldo, devolução, grupo
+
+---
+
+q: Se eu quiser mudar de consultor, posso trocar sem problema?
+
+sq: Posso pedir outro atendente? Tem liberdade de escolha? É fácil trocar?
+
+a: Você pode solicitar atendimento com outro consultor sempre que quiser, sem nenhum custo ou burocracia. O importante é se sentir seguro e bem atendido!
+
+t: "Você pode solicitar atendimento com outro consultor sempre que quiser, sem nenhum custo ou burocracia." (Desconfiado.docx)
+
+tags: desconfiado, consultor, troca, atendimento
+
+---
+q: O consultor pode acelerar minha contemplação se eu pagar algo a mais?
+
+sq: Tem jeitinho para antecipar? Dá para furar fila? Vale algum extra?
+
+a: Não existe forma de antecipar contemplação pagando extra. Qualquer promessa desse tipo é irregular e deve ser denunciada. Contemplação só acontece por sorteio ou lance, seguindo as regras do grupo.
+
+t: "Não existe forma de antecipar contemplação pagando extra. Qualquer promessa desse tipo é irregular e deve ser denunciada." (Desconfiado.docx)
+
+tags: desconfiado, contemplação, promessa, irregularidade
+
+---
+
+q: Já teve algum problema com funcionários ou consultores da Chevrolet?
+
+sq: Tem histórico ruim? Já houve fraude interna? Como é tratado?
+
+a: A Chevrolet preza pela seleção rigorosa e monitoramento dos consultores. Qualquer suspeita de irregularidade é apurada imediatamente e pode ser denunciada pelos canais oficiais.
+
+t: "Qualquer suspeita de irregularidade é apurada imediatamente e pode ser denunciada pelos canais oficiais." (Desconfiado.docx)
+
+tags: desconfiado, funcionário, consultor, denúncia
+
+---
+
+q: Consórcio Chevrolet já saiu em reportagem negativa?
+
+sq: Tem notícia ruim? Algum escândalo? Onde vejo?
+
+a: O histórico é positivo, sem escândalos envolvendo consórcio Chevrolet. Qualquer informação pode ser consultada em sites oficiais de notícias ou no Banco Central.
+
+t: "O histórico é positivo, sem escândalos envolvendo consórcio Chevrolet." (Desconfiado.docx)
+
+tags: desconfiado, reportagem, notícia, histórico
+
+---
+
+q: Se o consultor prometer algo fora do contrato, vocês cumprem?
+
+sq: Vale o que ele falar por áudio? Tem validade? Como evitar problema?
+
+a: Só é válido o que está no contrato assinado. Sempre peça tudo por escrito, e se surgir dúvida, confirme com a administradora. Não confie em promessas sem documentação oficial.
+
+t: "Só é válido o que está no contrato assinado. Sempre peça tudo por escrito, e se surgir dúvida, confirme com a administradora." (Desconfiado.docx)
+
+tags: desconfiado, promessa, contrato, validade
+
+---
+
+q: Já teve fraude digital envolvendo grupo ou consultor Chevrolet?
+
+sq: Alguém clonou WhatsApp? E-mail falso já aconteceu? Como me proteger?
+
+a: A Chevrolet investe em segurança digital para evitar fraudes, mas golpes podem acontecer em qualquer empresa. Sempre confirme contatos e nunca envie dados para terceiros não autorizados.
+
+t: "A Chevrolet investe em segurança digital para evitar fraudes, mas golpes podem acontecer em qualquer empresa." (Desconfiado.docx)
+
+tags: desconfiado, fraude digital, segurança, proteção
+
+---
+
+q: Vocês fornecem comprovante de participação no grupo?
+
+sq: Tem declaração oficial? Como provo que sou do grupo? Recebo documento?
+
+a: Você recebe comprovante de participação no grupo, número da cota e contrato oficial logo após a adesão. Tudo registrado e documentado.
+
+t: "Você recebe comprovante de participação no grupo, número da cota e contrato oficial logo após a adesão." (Desconfiado.docx)
+
+tags: desconfiado, comprovante, grupo, documento
+
+---
+
+q: Tem casos de clientes insatisfeitos que não receberam o valor de volta?
+
+sq: Já aconteceu de dar problema? Vocês resolvem tudo? Tem canal de reclamação?
+
+a: Não há histórico de retenção indevida de valores. Qualquer insatisfação é resolvida conforme o contrato e mediada pela administradora ou Banco Central. Existem canais de reclamação abertos para você.
+
+t: "Qualquer insatisfação é resolvida conforme o contrato e mediada pela administradora ou Banco Central." (Desconfiado.docx)
+
+tags: desconfiado, insatisfação, devolução, reclamação
+
+---
+
+q: Vocês mandam confirmação por e-mail após fechar consórcio?
+
+sq: Tem e-mail oficial? Como saber que fechei? Recebo comprovante?
+
+a: Após fechar, você recebe confirmação oficial por e-mail, WhatsApp ou portal do cliente, com toda documentação. Sempre confira se o e-mail vem do domínio da administradora.
+
+t: "Após fechar, você recebe confirmação oficial por e-mail, WhatsApp ou portal do cliente, com toda documentação." (Desconfiado.docx)
+
+tags: desconfiado, confirmação, e-mail, fechamento
+
+---
+
+q: Existe ranking ou nota pública dos grupos de consórcio?
+
+sq: Posso ver a nota do grupo? Existe ranking oficial? Dá para comparar?
+
+a: Não existe ranking oficial dos grupos, mas você pode consultar histórico de contemplação, reclamações e índices de satisfação com a administradora. O consultor pode mostrar esses dados para você.
+
+t: "Você pode consultar histórico de contemplação, reclamações e índices de satisfação com a administradora." (Desconfiado.docx)
+
+tags: desconfiado, ranking, nota, grupo
+
+---
+
+q: Vocês cobram taxa para enviar segunda via de boleto ou contrato?
+
+sq: Tem cobrança extra? Segunda via é grátis? Qualquer documento tem custo?
+
+a: Segunda via de boleto, extrato ou contrato costuma ser gratuita e pode ser solicitada pelo portal ou ao consultor. Caso exista alguma taxa, tudo será informado antes.
+
+t: "Segunda via de boleto, extrato ou contrato costuma ser gratuita e pode ser solicitada pelo portal ou ao consultor." (Desconfiado.docx)
+
+tags: desconfiado, segunda via, taxa, documento
+
+---
+
+q: O grupo pode ser encerrado antes do prazo?
+
+sq: Tem risco de acabar de repente? Todos são avisados? Como funciona?
+
+a: O grupo só pode ser encerrado conforme regras contratuais e todos os participantes são avisados previamente. Todo processo é acompanhado pelo Banco Central.
+
+t: "O grupo só pode ser encerrado conforme regras contratuais e todos os participantes são avisados previamente." (Desconfiado.docx)
+
+tags: desconfiado, encerramento, grupo, aviso
+
+---
+
+q: Se minha carta de crédito for liberada, vocês ajudam a negociar o melhor preço do carro?
+
+sq: Tem indicação de loja? Consultor acompanha compra? Ganho alguma vantagem?
+
+a: O papel da administradora é liberar a carta e orientar você. Negociação de preço fica entre cliente e loja, mas o consultor pode indicar parceiros de confiança se você quiser.
+
+t: "Negociação de preço fica entre cliente e loja, mas o consultor pode indicar parceiros de confiança se você quiser." (Desconfiado.docx)
+
+tags: desconfiado, carta de crédito, negociação, loja
+
+---
+
+q: O consórcio pode ser alterado por decisão judicial?
+
+sq: Tem risco de mudar regra? Algum juiz pode obrigar a mudar contrato? Já aconteceu?
+
+a: Mudanças só acontecem em caso de decisão judicial específica para o grupo, o que é raro. Normalmente, o contrato segue até o final do grupo como foi assinado.
+
+t: "Mudanças só acontecem em caso de decisão judicial específica para o grupo, o que é raro." (Desconfiado.docx)
+
+tags: desconfiado, decisão judicial, contrato, regra
+
+---
+
+q: Se eu perder acesso ao portal, como consulto meu saldo?
+
+sq: Esqueci senha, perdi acesso, o que faço? Tem outro jeito?
+
+a: Você pode recuperar o acesso pelo suporte do portal ou pedir auxílio ao consultor. Todos os dados ficam protegidos e só são entregues com sua autorização.
+
+t: "Você pode recuperar o acesso pelo suporte do portal ou pedir auxílio ao consultor." (Desconfiado.docx)
+
+tags: desconfiado, portal, acesso, suporte
+
+---
+
+q: Se acontecer fraude, vocês avisam os clientes?
+
+sq: Informam em caso de golpe? Tem aviso de segurança? Já aconteceu?
+
+a: Qualquer situação de fraude ou risco é comunicada imediatamente aos clientes, junto das orientações de segurança. Transparência total é compromisso da Chevrolet.
+
+t: "Qualquer situação de fraude ou risco é comunicada imediatamente aos clientes, junto das orientações de segurança." (Desconfiado.docx)
+
+tags: desconfiado, fraude, aviso, segurança
+
+---
+
+q: Já teve problema de erro em assembleia ou sorteio?
+
+sq: Sorteio pode ser refeito? O que acontece se errar?
+
+a: Em caso de erro comprovado, a administradora corrige imediatamente e, se necessário, refaz o sorteio com total transparência. Todos são avisados e o processo é auditado.
+
+t: "Em caso de erro comprovado, a administradora corrige imediatamente e, se necessário, refaz o sorteio com total transparência." (Desconfiado.docx)
+
+tags: desconfiado, assembleia, sorteio, erro
+
+---
+
+q: Posso cancelar o consórcio por e-mail ou WhatsApp?
+
+sq: Preciso ir até a loja? Tem que assinar papel? É fácil cancelar?
+
+a: Você pode pedir cancelamento pelos canais digitais, como WhatsApp, e-mail ou portal. Todo o processo é documentado para sua segurança.
+
+t: "Você pode pedir cancelamento pelos canais digitais, como WhatsApp, e-mail ou portal." (Desconfiado.docx)
+
+tags: desconfiado, cancelamento, digital, facilidade
+
+---
+
+q: Como saber que não estou pagando mais do que os outros participantes?
+
+sq: Parcela é igual para todos? Tem diferença de valor? É justo?
+
+a: Todos do mesmo grupo pagam parcelas conforme as mesmas regras. Qualquer diferença depende do valor da carta ou reajuste do bem, tudo previsto em contrato.
+
+t: "Todos do mesmo grupo pagam parcelas conforme as mesmas regras. Qualquer diferença depende do valor da carta ou reajuste do bem." (Desconfiado.docx)
+
+tags: desconfiado, parcela, igualdade, grupo
+
+---
+
+q: Posso pedir reunião presencial para tirar dúvidas antes de fechar?
+
+sq: Tem atendimento físico? Posso conversar ao vivo? Ou é tudo online?
+
+a: Você pode agendar atendimento presencial, se preferir. O importante é tirar todas as dúvidas e se sentir seguro antes de contratar.
+
+t: "Você pode agendar atendimento presencial, se preferir. O importante é tirar todas as dúvidas e se sentir seguro antes de contratar." (Desconfiado.docx)
+
+tags: desconfiado, reunião, presencial, atendimento
+
+---
+
+q: Tem como acompanhar assembleia ao vivo?
+
+sq: Vocês transmitem sorteio? Tem transmissão online? Posso assistir?
+
+a: Muitas assembleias são transmitidas online pelo portal ou app, para você acompanhar tudo em tempo real e com transparência total.
+
+t: "Muitas assembleias são transmitidas online pelo portal ou app, para você acompanhar tudo em tempo real." (Desconfiado.docx)
+
+tags: desconfiado, assembleia, transmissão, online
+
+---

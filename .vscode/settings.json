@@ -1,0 +1,63 @@
+{
+    "python.defaultInterpreterPath": "./.venv/bin/python",
+    "python.terminal.activateEnvironment": true,
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": false,
+    "python.linting.flake8Enabled": false,
+    "python.formatting.provider": "black",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.debugger.breakpoints.showAllConfigurations": true,
+    "python.debugger.justMyCode": false,
+    "debug.allowBreakpointsEverywhere": true,
+    "debug.console.acceptSuggestionOnEnter": "on",
+    "debug.console.fontSize": 14,
+    "debug.console.wordWrap": true,
+    "debug.inlineValues": "on",
+    "debug.showInStatusBar": "always",
+    "debug.terminal.clearBeforeReusing": true,
+    "debug.openDebug": "openOnDebugBreak",
+    "debug.focusWindowOnBreak": true,
+    "debug.showBreakpointsInOverviewRuler": true,
+    "debug.toolBarLocation": "floating",
+    "files.exclude": {
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        "**/*.pyd": true,
+        ".Python": true,
+        "env": true,
+        "pip-log.txt": true,
+        "pip-delete-this-directory.txt": true,
+        ".tox": true,
+        ".coverage": true,
+        ".coverage.*": true,
+        ".cache": true,
+        "nosetests.xml": true,
+        "coverage.xml": true,
+        "*.cover": true,
+        "*.log": true,
+        ".git": true,
+        ".mypy_cache": true,
+        ".pytest_cache": true,
+        ".hypothesis": true
+    },
+    "python.analysis.extraPaths": [
+        "./src"
+    ],
+    "python.envFile": "${workspaceFolder}/.env",
+    "terminal.integrated.env.osx": {
+        "PYTHONPATH": "${workspaceFolder}/src"
+    },
+    "autoDocstring.docstringFormat": "google",
+    "editor.rulers": [
+        88,
+        120
+    ],
+    "editor.formatOnSave": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true
+}

@@ -4,7 +4,21 @@ version = "0.1.0"
 description = "crewai_lead_qualification_chatbot using crewAI"
 authors = [{ name = "Your Name", email = "you@example.com" }]
 requires-python = ">=3.10,<3.13"
-dependencies = ["crewai[tools]>=0.100.1,<1.0.0", "gradio==5.16.0"]
+dependencies = [
+    "crewai[tools]>=0.100.1,<1.0.0",
+    "gradio==5.16.0",
+    "fastapi>=0.104.0",
+    "uvicorn[standard]>=0.24.0",
+    "sqlalchemy>=2.0.0",
+    "psycopg2-binary>=2.9.0",
+    "pydantic>=2.0.0",
+    "python-multipart>=0.0.6",
+    "requests>=2.31.0",
+    "aiofiles>=23.0.0",
+    "sentence-transformers>=2.2.2",
+    "chromadb>=0.4.15",
+    "redis[hiredis]>=4.5.0"
+]
 
 [project.scripts]
 kickoff = "crewai_lead_qualification_chatbot.main:kickoff"
@@ -13,6 +27,9 @@ plot = "crewai_lead_qualification_chatbot.main:plot"
 [build-system]
 requires = ["hatchling"]
 build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src"]
 
 [tool.crewai]
 type = "flow"

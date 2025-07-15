@@ -1,6 +1,7 @@
-from crewai import Agent, Crew, Process, Task
+from crewai import Agent, Crew, Process, Task, LLM
 from crewai.project import CrewBase, agent, crew, task
-from crewai_lead_qualification_chatbot.models import ChatState
+from models import ChatState
+import os
 
 
 @CrewBase
@@ -10,10 +11,17 @@ class ChatCrew:
     agents_config = "config/agents.yaml"
     tasks_config = "config/tasks.yaml"
 
+    api_key = os.getenv('OPENAI_API_KEY')
+
     @agent
-    def lead_qualifier(self) -> Agent:
+    def line_agent(self) -> Agent:
         return Agent(
-            config=self.agents_config["lead_qualifier"],
+            config=self.agents_config["line_agent"],
+            llm=LLM(
+                model="openai/gpt-4o-mini",
+                api_key=self.api_key,
+                temperature=0
+            )
         )
 
     @task
@@ -30,5 +38,5 @@ class ChatCrew:
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
-            verbose=True,
+            verbose=True
         )
