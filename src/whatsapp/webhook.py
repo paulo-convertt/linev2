@@ -173,7 +173,7 @@ class WhatsAppWebhookHandler:
             if new_state.get(field_id):
                 chat_flow._determine_next_question()
 
-        return chat_flow.state.current_question_text
+        return chat_flow.state.current_question_text if new_state.get("is_complete") == False else chat_flow.state.message
 
     async def handle_webhook(self, request: Request):
         """Processa webhooks do WhatsApp"""

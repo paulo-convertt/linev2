@@ -38,5 +38,8 @@ class ChatCrew:
             agents=self.agents,
             tasks=self.tasks,
             process=Process.sequential,
-            verbose=True
+            verbose=True,
+            cache=True,
+            memory=True,
+            max_rpm=100
         )

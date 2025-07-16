@@ -1,7 +1,37 @@
-.env
+# Python
 __pycache__/
-lib/
-.DS_Store
-.gradio/
-.mypy_cache/
+*/__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+*.egg-info/
+*.egg
+*.env
+.env
 .venv/
+venv/
+ENV/
+env/
+# VSCode
+.vscode/
+# OS
+.DS_Store
+# Docker
+*.log
+*.pid
+*.db
+# LangChain/ChromaDB
+chroma_db/
+# Database
+*.sqlite3
+# dotenv
+.env.*
+# Jupyter
+.ipynb_checkpoints/
+# Postgres Docker volume (if mapped)
+pgdata/
+# Misc
+*.bak
+*.swp
