@@ -24,7 +24,7 @@ class DatabaseClient():
                 "email", "nome_mae", "renda", "profissao",
                 "current_question_id", "current_question_text",
                 "next_question_id", "next_question_text",
-                "conversation_stage", "is_complete"
+                "conversation_stage", "is_complete", "lead_score"
             ]
 
             for field in lead_fields:

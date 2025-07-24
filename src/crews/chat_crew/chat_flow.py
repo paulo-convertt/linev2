@@ -13,9 +13,6 @@ class ChatFlow(Flow[ChatState]):
         self._conversation_cache = []
         self._data_loaded = False
 
-        if not self.state.current_question_id:
-            self._determine_next_question()
-
     @start()
     def initialize_chat(self):
         """
@@ -23,32 +20,6 @@ class ChatFlow(Flow[ChatState]):
         """
         if not self._data_loaded:
             self._data_loaded = True
-
-            if not self.state.current_question_id:
-                self._determine_next_question()
-
-    def _determine_next_question(self):
-        """
-        Determina próxima pergunta baseado nos dados já coletados
-        """
-        if self.state.is_complete:
-            return
-
-        required_fields = [
-            ("nome", "q1"), ("cpf", "q2"), ("estado_civil", "q3"),
-            ("naturalidade", "q4"), ("endereco", "q5"),
-            ("email", "q6"), ("nome_mae", "q7"), ("renda", "q8"),
-            ("profissao", "q9")
-        ]
-
-        for field_name, question_id in required_fields:
-            if not getattr(self.state, field_name, None):
-                question_text, _ = self.question_manager.get_question(question_id)
-                self.state.current_question_id = question_id
-                self.state.current_question_text = question_text
-                return
-
-        self.state.is_complete = True
 
     def add_to_conversation_cache(self, role: str, content: str):
         """

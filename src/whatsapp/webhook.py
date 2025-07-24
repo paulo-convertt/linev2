@@ -1,16 +1,20 @@
+# Importa configurações globais (inclui desabilitação do OpenTelemetry)
 from cache.redis_chat_session_manager import RedisChatSessionManager
+from crews.chat_crew.chat_crew import ChatCrew
+from human_handoff.human_handoff import HumanHandoffManager
+from scoring.consorcio_scoring import ConsorcioLeadScoring
 from whatsapp.client import WhatsAppClient
 from typing import Dict
 from datetime import datetime
 from database.config import SessionLocal
 from database.models import ConversationHistory
-from crews.chat_crew.chat_crew import ChatCrew
 from crews.chat_crew.chat_flow import ChatFlow
 from fastapi import FastAPI, Request, HTTPException
 from database.database_client import DatabaseClient
 from models import ChatState
 import asyncio
 import os
+import json
 
 app = FastAPI()
 
@@ -20,12 +24,16 @@ class WhatsAppWebhookHandler:
         self.session_manager = RedisChatSessionManager()
         self.database_client = DatabaseClient()
         self._db_write_queue = asyncio.Queue()
-        self.chat_crews = {}
+        # ✅ Uma única instância do ChatCrew para todos os usuários
+        self.chat_crew = ChatCrew()
+        self.human_handoff = HumanHandoffManager()
+        self.consorcio_lead_scoring = ConsorcioLeadScoring()
+        # ✅ Inicializa crews pré-criados para máxima performance
+        self.chat_crew._initialize_precreated_crews()
         self._initialized = False
+        self._db_worker_started = False
 
-        asyncio.create_task(self._db_write_worker())
-
-    async def _process_message(self, message_data: Dict):
+    async def _process_message(self, message: str, from_number: str):
         """
         Processa mensagem de forma otimizada usando Redis
         """
@@ -34,33 +42,32 @@ class WhatsAppWebhookHandler:
             await self.session_manager.initialize()
             self._initialized = True
 
-        messages = message_data.get("messages", [])
+        # Inicia DB worker se necessário
+        if not self._db_worker_started:
+            asyncio.create_task(self._db_write_worker())
+            self._db_worker_started = True
 
-        for message in messages:
-            from_number = message["from"]
-            message_text = message.get("text", {}).get("body", "")
+        chat_flow = await self.session_manager.get_or_create_session(from_number)
 
-            chat_flow = await self.session_manager.get_or_create_session(from_number)
+        await self.session_manager.add_message_to_history(from_number, "user", message)
 
-            await self.session_manager.add_message_to_history(from_number, "user", message_text)
+        # Processa com o crew
+        response = await self._process_with_crew(chat_flow, from_number, message)
 
-            # Processa com o crew
-            response = await self._process_with_crew(chat_flow, from_number, message_text)
+        # Adiciona resposta do bot ao histórico do Redis
+        await self.session_manager.add_message_to_history(from_number, "assistant", response)
 
-            # Adiciona resposta do bot ao histórico do Redis
-            await self.session_manager.add_message_to_history(from_number, "assistant", response)
+        # Atualiza sessão no Redis
+        await self.session_manager.update_session(chat_flow)
 
-            # Atualiza sessão no Redis
-            await self.session_manager.update_session(chat_flow)
+        # Envia mensagem (descomente quando pronto)
+        self.whatsapp_client.send_message(from_number, response)
 
-            # Envia mensagem (descomente quando pronto)
-            #self.whatsapp_client.send_message(from_number, response)
+        # Agenda salvamento no PostgreSQL (assíncrono)
+        await self._queue_db_save(from_number, "user", message)
+        await self._queue_db_save(from_number, "assistant", response)
 
-            # Agenda salvamento no PostgreSQL (assíncrono)
-            await self._queue_db_save(from_number, "user", message_text)
-            await self._queue_db_save(from_number, "assistant", response)
-
-            return response
+        return response
 
     async def _queue_db_save(self, whatsapp_number: str, message_type: str, content: str):
         """
@@ -140,58 +147,60 @@ class WhatsAppWebhookHandler:
     async def _process_with_crew(self, chat_flow, whatsapp_number: str, message: str) -> str:
         """Processa mensagem com o ChatCrew usando histórico do Redis"""
 
-        # Cria ou recupera crew para este número
-        if whatsapp_number not in self.chat_crews:
-            self.chat_crews[whatsapp_number] = ChatCrew()
-
-        crew = self.chat_crews[whatsapp_number]
+        # ✅ Usa a instância única do ChatCrew
+        crew = self.chat_crew
 
         # Obtém histórico atualizado do Redis
         conversation_history = await self.session_manager.get_conversation_history(whatsapp_number)
 
+        # ✅ Cria crew condicional baseado no estado atual
+        qualification_crew = crew.get_crew()
+
         # Executa crew
-        result = crew.crew().kickoff(inputs={
+        result = qualification_crew.kickoff(inputs={
             "state": chat_flow.state.model_dump(),
-            "current_question_text": chat_flow.state.current_question_text,
             "message": message,
             "history": conversation_history
         })
 
-        if isinstance(result.pydantic, ChatState):
-            new_state = result.pydantic.model_dump()
-            chat_flow.state.message = new_state["message"]
-            field_id = chat_flow.question_manager.get_field_id(
-                chat_flow.state.current_question_id
-            )
+        # Se executou apenas qualify_lead task, processa como antes
+        new_state = json.loads(result.raw.strip().strip('```'))
 
-            for key, value in new_state.items():
-                if hasattr(chat_flow.state, key):
-                    setattr(chat_flow.state, key, value)
+        for key, value in new_state.items():
+            if hasattr(chat_flow.state, key):
+                setattr(chat_flow.state, key, value)
 
-            self.database_client.upsert_lead(chat_flow.state.model_dump())
+        scoring = self.consorcio_lead_scoring.calculate_score(new_state)
+        chat_flow.state.lead_score = scoring.get("score", 0)
 
-            if new_state.get(field_id):
-                chat_flow._determine_next_question()
+        self.database_client.upsert_lead(chat_flow.state.model_dump())
 
-        return chat_flow.state.current_question_text if new_state.get("is_complete") == False else chat_flow.state.message
+        if chat_flow.state.requires_human_handoff or chat_flow.state.is_complete:
+            handoff_message = "Perfeito! Já vou te passar para um especialista que vai te ajudar com todos os detalhes. Obrigado por falar comigo 😊"
+            await self.session_manager.add_message_to_history(whatsapp_number, "assistant", handoff_message)
+            self.human_handoff.send_lead_to_zenvia(new_state, scoring, handoff_message)
+            return handoff_message
+
+        return new_state.get("mensagem")
 
     async def handle_webhook(self, request: Request):
         """Processa webhooks do WhatsApp"""
         body = await request.json()
 
         # Verifica se é uma mensagem
-        if body.get("object") == "whatsapp_business_account":
-            for entry in body.get("entry", []):
-                for change in entry.get("changes", []):
-                    if change.get("field") == "messages":
-                        response = await self._process_message(change["value"])
+        message = body.get("message", {}).get("contents", [{}])[0].get("text", "")
+        phone = body.get("message", {}).get("from", "")
+        asyncio.create_task(self._process_message(message, phone))
 
-        return {"response": response}
+        return {"message": "Webhook processed successfully"}
+
+# ✅ Cria uma única instância global do handler (com crews pré-criados)
+webhook_handler = WhatsAppWebhookHandler()
 
 @app.post("/webhook")
 async def webhook(request: Request):
-    handler = WhatsAppWebhookHandler()
-    return await handler.handle_webhook(request)
+    # ✅ Usa a instância global ao invés de criar nova a cada requisição
+    return await webhook_handler.handle_webhook(request)
 
 @app.get("/webhook")
 async def verify_webhook(request: Request):

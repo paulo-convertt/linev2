@@ -4,58 +4,29 @@ import os
 
 class WhatsAppClient:
     def __init__(self):
-        self.access_token = os.getenv("WHATSAPP_ACCESS_TOKEN")
-        self.phone_number_id = os.getenv("WHATSAPP_PHONE_NUMBER_ID") 
-        self.base_url = f"https://graph.facebook.com/v18.0/{self.phone_number_id}"
-        
+        self.x_api_token = os.getenv("ZCC_API_TOKEN")
+        self.phone_number_id = os.getenv("WHATSAPP_PHONE_NUMBER_ID")
+        self.base_url = "https://api.zenvia.com/v2/channels/whatsapp"
+
     def send_message(self, to: str, message: str) -> Dict:
         """Envia mensagem texto via WhatsApp"""
         url = f"{self.base_url}/messages"
-        
+
         payload = {
-            "messaging_product": "whatsapp",
-            "to": to,
-            "type": "text",
-            "text": {"body": message}
-        }
-        
-        headers = {
-            "Authorization": f"Bearer {self.access_token}",
-            "Content-Type": "application/json"
-        }
-        
-        response = requests.post(url, json=payload, headers=headers)
-        return response.json()
-    
-    def send_interactive_message(self, to: str, message: str, buttons: list) -> Dict:
-        """Envia mensagem com botões interativos"""
-        url = f"{self.base_url}/messages"
-        
-        interactive_buttons = []
-        for i, button in enumerate(buttons[:3]):  # WhatsApp limita a 3 botões
-            interactive_buttons.append({
-                "type": "reply",
-                "reply": {
-                    "id": f"btn_{i}",
-                    "title": button[:20]  # Limite de 20 caracteres
+            "from": "551151430995",
+            "to": f"{to}",
+            "contents": [
+                {
+                    "type": "text",
+                    "text": f"{message}"
                 }
-            })
-        
-        payload = {
-            "messaging_product": "whatsapp",
-            "to": to,
-            "type": "interactive",
-            "interactive": {
-                "type": "button",
-                "body": {"text": message},
-                "action": {"buttons": interactive_buttons}
-            }
+            ]
         }
-        
+
         headers = {
-            "Authorization": f"Bearer {self.access_token}",
+            "X-API-TOKEN": f"{self.x_api_token}",
             "Content-Type": "application/json"
         }
-        
+
         response = requests.post(url, json=payload, headers=headers)
         return response.json()

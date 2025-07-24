@@ -23,7 +23,8 @@ env/
 *.pid
 *.db
 # LangChain/ChromaDB
-chroma_db/
+.chroma_db/
+.chroma_knowledge_db/
 # Database
 *.sqlite3
 # dotenv

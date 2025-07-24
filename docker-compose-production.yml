@@ -1,0 +1,93 @@
+# Exemplo de configuração Docker para múltiplos workers
+
+services:
+  line-app:
+    build: .
+    container_name: line-app
+    restart: always
+    environment:
+      - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/consorcio_db
+      - REDIS_URL=redis://redis:6379
+      - ENVIRONMENT=production
+      - WORKERS=4 # 4 workers para melhor performance
+      - PORT=8000
+    # Use o script de inicialização (sem command override)
+    # command será usado do Dockerfile
+    ports:
+      - '8000:8000'
+    volumes:
+      - ./src:/app/src
+      - ./.env:/app/.env
+    depends_on:
+      - postgres
+      - redis
+    # Configurações de recursos
+    deploy:
+      resources:
+        limits:
+          memory: 1G
+        reservations:
+          memory: 512M
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.line-app.rule=Host(`line.convertt.ai`)'
+      - 'traefik.http.routers.line-app.entrypoints=websecure'
+      - 'traefik.http.routers.line-app.tls.certresolver=letsencrypt'
+      - 'traefik.http.services.line-app.loadbalancer.server.port=8000'
+
+  postgres:
+    image: postgres:15-alpine
+    container_name: line_postgres
+    restart: always
+    environment:
+      POSTGRES_DB: consorcio_db
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ['CMD-SHELL', 'pg_isready -U postgres']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  redis:
+    image: redis:7-alpine
+    container_name: line_redis
+    restart: always
+    ports:
+      - '6379:6379'
+    volumes:
+      - redis_data:/data
+    command: redis-server --appendonly yes
+    healthcheck:
+      test: ['CMD', 'redis-cli', 'ping']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  traefik:
+    image: traefik:v2.11
+    container_name: line_traefik
+    restart: always
+    ports:
+      - '80:80'
+      - '443:443'
+      - '8080:8080' # Dashboard do Traefik
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - ./traefik.yml:/traefik.yml
+      - ./acme.json:/acme.json
+    labels:
+      - 'traefik.enable=true'
+      - 'traefik.http.routers.traefik.rule=Host(`traefik.convertt.ai`)'
+      - 'traefik.http.routers.traefik.entrypoints=websecure'
+      - 'traefik.http.routers.traefik.tls.certresolver=letsencrypt'
+      - 'traefik.http.routers.traefik.service=api@internal'
+
+volumes:
+  postgres_data:
+  redis_data:

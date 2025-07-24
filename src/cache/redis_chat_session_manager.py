@@ -34,7 +34,7 @@ class RedisChatSessionManager:
     def __init__(self):
         if not hasattr(self, 'initialized'):
             self.session_ttl = 86400  # 24 horas
-            self.history_limit = 100  # Últimas 100 mensagens
+            self.history_limit = 10  # Últimas 10 mensagens
             self.initialized = True
             self._stats = {
                 'total_messages': 0,
@@ -134,7 +134,7 @@ class RedisChatSessionManager:
                 chat_flow.state.profissao = lead.profissao
                 chat_flow.state.conversation_stage = lead.conversation_stage
                 chat_flow.state.is_complete = lead.is_complete
-                chat_flow.state.requires_human_handoff = lead.requires_human_handoff
+                chat_flow.state.lead_score = lead.lead_score
 
                 print(f"📋 Lead existente carregado: {whatsapp_number}")
             else:
@@ -207,10 +207,6 @@ class RedisChatSessionManager:
             'nome_mae': chat_flow.state.nome_mae,
             'renda': chat_flow.state.renda,
             'profissao': chat_flow.state.profissao,
-            'current_question_id': chat_flow.state.current_question_id,
-            'current_question_text': chat_flow.state.current_question_text,
-            'next_question_id': chat_flow.state.next_question_id,
-            'next_question_text': chat_flow.state.next_question_text,
             'conversation_stage': chat_flow.state.conversation_stage,
             'is_complete': chat_flow.state.is_complete,
             'updated_at': datetime.now().isoformat()
@@ -234,7 +230,7 @@ class RedisChatSessionManager:
         """
         await redis_client.add_message_to_history(whatsapp_number, message_type, content)
 
-    async def get_conversation_history(self, whatsapp_number: str, limit: int = 50) -> str:
+    async def get_conversation_history(self, whatsapp_number: str, limit: int = 10) -> str:
         """
         Recupera histórico de conversas do Redis em formato de string
         """

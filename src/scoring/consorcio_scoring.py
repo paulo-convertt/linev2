@@ -15,58 +15,61 @@ class ConsorcioLeadScoring:
         reasons = []
 
         # 1. Análise de Renda (40 pontos)
-        renda = lead_data.get("renda", "").lower()
-        if "acima de r$ 15.000" in renda:
-            score += 40
-            reasons.append("Renda alta - excelente capacidade de pagamento (40 pts)")
-        elif "r$ 8.001 a r$ 15.000" in renda:
-            score += 35
-            reasons.append("Renda muito boa - boa capacidade de pagamento (35 pts)")
-        elif "r$ 4.001 a r$ 8.000" in renda:
-            score += 30
-            reasons.append("Renda média-alta - capacidade adequada (30 pts)")
-        elif "r$ 2.001 a r$ 4.000" in renda:
-            score += 20
-            reasons.append("Renda média - capacidade limitada (20 pts)")
-        else:
-            score += 10
-            reasons.append("Renda baixa - análise especial necessária (10 pts)")
+        if lead_data["renda"]:
+            renda = lead_data.get("renda", "").lower()
+            if "5" in renda:
+                score += 40
+                reasons.append("Renda alta - excelente capacidade de pagamento (40 pts)")
+            elif "4" in renda:
+                score += 35
+                reasons.append("Renda muito boa - boa capacidade de pagamento (35 pts)")
+            elif "3" in renda:
+                score += 30
+                reasons.append("Renda média-alta - capacidade adequada (30 pts)")
+            elif "2" in renda:
+                score += 20
+                reasons.append("Renda média - capacidade limitada (20 pts)")
+            else:
+                score += 10
+                reasons.append("Renda baixa - análise especial necessária (10 pts)")
 
-        # 2. Análise de Profissão (25 pontos)
-        profissao = lead_data.get("profissao", "").lower()
-        profissoes_alta_estabilidade = [
-            "servidor", "funcionario publico", "medico", "advogado",
-            "engenheiro", "professor", "militar", "policial"
-        ]
-        profissoes_media_estabilidade = [
-            "clt", "empregado", "funcionario", "tecnico", "analista",
-            "gerente", "supervisor"
-        ]
+        if lead_data["profissao"]:
+            # 2. Análise de Profissão (25 pontos)
+            profissao = lead_data.get("profissao", "").lower()
+            profissoes_alta_estabilidade = [
+                "servidor", "funcionario publico", "medico", "advogado",
+                "engenheiro", "professor", "militar", "policial"
+            ]
+            profissoes_media_estabilidade = [
+                "clt", "empregado", "funcionario", "tecnico", "analista",
+                "gerente", "supervisor"
+            ]
 
-        if any(prof in profissao for prof in profissoes_alta_estabilidade):
-            score += 25
-            reasons.append("Profissão de alta estabilidade (25 pts)")
-        elif any(prof in profissao for prof in profissoes_media_estabilidade):
-            score += 20
-            reasons.append("Profissão de média estabilidade (20 pts)")
-        elif "autonomo" in profissao or "empresario" in profissao:
-            score += 15
-            reasons.append("Profissão autônoma - análise de renda necessária (15 pts)")
-        else:
-            score += 10
-            reasons.append("Profissão a ser analisada (10 pts)")
+            if any(prof in profissao for prof in profissoes_alta_estabilidade):
+                score += 25
+                reasons.append("Profissão de alta estabilidade (25 pts)")
+            elif any(prof in profissao for prof in profissoes_media_estabilidade):
+                score += 20
+                reasons.append("Profissão de média estabilidade (20 pts)")
+            elif "autonomo" in profissao or "empresario" in profissao:
+                score += 15
+                reasons.append("Profissão autônoma - análise de renda necessária (15 pts)")
+            else:
+                score += 10
+                reasons.append("Profissão a ser analisada (10 pts)")
 
-        # 3. Estado Civil (20 pontos)
-        estado_civil = lead_data.get("estado_civil", "").lower()
-        if "casado" in estado_civil or "união estável" in estado_civil:
-            score += 20
-            reasons.append("Estado civil favorável - maior estabilidade (20 pts)")
-        elif "solteiro" in estado_civil:
-            score += 15
-            reasons.append("Solteiro - perfil adequado (15 pts)")
-        else:
-            score += 10
-            reasons.append("Estado civil neutro (10 pts)")
+        if lead_data["estado_civil"]:
+            # 3. Estado Civil (20 pontos)
+            estado_civil = lead_data.get("estado_civil", "").lower()
+            if "casado" in estado_civil or "união estável" in estado_civil:
+                score += 20
+                reasons.append("Estado civil favorável - maior estabilidade (20 pts)")
+            elif "solteiro" in estado_civil:
+                score += 15
+                reasons.append("Solteiro - perfil adequado (15 pts)")
+            else:
+                score += 10
+                reasons.append("Estado civil neutro (10 pts)")
 
         # 4. Completude dos Dados (15 pontos)
         campos_obrigatorios = [
