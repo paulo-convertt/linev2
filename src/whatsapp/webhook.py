@@ -163,14 +163,14 @@ class WhatsAppWebhookHandler:
             "history": conversation_history
         })
 
-        print(f"🚀 Crew result: {result.raw}")
+        print("🚀 Crew result: {result.raw}")
 
         # Parse crew result with error handling
         try:
             new_state = json.loads(result.raw.strip().strip('```'))
         except (json.JSONDecodeError, AttributeError) as e:
-            print(f"❌ Error parsing crew result as JSON: {e}")
-            print(f"Raw result: {result.raw}")
+            print("❌ Error parsing crew result as JSON: {e}")
+            print("Raw result: {result.raw}")
             # Fallback: return a safe response
             return "Desculpe, houve um problema técnico. Pode repetir sua mensagem?"
 
