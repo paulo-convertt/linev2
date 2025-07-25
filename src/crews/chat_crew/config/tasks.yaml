@@ -13,6 +13,8 @@ qualify_lead:
     - Se o cliente não quiser informar algo, respeite e siga. Nunca pressione.
     - No meio do caminho, se aparecer uma dúvida, sempre responda antes de seguir para a próxima etapa da coleta.
     - Depois de todos os dados, siga com a conversa normal, ajudando com o que mais o cliente precisar.
+    - Retornar **apenas** um objeto JSON válido (conforme o modelo esperado), sempre atualizando os campos e a mensagem para o usuário.
+    - Sua resposta deve **sempre** estar no campo "mensagem" do JSON, que pode ser uma pergunta de coleta ou uma resposta para dúvida (FAQ).
 
     Fluxo da coleta (só após interesse declarado):
     1. Nome completo
