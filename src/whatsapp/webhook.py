@@ -15,6 +15,11 @@ from models import ChatState
 import asyncio
 import os
 import json
+import logging
+
+# Configure logging
+logging.basicConfig(level=logging.INFO)
+logger = logging.getLogger(__name__)
 
 app = FastAPI()
 
@@ -109,7 +114,7 @@ class WhatsAppWebhookHandler:
                             break
 
                 except Exception as e:
-                    print(f"❌ Erro ao coletar batch: {e}")
+                    logger.error(f"Erro ao coletar batch: {e}")
                     continue
 
                 # Salva batch no banco
@@ -117,7 +122,7 @@ class WhatsAppWebhookHandler:
                     await self._save_batch_to_db(batch)
 
             except Exception as e:
-                print(f"❌ Erro no DB worker: {e}")
+                logger.error(f"Erro no DB worker: {e}")
                 await asyncio.sleep(1)
 
     async def _save_batch_to_db(self, batch: list):
@@ -136,10 +141,10 @@ class WhatsAppWebhookHandler:
                 db.add(conversation)
 
             db.commit()
-            print(f"💾 Batch salvo: {len(batch)} mensagens")
+            logger.info(f"Batch salvo: {len(batch)} mensagens")
 
         except Exception as e:
-            print(f"❌ Erro ao salvar batch: {e}")
+            logger.error(f"Erro ao salvar batch: {e}")
             db.rollback()
         finally:
             db.close()
@@ -163,14 +168,21 @@ class WhatsAppWebhookHandler:
             "history": conversation_history
         })
 
-        print("🚀 Crew result: {result.raw}")
+        logger.info(f"Crew result raw: {result.raw}")
+        logger.info(f"Crew result type: {type(result.raw)}")
 
         # Parse crew result with error handling
         try:
-            new_state = json.loads(result.raw.strip().strip('```'))
+            # Log the raw result before processing
+            raw_result = result.raw.strip().strip('```')
+            logger.info(f"Processing raw result after strip: {raw_result}")
+
+            new_state = json.loads(raw_result)
+            logger.info(f"Successfully parsed JSON: {new_state}")
         except (json.JSONDecodeError, AttributeError) as e:
-            print("❌ Error parsing crew result as JSON: {e}")
-            print("Raw result: {result.raw}")
+            logger.error(f"Error parsing crew result as JSON: {e}")
+            logger.error(f"Raw result: {result.raw}")
+            logger.error(f"Raw result repr: {repr(result.raw)}")
             # Fallback: return a safe response
             return "Desculpe, houve um problema técnico. Pode repetir sua mensagem?"
 
