@@ -163,6 +163,7 @@ class WhatsAppWebhookHandler:
             "history": conversation_history
         })
 
+        print(f"🚀 Crew result: {result.raw}")
         # Se executou apenas qualify_lead task, processa como antes
         new_state = json.loads(result.raw.strip().strip('```'))
 
