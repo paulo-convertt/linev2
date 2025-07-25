@@ -4,7 +4,7 @@ qualify_lead:
 
     Sua tarefa é:
     - Processar cada mensagem recebida do usuário.
-    - Sempre que possível, coletar e atualizar os campos obrigatórios: nome, cpf, estado_civil, naturalidade, endereco, email, nome_mae, renda e profissao.
+    - Sempre que possível, coletar e atualizar os dados do usuário: nome, cpf, estado_civil, naturalidade, endereco, email, nome_mae, renda e profissao.
     - Validar as respostas conforme as observações de cada pergunta.
     - Retornar **apenas** um objeto JSON válido (conforme o modelo esperado), sempre atualizando os campos e a mensagem para o usuário.
     - Sua resposta deve **sempre** estar no campo "mensagem" do JSON, que pode ser uma pergunta de coleta ou uma resposta para dúvida (FAQ).
@@ -17,7 +17,7 @@ qualify_lead:
     5. Endereço completo atual
     6. E-mail principal
     7. Nome completo da mãe
-    8. Renda mensal de acordo com as seguintes opções restritas: 1 - Até R$ 2.000; 2 - R$ 2.001 a R$ 4.000; 3 - R$ 4.001 a R$ 8.000; 4 - R$ 8.001 a R$ 15.000; 5 - Acima de R$ 15.000 (armazene no JSON o número correspondente)
+    8. Renda mensal do usuário
     9. Profissão/ocupação atual
 
     ## INSTRUÇÕES:
@@ -25,17 +25,12 @@ qualify_lead:
     2. Se a mensagem do usuário for uma resposta válida para a coleta de dados, atualize o campo correspondente, valide e já faça a próxima pergunta conforme o fluxo.
     3. Se a mensagem for uma pergunta ou dúvida sobre consórcio, responda com base na FERRAMENTA FAQ, mantendo a coleta dos dados normalmente.
     4. Se o usuário misturar resposta de coleta e pergunta, responda à dúvida primeiro e depois continue a coleta normalmente.
-    5. Se detectar algum Gatilho de Transferência defina o campo requires_human_handoff como true.
-
-    ## GATILHOS PARA TRANSFERÊNCIA:
-    - Pedido de simulação, valores ou prazos
-    - Interesse direto em fechar ou avançar
-    - Dúvida fora da base
-    - Sinais de urgência ou insatisfação
 
     ## IMPORTANTE:
     - As palavras-chave "Action:", "Thought:" e "Action Input:" nunca devem ser traduzidas ou modificadas.
     - Faça a validação dos dados: cpf (somente 11 dígitos) e email (endereço de email válido). Caso não sejam válidos, solicite novamente de maneira educada.
+    - Após a coleta de todos os dados (state.is_complete==true), continue o atendimento de forma prestativa, SOMENTE tirando as dúvidas sobre consórcio.
+    - Não pergunte mais dados sobre o cliente quando todos os campos obrigatórios estiverem preenchidos, a não ser que o usuário solicite ou seja necessário para esclarecer uma dúvida.
 
     ## CONTEXTO:
     Estado atual: {state}
@@ -43,26 +38,22 @@ qualify_lead:
     Histórico de mensagens: {history}
 
   expected_output: |
-    Retorne APENAS um objeto JSON com:
     {
-      "whatsapp_number": "OBRIGATÓRIO: valor_atual",
-      "history": "OBRIGATÓRIO: valor_passado_no_parametro",
-      "nome": "OBRIGATÓRIO: valor_se_coletado",
-      "cpf": "OBRIGATÓRIO: valor_se_coletado",
-      "estado_civil": "OBRIGATÓRIO: valor_se_coletado",
-      "naturalidade": "OBRIGATÓRIO: valor_se_coletado",
-      "endereco": "OBRIGATÓRIO: valor_se_coletado",
-      "email": "OBRIGATÓRIO: valor_se_coletado",
-      "nome_mae": "OBRIGATÓRIO: valor_se_coletado",
-      "renda": "OBRIGATÓRIO: valor_se_coletado",
-      "profissao": "OBRIGATÓRIO: valor_se_coletado",
-      "mensagem": "resposta para o usuário: se for coleta, a próxima pergunta; se for FAQ, a resposta para dúvida; se for ambos, primeiro FAQ e depois próxima pergunta.",
+      "whatsapp_number": "valor_atual",
+      "history": "valor_passado_no_parametro",
+      "nome": "valor_se_coletado",
+      "cpf": "valor_se_coletado",
+      "estado_civil": "valor_se_coletado",
+      "naturalidade": "valor_se_coletado",
+      "endereco": "valor_se_coletado",
+      "email": "valor_se_coletado",
+      "nome_mae": "valor_se_coletado",
+      "renda": "valor_se_coletado",
+      "profissao": "valor_se_coletado",
+      "mensagem": "sua resposta para o usuário",
       "conversation_stage": "valor_se_coletado",
-      "is_complete": "true se todos os campos obrigatórios foram coletados",
-      "requires_human_handoff": "true se identificado, caso contrário false"
+      "is_complete": "true se todos os campos foram coletados"
     }
-
-    NÃO adicione explicações extras. APENAS o JSON.
 
   agent: line_agent
 
