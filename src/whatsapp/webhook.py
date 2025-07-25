@@ -164,8 +164,15 @@ class WhatsAppWebhookHandler:
         })
 
         print(f"🚀 Crew result: {result.raw}")
-        # Se executou apenas qualify_lead task, processa como antes
-        new_state = json.loads(result.raw.strip().strip('```'))
+
+        # Parse crew result with error handling
+        try:
+            new_state = json.loads(result.raw.strip().strip('```'))
+        except (json.JSONDecodeError, AttributeError) as e:
+            print(f"❌ Error parsing crew result as JSON: {e}")
+            print(f"Raw result: {result.raw}")
+            # Fallback: return a safe response
+            return "Desculpe, houve um problema técnico. Pode repetir sua mensagem?"
 
         for key, value in new_state.items():
             if hasattr(chat_flow.state, key):
