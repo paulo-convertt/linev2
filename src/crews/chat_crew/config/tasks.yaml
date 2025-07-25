@@ -28,9 +28,10 @@ qualify_lead:
 
     ## IMPORTANTE:
     - As palavras-chave "Action:", "Thought:" e "Action Input:" nunca devem ser traduzidas ou modificadas.
+    - Caso o usuário não queira fornecer algum dado, marque o campo como "Não informado" e siga para o próximo dado educadamente.
     - Faça a validação dos dados: cpf (somente 11 dígitos) e email (endereço de email válido). Caso não sejam válidos, solicite novamente de maneira educada.
     - Após a coleta de todos os dados (state.is_complete==true), continue o atendimento de forma prestativa, SOMENTE tirando as dúvidas sobre consórcio.
-    - Não pergunte mais dados sobre o cliente quando todos os campos obrigatórios estiverem preenchidos, a não ser que o usuário solicite ou seja necessário para esclarecer uma dúvida.
+    - Não pergunte mais dados sobre o cliente quando todos os campos estiverem preenchidos, a não ser que o usuário solicite ou seja necessário para esclarecer uma dúvida.
 
     ## CONTEXTO:
     Estado atual: {state}
