@@ -23,7 +23,6 @@ logger = logging.getLogger(__name__)
 class LeadQualificationOutput(BaseModel):
     """Pydantic model for lead qualification task output - ensures JSON structure."""
     whatsapp_number: Optional[str] = Field(None, description="WhatsApp number of the user")
-    history: Optional[str] = Field(None, description="Conversation history")
     nome: Optional[str] = Field(None, description="Name of the client")
     cpf: Optional[str] = Field(None, description="CPF of the client")
     estado_civil: Optional[str] = Field(None, description="Marital status")
@@ -155,7 +154,7 @@ class ChatCrew:
                 lead_qualification_tool
             ],  # ✅ Agent must have tools assigned
             allow_delegation=False,  # ✅ Disable delegation to force tool usage
-            verbose=True,
+            verbose=False,  # ✅ Enable verbose mode for debugging
         )
 
         logger.info("LINE agent created successfully with all tools (FAQ, Simulation, Lead Qualification)")
@@ -200,7 +199,7 @@ class ChatCrew:
             agents=[self.agent],
             tasks=[self.conversation_handler()],  # ✅ Single unified task
             process=Process.sequential,
-            verbose=True,
+            verbose=False,
             cache=True,
             memory=False,
         )

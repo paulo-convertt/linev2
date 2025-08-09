@@ -22,22 +22,19 @@ logger = logging.getLogger(__name__)
 class KnowledgeSearchInput(BaseModel):
     """Input schema for knowledge search tool"""
     query: str = Field(..., description="Mensagem de entrada do usuário")
+    source_file: Optional[str] = Field(None, description="Nome do arquivo para priorizar na busca. Se especificado, busca primeiro neste arquivo com alta prioridade, e se não encontrar bons resultados, expande para todos os arquivos (ex: 'lance embutido.txt')")
 
 class KnowledgeSearchTool(BaseTool):
     """CrewAI tool for searching FAQ knowledge base using vector similarity"""
 
     name: str = "knowledge_search"
-    description: str = "Ferramenta utilizada para buscar informações na base de conhecimento de FAQs."
+    description: str = "Search FAQ knowledge base for consortium information."
     args_schema: type[BaseModel] = KnowledgeSearchInput
 
     def __init__(self):
         super().__init__(
             name="knowledge_search",
-            description=(
-                "Search the FAQ knowledge base for relevant information based on user queries. "
-                "This tool uses semantic search to find the most relevant FAQ entries that can "
-                "help answer user questions about consórcios, financing, and related topics."
-            ),
+            description="Search FAQ knowledge base for consortium information. Uses semantic search to find relevant entries for consortium, financing, and related questions.",
             args_schema=KnowledgeSearchInput
         )
         self._setup_connections()
@@ -86,13 +83,13 @@ class KnowledgeSearchTool(BaseTool):
         )
         return response.data[0].embedding
 
-    def _run(self, query: str) -> str:
+    def _run(self, query: str, source_file: Optional[str] = None) -> str:
         """
         Search the knowledge base for relevant FAQ entries
 
         Args:
             query: The user's question or message
-            limit: Number of results to return
+            source_file: Optional filename to prioritize in search
 
         Returns:
             Formatted string with relevant FAQ entries
@@ -102,15 +99,27 @@ class KnowledgeSearchTool(BaseTool):
             normalized_query = self._normalize_query_input(query)
 
             logger.info(f"Searching knowledge base for query: {normalized_query}")
-            # Use the knowledge base search method
-            results = self._search_knowledge_base(normalized_query)
+            if source_file:
+                logger.info(f"Using priority search strategy for file: {source_file}")
+            else:
+                logger.info("Using standard search across all files")
+
+            # Use the knowledge base search method with priority strategy
+            results = self._search_knowledge_base(normalized_query, source_file)
 
             if not results:
-                return "No relevant information found in the knowledge base."
+                if source_file:
+                    return f"No relevant information found in priority file '{source_file}' or other files."
+                else:
+                    return "No relevant information found in the knowledge base."
 
             # Format the results
             formatted_results = []
             for i, result in enumerate(results):
+                priority_indicator = ""
+                if source_file and result['source_file'] == source_file:
+                    priority_indicator = " (PRIORITY FILE)"
+
                 result_text = f"""
                     Resposta: {result['answer']}
                     ---"""
@@ -159,9 +168,18 @@ class KnowledgeSearchTool(BaseTool):
             # Fallback: return the string representation
             return str(query) if query is not None else ""
 
-    def _search_knowledge_base(self, query: str) -> List[Dict]:
+    def _search_knowledge_base(self, query: str, source_file: Optional[str] = None) -> List[Dict]:
         """
         Internal method to search knowledge base and return structured results
+
+        Strategy:
+        1. If source_file is provided, search first with high priority in that file
+        2. If no good results (score < threshold), expand search to all files
+        3. If source_file not provided, search all files normally
+
+        Args:
+            query: The search query
+            source_file: Optional filename to prioritize in search (e.g., "lance embutido.txt")
         """
         try:
             # Generate embedding for the user query
@@ -173,12 +191,72 @@ class KnowledgeSearchTool(BaseTool):
                 "params": {"nprobe": 10}
             }
 
+            # Strategy: Priority search if source_file is specified
+            if source_file:
+                # Step 1: Search with high priority in the specified file
+                priority_results = self._perform_search(
+                    search_embedding,
+                    search_params,
+                    source_file,
+                    limit=1  # Get more results from priority file
+                )
+
+                # Check if we have good quality results from priority file
+                # Consider score > 0.7 as good quality (adjust threshold as needed)
+                good_priority_results = [r for r in priority_results if r['relevance_score'] > 0.7]
+
+                if good_priority_results:
+                    logger.info(f"Found {len(good_priority_results)} good results in priority file: {source_file}")
+                    return good_priority_results[:1]  # Return best result from priority file
+
+                # Step 2: If no good results in priority file, search all files
+                logger.info(f"No good results in priority file {source_file}, expanding search to all files")
+                all_results = self._perform_search(search_embedding, search_params, None, limit=1)
+
+                # Combine and sort results: priority file results first, then others
+                combined_results = priority_results + [r for r in all_results if r['source_file'] != source_file]
+
+                # Sort by relevance score (descending) and return top result
+                combined_results.sort(key=lambda x: x['relevance_score'], reverse=True)
+                return combined_results[:1] if combined_results else []
+
+            else:
+                # No source_file specified, normal search across all files
+                return self._perform_search(search_embedding, search_params, None, limit=1)
+
+        except Exception as e:
+            print(f"Error searching knowledge base: {e}")
+            return []
+
+    def _perform_search(self, search_embedding: List[float], search_params: Dict,
+                       source_file: Optional[str] = None, limit: int = 1) -> List[Dict]:
+        """
+        Perform actual search operation with optional file filtering
+
+        Args:
+            search_embedding: The query embedding vector
+            search_params: Milvus search parameters
+            source_file: Optional file to filter by
+            limit: Number of results to return
+
+        Returns:
+            List of formatted search results
+        """
+        try:
+            # Build expression filter for source_file if provided
+            expr = None
+            if source_file:
+                # Escape single quotes in filename if any
+                escaped_filename = source_file.replace("'", "\\'")
+                expr = f"source_file == '{escaped_filename}'"
+
             # Perform the search
             search_results = self._collection.search(  # type: ignore
                 data=[search_embedding],
                 anns_field="embedding",
                 param=search_params,
                 limit=1,
+                expr=expr,  # Add the filter expression
                 output_fields=["q", "sq", "a", "t", "tags", "source_file"]
             )
 
@@ -203,7 +281,7 @@ class KnowledgeSearchTool(BaseTool):
             return formatted_results
 
         except Exception as e:
-            print(f"Error searching knowledge base: {e}")
+            print(f"Error performing search: {e}")
             return []
 
 

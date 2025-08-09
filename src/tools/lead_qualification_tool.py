@@ -18,26 +18,14 @@ class LeadQualificationTool(BaseTool):
     """Tool for conducting lead qualification following the structured flow"""
 
     name: str = "lead_qualification"
-    description: str = """
-    Ferramenta para conduzir a qualificação de leads seguindo o fluxo estruturado de perguntas.
-    Use quando o cliente demonstrar interesse em fazer uma simulação ou fechar negócio.
-
-    Input: etapa atual, resposta do usuário e dados já coletados
-    Output: próxima pergunta ou resultado da validação
-    """
+    description: str = "Lead qualification tool. Conducts structured qualification flow. Use when client shows interest in simulation or closing deal."
     args_schema: type[BaseModel] = LeadQualificationInput
     questions: dict = Field(default_factory=dict)
 
     def __init__(self):
         super().__init__(
             name="lead_qualification",
-            description="""
-                Ferramenta para conduzir a qualificação de leads seguindo o fluxo estruturado de perguntas.
-                Use quando o cliente demonstrar interesse em fazer uma simulação ou fechar negócio.
-
-                Input: etapa atual, resposta do usuário e dados já coletados
-                Output: próxima pergunta ou resultado da validação
-                """,
+            description="Lead qualification tool. Conducts structured qualification flow with step-by-step questions. Use when client shows interest in simulation or closing deal.",
             args_schema=LeadQualificationInput
         )
         self._load_qualification_flow()
@@ -47,7 +35,7 @@ class LeadQualificationTool(BaseTool):
         self.questions = {
             "q1": {
                 "id": "nome",
-                "question": "Oi! Eu sou a Line, da Na Rede Consórcios 😊 Pra começar, me diz seu **nome completo**? É só pra eu registrar seu atendimento certinho.",
+                "question": "Pra começar, me diz seu **nome completo**? É só pra eu registrar seu atendimento certinho.",
                 "validation": "mín. 2 palavras",
                 "on_error": "Pode me confirmar seu **nome completo** (nome e sobrenome)?"
             },

@@ -4,14 +4,12 @@ from crews.chat_crew.chat_crew import ChatCrew
 from human_handoff.human_handoff import HumanHandoffManager
 from scoring.consorcio_scoring import ConsorcioLeadScoring
 from whatsapp.client import WhatsAppClient
-from typing import Dict
 from datetime import datetime
 from database.config import SessionLocal
 from database.models import ConversationHistory
 from crews.chat_crew.chat_flow import ChatFlow
 from fastapi import FastAPI, Request, HTTPException
 from database.database_client import DatabaseClient
-from models import ChatState
 import asyncio
 import os
 import json
@@ -34,7 +32,6 @@ class WhatsAppWebhookHandler:
         self.human_handoff = HumanHandoffManager()
         self.consorcio_lead_scoring = ConsorcioLeadScoring()
         # ✅ Inicializa crews pré-criados para máxima performance
-        self.chat_crew._initialize_precreated_crews()
         self._initialized = False
         self._db_worker_started = False
 
@@ -159,7 +156,7 @@ class WhatsAppWebhookHandler:
         conversation_history = await self.session_manager.get_conversation_history(whatsapp_number)
 
         # ✅ Cria crew condicional baseado no estado atual
-        qualification_crew = crew.get_crew()
+        qualification_crew = crew.get_crew(message, chat_flow.state.model_dump())
 
         # Executa crew
         result = qualification_crew.kickoff(inputs={
@@ -168,17 +165,11 @@ class WhatsAppWebhookHandler:
             "history": conversation_history
         })
 
-        logger.info(f"Crew result raw: {result.raw}")
-        logger.info(f"Crew result type: {type(result.raw)}")
-
         # Parse crew result with error handling
         try:
             # Log the raw result before processing
             raw_result = result.raw.strip().strip('```')
-            logger.info(f"Processing raw result after strip: {raw_result}")
-
             new_state = json.loads(raw_result)
-            logger.info(f"Successfully parsed JSON: {new_state}")
         except (json.JSONDecodeError, AttributeError) as e:
             logger.error(f"Error parsing crew result as JSON: {e}")
             logger.error(f"Raw result: {result.raw}")
@@ -214,6 +205,10 @@ class WhatsAppWebhookHandler:
 
         return {"message": "Webhook processed successfully"}
 
+    async def handle_webhook_test(self, message: str, phone: str):
+        response = await self._process_message(message, phone)
+        return response
+
 # ✅ Cria uma única instância global do handler (com crews pré-criados)
 webhook_handler = WhatsAppWebhookHandler()
 
@@ -221,6 +216,19 @@ webhook_handler = WhatsAppWebhookHandler()
 async def webhook(request: Request):
     # ✅ Usa a instância global ao invés de criar nova a cada requisição
     return await webhook_handler.handle_webhook(request)
+
+@app.post("/test")
+async def test_webhook(request: Request):
+    """Endpoint de teste para o webhook"""
+    body = await request.json()
+    message = body.get("message", "")
+    phone = body.get("phone", "")
+
+    if not message or not phone:
+        raise HTTPException(status_code=400, detail="Missing 'message' or 'phone' in request body")
+
+    response = await webhook_handler.handle_webhook_test(message, phone)
+    return {"response": response}
 
 @app.get("/webhook")
 async def verify_webhook(request: Request):
