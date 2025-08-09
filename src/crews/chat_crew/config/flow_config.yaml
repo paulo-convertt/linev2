@@ -1,0 +1,84 @@
+# Configurações do Flow Manager
+# Ajuste esses padrões baseado no comportamento real dos seus clientes
+
+flow_patterns:
+  # Padrões para detecção de FAQ
+  faq_patterns:
+    - '\b(como funciona|o que é|quais são|qual a|quanto tempo|quando)\b'
+    - '\b(dúvida|pergunta|não entendi|explica|esclarece)\b'
+    - '\b(taxa|juros|lance|contemplação|sorteio)\b'
+    - '\b(consórcio|grupo|carta|parcela)\b'
+    - '\b(posso|pode|é possível|tem como)\b'
+    - '\b(diferença|vantagem|benefício|desvantagem)\b'
+
+  # Padrões para simulação
+  simulation_patterns:
+    - '\b(simula|simulação|quanto fica|valor|preço|custo)\b'
+    - '\b(opções|planos|modalidades|cartas)\b'
+    - '\b(carro|veículo|moto|imóvel|casa|apartamento)\b'
+    - '\b(R\$|\d+\.?\d*\s*(mil|reais))\b'
+    - '\b(parcela|mensalidade|prazo|entrada)\b'
+    - '\b(quero|gostaria|tenho interesse)\b'
+
+  # Padrões para qualificação
+  qualification_patterns:
+    - '\b(interessado|quero|vou|sim|aceito|concordo)\b'
+    - '\b(meu nome|me chamo|sou|dados|informações)\b'
+    - '\b(contato|telefone|email|endereço)\b'
+    - '\b(renda|salário|profissão|trabalho)\b'
+    - '\b(cpf|rg|documento|identidade)\b'
+    - '\b(estado civil|casado|solteiro|divorciado)\b'
+
+# Configurações de prioridade por estágio
+stage_priorities:
+  initial:
+    primary_tasks: ["qualify_lead"]
+    secondary_tasks: ["answer_faq"]
+
+  rapport_building:
+    primary_tasks: ["qualify_lead", "answer_faq"]
+    secondary_tasks: ["simulate_options"]
+
+  need_discovery:
+    primary_tasks: ["qualify_lead", "answer_faq", "simulate_options"]
+    secondary_tasks: []
+
+  presentation:
+    primary_tasks: ["qualify_lead", "simulate_options"]
+    secondary_tasks: ["answer_faq"]
+
+  qualification:
+    primary_tasks: ["qualify_lead"]
+    secondary_tasks: ["answer_faq", "simulate_options"]
+
+  closing:
+    primary_tasks: ["qualify_lead"]
+    secondary_tasks: ["answer_faq"]
+
+# Configurações de performance
+performance:
+  # Threshold mínimo para considerar intenção válida
+  intent_threshold: 1
+
+  # Número máximo de tasks simultâneas
+  max_parallel_tasks: 3
+
+  # Timeout para execução de tasks (segundos)
+  task_timeout: 30
+
+  # Cache de análise de fluxo (segundos)
+  flow_cache_ttl: 300
+
+# Configurações de logging
+logging:
+  # Nível de logging para flow decisions
+  level: "INFO"
+
+  # Incluir análise detalhada nos logs
+  detailed_analysis: true
+
+  # Salvar histórico de decisões para análise
+  save_decision_history: true
+
+  # Caminho para arquivo de histórico
+  history_file: "flow_decisions.log"

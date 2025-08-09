@@ -1,15 +1,13 @@
 from crewai.flow import Flow, listen, start, persist, router, or_
 from crewai import Flow
-from models import ChatState
+from database.models import ChatState
 from typing import Dict, Any
-from question_manager import QuestionManager
 from datetime import datetime
 
 @persist()
 class ChatFlow(Flow[ChatState]):
     def __init__(self, persistence=None):
         super().__init__(persistence=persistence)
-        self.question_manager = QuestionManager()
         self._conversation_cache = []
         self._data_loaded = False
 

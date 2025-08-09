@@ -6,12 +6,25 @@ services:
     environment:
       - DATABASE_URL=postgresql://postgres:postgres@postgres:5432/consorcio_db
       - REDIS_URL=redis://redis:6379
+      - PYTHONPATH=/app/src
     volumes:
       - ./src:/app/src
       - ./.env:/app/.env
     depends_on:
       - postgres
       - redis
+    command:
+      [
+        'uv',
+        'run',
+        'uvicorn',
+        'src.main:app',
+        '--host',
+        '0.0.0.0',
+        '--port',
+        '8000',
+        '--reload',
+      ]
     labels:
       - 'traefik.enable=true'
       - 'traefik.http.routers.line-app.rule=Host(`line.convertt.ai`)'

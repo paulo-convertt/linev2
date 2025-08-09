@@ -9,7 +9,10 @@
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}",
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/src"
+                "PYTHONPATH": "${workspaceFolder}/src",
+                "DATABASE_URL": "postgresql://postgres:postgres@localhost:5432/consorcio_db",
+                "REDIS_URL": "redis://localhost:6379",
+                "PORT": "8000"
             },
             "python": "${workspaceFolder}/.venv/bin/python",
             "stopOnEntry": false,
@@ -26,7 +29,9 @@
             "console": "integratedTerminal",
             "cwd": "${workspaceFolder}",
             "env": {
-                "PYTHONPATH": "${workspaceFolder}/src"
+                "PYTHONPATH": "${workspaceFolder}/src",
+                "DATABASE_URL": "postgresql://postgres:postgres@localhost:5432/consorcio_db",
+                "REDIS_URL": "redis://localhost:6379"
             },
             "python": "${workspaceFolder}/.venv/bin/python",
             "stopOnEntry": false,

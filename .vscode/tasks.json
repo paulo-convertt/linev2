@@ -5,7 +5,9 @@
             "label": "Run Chatbot",
             "type": "shell",
             "command": "${workspaceFolder}/.venv/bin/python",
-            "args": ["${workspaceFolder}/src/crewai_lead_qualification_chatbot/main.py"],
+            "args": [
+                "${workspaceFolder}/src/main.py"
+            ],
             "group": "build",
             "presentation": {
                 "echo": true,
@@ -18,17 +20,25 @@
             "options": {
                 "cwd": "${workspaceFolder}",
                 "env": {
-                    "PYTHONPATH": "${workspaceFolder}/src"
+                    "PYTHONPATH": "${workspaceFolder}/src",
+                    "DATABASE_URL": "postgresql://postgres:postgres@localhost:5432/consorcio_db",
+                    "REDIS_URL": "redis://localhost:6379",
+                    "PORT": "8000"
                 }
             },
             "isBackground": true,
             "problemMatcher": []
         },
         {
-            "label": "Plot Flow",
+            "label": "Start Services (PostgreSQL + Redis)",
             "type": "shell",
-            "command": "${workspaceFolder}/.venv/bin/python",
-            "args": ["${workspaceFolder}/src/crewai_lead_qualification_chatbot/main.py", "--plot"],
+            "command": "docker-compose",
+            "args": [
+                "-f",
+                "docker-compose.dev.yml",
+                "up",
+                "-d"
+            ],
             "group": "build",
             "presentation": {
                 "echo": true,
@@ -39,10 +49,30 @@
                 "clear": false
             },
             "options": {
-                "cwd": "${workspaceFolder}",
-                "env": {
-                    "PYTHONPATH": "${workspaceFolder}/src"
-                }
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        },
+        {
+            "label": "Stop Services (PostgreSQL + Redis)",
+            "type": "shell",
+            "command": "docker-compose",
+            "args": [
+                "-f",
+                "docker-compose.dev.yml",
+                "down"
+            ],
+            "group": "build",
+            "presentation": {
+                "echo": true,
+                "reveal": "always",
+                "focus": false,
+                "panel": "new",
+                "showReuseMessage": true,
+                "clear": false
+            },
+            "options": {
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": []
         },
@@ -50,7 +80,9 @@
             "label": "Install Dependencies",
             "type": "shell",
             "command": "uv",
-            "args": ["sync"],
+            "args": [
+                "sync"
+            ],
             "group": "build",
             "presentation": {
                 "echo": true,

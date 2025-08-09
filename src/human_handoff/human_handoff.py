@@ -4,7 +4,7 @@ import json
 import uuid
 from typing import Dict, Any, Optional, Union
 from datetime import datetime
-from models import ChatState
+from database.models import ChatState
 
 
 class HumanHandoffManager:
