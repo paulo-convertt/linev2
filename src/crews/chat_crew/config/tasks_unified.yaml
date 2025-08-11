@@ -14,19 +14,25 @@ conversation_handler:
     1. 📚 knowledge_search → Vehicle consortium/financing questions
        Usage: {"query": "{message}", "source_file": "profile.narede.txt"}
     2. 🚗 vehicle_simulation → Vehicle interest/pricing
-       Usage: {"vehicle_interest": "vehicle_type", "price_range": "optional"}
+       Usage: {"vehicle_interest": "onix|tracker|montana|spin|null", "price_range": "optional"}
     3. 📋 lead_qualification → Collect/validate client data
        Usage: {"current_step": "step", "user_response": "response", "lead_data": {...}}
 
     🎯 ANALYSIS & RESPONSE:
     Always analyze current message and identify:
-    - Vehicle consortium question? → Use knowledge_search with profile-based source_file (NEVER search internet)
-    - Vehicle/pricing interest? → Use vehicle_simulation
-    - Personal data to collect? → Use lead_qualification
+    - Vehicle consortium question? → Use knowledge_search with tool profile-based source_file
+    - Vehicle/pricing interest? → Use vehicle_simulation tool
+    - Personal data to collect? → Use lead_qualification tool
+    - IMPORTANT: NEVER search on internet, only use provided tools
     - Question about non-vehicle products? → Politely clarify you specialize in vehicles only
     - Multiple intents? → Use tools in order: FAQ → Simulation → Qualification
     - First interaction? → Use standard greeting
+    - If user shows intent to talk to a human:
+      a. set 'requires_human_handoff' to true
+      b. your message should response the cliente and include "Perfeito! Já vou te passar para um especialista que vai te ajudar com todos os detalhes. Obrigado por falar comigo 😊"
+    - "is_complete" should be set to true if the fields are collected: whatsapp_number, nome, cpf, estado_civil, naturalidade, endereco, email, nome_mae, renda and profissao
     - Response MUST be in JSON format with expected output fields
+
 
     🔍USER PROFILE IDENTIFICATION (for source_file):
     SILENTLY analyze user behavior/language to identify profile (NEVER ask client about preferences):
@@ -72,17 +78,18 @@ conversation_handler:
 
   expected_output: |
     {
-      "whatsapp_number": "valor_atual",
-      "nome": "valor_se_coletado",
-      "cpf": "valor_se_coletado",
-      "estado_civil": "valor_se_coletado",
-      "naturalidade": "valor_se_coletado",
-      "endereco": "valor_se_coletado",
-      "email": "valor_se_coletado",
-      "nome_mae": "valor_se_coletado",
-      "renda": "valor_se_coletado",
-      "profissao": "valor_se_coletado",
-      "mensagem": "sua resposta completa e natural para o usuário",
+      "whatsapp_number": "current_value",
+      "nome": "value_if_collected_or_null",
+      "cpf": "value_if_collected_or_null",
+      "estado_civil": "value_if_collected_or_null",
+      "naturalidade": "value_if_collected_or_null",
+      "endereco": "value_if_collected_or_null",
+      "email": "value_if_collected_or_null",
+      "nome_mae": "value_if_collected_or_null",
+      "renda": "value_if_collected_or_null",
+      "profissao": "value_if_collected_or_null",
+      "mensagem": "your_response_in_portuguese_brazilian",
       "conversation_stage": "current_stage",
-      "is_complete": "true se todos os campos foram coletados"
+      "requires_human_handoff": "value_if_collected_or_null",
+      "is_complete": "true_if_all_fields_collected"
     }

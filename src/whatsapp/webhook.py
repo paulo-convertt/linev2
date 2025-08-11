@@ -1,4 +1,5 @@
 # Importa configurações globais (inclui desabilitação do OpenTelemetry)
+from typing import Any, Optional, Dict
 from cache.redis_chat_session_manager import RedisChatSessionManager
 from crews.chat_crew.chat_crew import ChatCrew
 from human_handoff.human_handoff import HumanHandoffManager
@@ -53,8 +54,10 @@ class WhatsAppWebhookHandler:
 
         await self.session_manager.add_message_to_history(from_number, "user", message)
 
+        lead = self.database_client.get_lead({"whatsapp_number": from_number})
+
         # Processa com o crew
-        response = await self._process_with_crew(chat_flow, from_number, message)
+        response = await self._process_with_crew(chat_flow, from_number, message, lead)
 
         # Adiciona resposta do bot ao histórico do Redis
         await self.session_manager.add_message_to_history(from_number, "assistant", response)
@@ -146,7 +149,7 @@ class WhatsAppWebhookHandler:
         finally:
             db.close()
 
-    async def _process_with_crew(self, chat_flow, whatsapp_number: str, message: str) -> str:
+    async def _process_with_crew(self, chat_flow, whatsapp_number: str, message: str, lead: Dict[str, Any]) -> str:
         """Processa mensagem com o ChatCrew usando histórico do Redis"""
 
         # ✅ Usa a instância única do ChatCrew
@@ -186,11 +189,11 @@ class WhatsAppWebhookHandler:
 
         self.database_client.upsert_lead(chat_flow.state.model_dump())
 
-        # if chat_flow.state.requires_human_handoff or chat_flow.state.is_complete:
-        #     handoff_message = "Perfeito! Já vou te passar para um especialista que vai te ajudar com todos os detalhes. Obrigado por falar comigo 😊"
-        #     await self.session_manager.add_message_to_history(whatsapp_number, "assistant", handoff_message)
-        #     self.human_handoff.send_lead_to_zenvia(new_state, scoring, handoff_message)
-        #     return handoff_message
+        if chat_flow.state.requires_human_handoff or (chat_flow.state.is_complete != lead.get("is_complete")):
+            if chat_flow.state.is_complete != lead.get("is_complete"):
+                new_state["mensagem"] = new_state.get("mensagem") + "\nSeus dados estão completos! Já vou te passar para um especialista que vai te ajudar com todos os detalhes. Obrigado por falar comigo 😊"
+            await self.session_manager.add_message_to_history(whatsapp_number, "assistant", new_state.get("mensagem"))
+            self.human_handoff.send_lead_to_zenvia(new_state, scoring, new_state.get("mensagem"), conversation_history)
 
         return new_state.get("mensagem")
 

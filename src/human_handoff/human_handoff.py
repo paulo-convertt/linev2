@@ -94,7 +94,7 @@ class HumanHandoffManager:
 
         return formatted_scoring
 
-    def convert_lead_data_to_lead_data(self, lead_data: Dict[str, Any], scoring: Dict[str, Any], handoff_message: str) -> Dict[str, Any]:
+    def convert_lead_data_to_lead_data(self, lead_data: Dict[str, Any], scoring: Dict[str, Any], handoff_message: str, conversation_history: str) -> Dict[str, Any]:
         """
         Convert ChatState to Zenvia lead data format
 
@@ -130,19 +130,49 @@ class HumanHandoffManager:
 
         # Create history entry with conversation summary
         history = []
-        if lead_data.get("history"):
-            formatted_history = self.format_history(lead_data["history"], handoff_message)
-            history.append({
-                "type": "note",
-                "content": formatted_history
-            })
+
+        formatted_history = self.format_history(conversation_history, handoff_message)
+        history.append({
+            "type": "note",
+            "content": formatted_history
+        })
 
         # Add professional and income info if available
+        formatted_scoring = self.format_scoring(scoring)
+
+            # Collect all available lead information
+        lead_info = []
+        if lead_data.get("nome"):
+            lead_info.append(f"• Nome: {lead_data['nome']}")
+        if lead_data.get("cpf"):
+            lead_info.append(f"• CPF: {lead_data['cpf']}")
+        if lead_data.get("estado_civil"):
+            lead_info.append(f"• Estado Civil: {lead_data['estado_civil']}")
+        if lead_data.get("naturalidade"):
+            lead_info.append(f"• Naturalidade: {lead_data['naturalidade']}")
+        if lead_data.get("endereco"):
+            lead_info.append(f"• Endereço: {lead_data['endereco']}")
+        if lead_data.get("email"):
+            lead_info.append(f"• Email: {lead_data['email']}")
+        if lead_data.get("nome_mae"):
+            lead_info.append(f"• Nome da Mãe: {lead_data['nome_mae']}")
+        if lead_data.get("renda"):
+            lead_info.append(f"• Renda: {lead_data['renda']}")
         if lead_data.get("profissao"):
-            formatted_scoring = self.format_scoring(scoring)
+            lead_info.append(f"• Profissão: {lead_data['profissao']}")
+
+        lead_info_content = " ".join(lead_info)
+
+        history.append({
+            "type": "note",
+            "content": f"INFORMAÇÕES COMPLETAS DO LEAD: {lead_info_content} {formatted_scoring}"
+        })
+
+        # Add sentiment analysis if available
+        if lead_data.get("sentiment_analysis"):
             history.append({
                 "type": "note",
-                "content": f"INFORMAÇÕES ATUALIZADAS DO LEAD: • Profissão: {lead_data['profissao']} • Renda: {lead_data['renda']} {formatted_scoring}"
+                "content": f"ANÁLISE DE SENTIMENTO: {lead_data['sentiment_analysis']}"
             })
 
         # Build the payload
@@ -165,7 +195,7 @@ class HumanHandoffManager:
 
         return lead_data
 
-    def send_lead_to_zenvia(self, lead_data: Dict[str, Any], scoring: Dict[str, Any], handoff_message: str) -> Optional[Dict[str, Any]]:
+    def send_lead_to_zenvia(self, lead_data: Dict[str, Any], scoring: Dict[str, Any], handoff_message: str, conversation_history: str) -> Optional[Dict[str, Any]]:
         """
         Send lead data to Zenvia Sales API
 
@@ -179,7 +209,7 @@ class HumanHandoffManager:
             requests.exceptions.RequestException: If the request fails
             ValueError: If the response is not valid JSON
         """
-        payload = self.convert_lead_data_to_lead_data(lead_data, scoring, handoff_message)
+        payload = self.convert_lead_data_to_lead_data(lead_data, scoring, handoff_message, conversation_history)
 
         url = f"{self.base_url}?api-key={self.api_key}"
 

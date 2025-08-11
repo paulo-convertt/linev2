@@ -35,6 +35,7 @@ class LeadQualificationOutput(BaseModel):
     mensagem: str = Field(..., description="Response message to the user")
     conversation_stage: Optional[str] = Field(None, description="Current conversation stage")
     is_complete: Optional[bool] = Field(False, description="Whether all data collection is complete")
+    requires_human_handoff: Optional[bool] = Field(False, description="Whether human handoff is required")
 
 
 class SimulationOutput(BaseModel):
