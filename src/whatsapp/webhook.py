@@ -189,8 +189,8 @@ class WhatsAppWebhookHandler:
 
         self.database_client.upsert_lead(chat_flow.state.model_dump())
 
-        if chat_flow.state.requires_human_handoff or (chat_flow.state.is_complete != lead.get("is_complete")):
-            if chat_flow.state.is_complete != lead.get("is_complete"):
+        if chat_flow.state.requires_human_handoff or (chat_flow.state.is_complete == True and lead.get("is_complete") == False):
+            if chat_flow.state.is_complete == True and lead.get("is_complete") == False:
                 new_state["mensagem"] = new_state.get("mensagem") + "\nSeus dados estão completos! Já vou te passar para um especialista que vai te ajudar com todos os detalhes. Obrigado por falar comigo 😊"
             await self.session_manager.add_message_to_history(whatsapp_number, "assistant", new_state.get("mensagem"))
             self.human_handoff.send_lead_to_zenvia(new_state, scoring, new_state.get("mensagem"), conversation_history)
